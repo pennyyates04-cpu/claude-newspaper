@@ -47,23 +47,29 @@ STEP 4 — Generate audio (only if `config.json` -> `format.audio.enabled` is `t
   join into 3-6 natural sentences).
 - Run: `bash scripts/generate-audio.sh "<tldr prose>" editions/YYYY-MM-DD.mp3`
   (requires `OPENAI_API_KEY`, provided in the environment).
-- If it fails, note the error and continue — text delivery must not be blocked by audio.
+- This sandbox's egress proxy is confirmed to block `api.telegram.org`; whether
+  `api.openai.com` is also blocked is unconfirmed — just try it. If it fails (network/egress
+  error, not an API error), note that in your report and continue without audio. Never let
+  an audio failure block Steps 5–7.
 - If `format.audio.enabled` is `false` (current default), skip this step entirely — don't
   attempt to generate audio, and don't pass an audio file to the delivery script below.
 
-STEP 5 — Commit
+STEP 5 — Commit and push
+- Copy the mp3 (if Step 4 produced one) to `editions/latest.mp3` as well as
+  `editions/YYYY-MM-DD.mp3`.
 - `git add -A`
 - `git commit -m "Edition YYYY-MM-DD (<track>)"`
 - `git push`
 
-STEP 6 — Deliver to Telegram
-- `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are provided in the environment.
-- Run:
-  `bash scripts/send-telegram.sh editions/YYYY-MM-DD.md "🗞 <newspaper name> — <track title> — YYYY-MM-DD" editions/YYYY-MM-DD.mp3`
-  (omit the third argument if audio generation failed).
-- Confirm the script printed success line(s) for each part. If any leg failed, say so
-  explicitly in your final report.
+STEP 6 — Telegram delivery is NOT your job
+- Do not call the Telegram API yourself and do not run `scripts/send-telegram.sh` directly.
+  This sandbox's network egress is policy-restricted and `api.telegram.org` is blocked —
+  every direct attempt will fail with a 403 from the egress proxy.
+- Delivery happens automatically: `.github/workflows/notify-telegram.yml` fires on GitHub's
+  own runners (unrestricted egress) whenever `editions/latest.md` changes on `master`, and
+  runs the same `scripts/send-telegram.sh` using repo secrets. Your job ends at `git push`.
 
 STEP 7 — Report
-- End with: track used, filename(s) written, commit hash, story count, and whether text
-  delivery and audio delivery each succeeded.
+- End with: track used, filename(s) written, commit hash, and story count. Note that
+  Telegram delivery is handled by the GitHub Action triggered by this push, not by you —
+  don't claim delivery succeeded or failed, you have no visibility into it.

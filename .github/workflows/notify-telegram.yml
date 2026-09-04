@@ -1,0 +1,31 @@
+name: Deliver edition to Telegram
+
+# Runs on GitHub's own runners, which have normal internet access — unlike the Claude
+# routine's sandbox, whose egress policy blocks api.telegram.org. The routine's only job
+# is to commit and push editions/latest.md; this workflow does the actual delivery.
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'editions/latest.md'
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send edition to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          CAPTION="🗞 $(date -u +%Y-%m-%d) edition"
+          AUDIO=""
+          if [ -f editions/latest.mp3 ]; then
+            AUDIO="editions/latest.mp3"
+          fi
+          chmod +x scripts/send-telegram.sh
+          bash scripts/send-telegram.sh editions/latest.md "$CAPTION" "$AUDIO"
