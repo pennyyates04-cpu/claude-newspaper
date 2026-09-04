@@ -35,9 +35,12 @@ STEP 3 — Write the edition
 - Follow `templates/edition.md`. Fill in `{TRACK_TITLE}` from config. Use the per-track
   fields the template marks (evidence tiers for health; sales angle/SDR takeaway/signal
   for tech-business).
-- Write a **TL;DR** block of 3–5 one-sentence takeaways at the top — this exact text is
-  what gets read aloud as the audio summary, so write it to sound natural spoken aloud,
-  not like bullet fragments.
+- Write a **TL;DR** block of 3–5 short bullets at the top, one Markdown `- ` bullet per
+  line, each a single complete sentence. Keep them as literal bullets in the file — do not
+  merge them into a paragraph. Don't add any meta/instructional text explaining what the
+  block is for (e.g. "read verbatim") — that's internal guidance, not edition content.
+  Step 4 below handles converting these bullets to spoken prose for audio; you don't need
+  to pre-optimize the bullets for that here.
 - Stay under `format.max_words` from config.
 - Save to `editions/YYYY-MM-DD.md` (America/New_York date). Copy the same content to
   `editions/latest.md`.

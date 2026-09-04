@@ -72,3 +72,15 @@ This repo is **public**, so no credentials live in tracked files.
 - **Schedule / delivery target:** update the routine at <https://claude.ai/code/routines>.
 - **Content, sections, tone:** edit `prompts/daily-routine.md`, `templates/edition.md`, or
   `config.json`, push, then re-point the routine at the new prompt.
+
+### Daylight saving time
+
+Routine cron expressions run in fixed UTC — there's no timezone-aware cron, so "7am ET"
+drifts by an hour twice a year unless the cron is updated by hand:
+
+| Period | Cron (UTC) | = 7:00am ET |
+|---|---|---|
+| EDT (mid-Mar – early Nov) | `0 11 * * *` | ✅ current |
+| EST (early Nov – mid-Mar) | `0 12 * * *` | switch on the first Sunday of November |
+
+Update the cron at <https://claude.ai/code/routines> when clocks change.

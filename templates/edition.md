@@ -15,8 +15,6 @@
 - {One-sentence takeaway 4}
 - {One-sentence takeaway 5}
 
-*(This block, read verbatim, is what gets recorded as the audio summary.)*
-
 ---
 
 ## {Story headline}
