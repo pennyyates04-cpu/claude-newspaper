@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{NEWSPAPER_NAME} — {TRACK_TITLE} — {DATE_ISO}</title>
+<style>
+  :root{
+    --paper:#fdfdfb;
+    --ink:#161513;
+    --muted:#5b5850;
+    --rule:#d8d5cc;
+    --rule-strong:#161513;
+    --accent:#8a1f1f;
+    --callout-bg:#f3f1ea;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif;
+    line-height:1.6;
+  }
+  .page{
+    max-width:720px;
+    margin:0 auto;
+    padding:2.5rem 1.25rem 4rem;
+  }
+  header.masthead{
+    text-align:center;
+    border-bottom:3px double var(--rule-strong);
+    padding-bottom:1rem;
+    margin-bottom:1.75rem;
+  }
+  .masthead-top{
+    display:flex;
+    justify-content:space-between;
+    font-family:'Courier New',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:0.6rem;
+  }
+  header.masthead h1{
+    font-size:2.4rem;
+    margin:0.1rem 0;
+    letter-spacing:0.01em;
+  }
+  .masthead-sub{
+    font-family:'Courier New',monospace;
+    font-size:0.75rem;
+    color:var(--muted);
+    letter-spacing:0.04em;
+  }
+  h2.section-label{
+    font-family:'Courier New',monospace;
+    font-size:0.78rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    border-bottom:1px solid var(--rule);
+    padding-bottom:0.35rem;
+    margin:2.25rem 0 1rem;
+  }
+  section.brief ul{
+    padding-left:1.1rem;
+    margin:0;
+  }
+  section.brief li{
+    margin-bottom:0.55rem;
+  }
+  article.story{
+    padding-bottom:1.75rem;
+    margin-bottom:1.75rem;
+    border-bottom:1px solid var(--rule);
+  }
+  article.story:last-of-type{
+    border-bottom:none;
+  }
+  article.story h3{
+    font-size:1.35rem;
+    line-height:1.3;
+    margin:0 0 0.6rem;
+  }
+  article.story p{
+    margin:0 0 0.75rem;
+  }
+  .callout{
+    background:var(--callout-bg);
+    border-left:3px solid var(--accent);
+    padding:0.7rem 0.9rem;
+    margin:0.9rem 0;
+    font-size:0.92rem;
+  }
+  .callout dl{
+    margin:0;
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:0.15rem 0.6rem;
+  }
+  .callout dt{
+    font-family:'Courier New',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:var(--muted);
+    white-space:nowrap;
+  }
+  .callout dd{margin:0}
+  .signal{
+    display:inline-block;
+    font-size:0.78rem;
+    padding:0.05rem 0.5rem;
+    border:1px solid var(--rule-strong);
+    border-radius:1rem;
+    margin-left:0.4rem;
+  }
+  p.source{
+    font-family:'Courier New',monospace;
+    font-size:0.78rem;
+    color:var(--muted);
+    margin-top:0.5rem;
+  }
+  p.source a{color:var(--muted)}
+  footer.colophon{
+    margin-top:2.5rem;
+    padding-top:1rem;
+    border-top:3px double var(--rule-strong);
+    font-family:'Courier New',monospace;
+    font-size:0.72rem;
+    color:var(--muted);
+    text-align:center;
+    line-height:1.8;
+  }
+  footer.colophon a{color:var(--muted)}
+  @media (max-width:520px){
+    header.masthead h1{font-size:1.9rem}
+    .masthead-top{flex-direction:column;gap:0.2rem;text-align:center}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <span>{TRACK_TITLE}</span>
+      <span>{WEEKDAY}, {MONTH} {DAY}, {YEAR}</span>
+    </div>
+    <h1>{NEWSPAPER_NAME}</h1>
+    <div class="masthead-sub">Compiled {TIME_ET} ET · {WORD_COUNT} words · ~{READ_MINUTES} min read</div>
+  </header>
+
+  <section class="brief">
+    <h2 class="section-label">The Brief</h2>
+    <ul>
+      <li>{One-sentence takeaway 1}</li>
+      <li>{One-sentence takeaway 2}</li>
+      <li>{One-sentence takeaway 3}</li>
+      <li>{One-sentence takeaway 4}</li>
+      <li>{One-sentence takeaway 5}</li>
+    </ul>
+  </section>
+
+  <main>
+    <h2 class="section-label">Stories</h2>
+
+    <article class="story">
+      <h3>{Story headline}</h3>
+      <p>{What happened, in plain language.} {Why it matters.}</p>
+
+      <!-- Health track callout — omit this whole .callout block on tech-business days -->
+      <div class="callout">
+        <dl>
+          <dt>Evidence</dt><dd>{Strong / Promising but preliminary / Mixed-uncertain / Little-or-none / Disproven-unsafe}</dd>
+          <dt>In humans</dt><dd>{yes/no + detail}</dd>
+          <dt>How promising</dt><dd>{short take}</dd>
+          <dt>Unknowns</dt><dd>{what we don't know yet}</dd>
+          <dt>Availability</dt><dd>{clinical now / experimental only}</dd>
+        </dl>
+      </div>
+
+      <!-- Tech-business track callout — omit this whole .callout block on health days -->
+      <div class="callout">
+        <dl>
+          <dt>Sales angle</dt><dd>{relevance to a NetSuite prospect}</dd>
+          <dt>SDR takeaway</dt><dd>{what to remember}</dd>
+          <dt>Conversation starter</dt><dd>{one natural question}</dd>
+          <dt>Signal</dt><dd>{🔥 Must Know / 💡 Worth Knowing / 👀 Watch This}</dd>
+        </dl>
+      </div>
+
+      <p class="source">{Publication}, {date} — <a href="{url}">{url}</a></p>
+    </article>
+
+    <!-- repeat .story above for each story — 3–7 for health, 5–8 for tech-business -->
+
+  </main>
+
+  <footer class="colophon">
+    <p>{NEWSPAPER_NAME} · generated by the Claude Newspaper routine</p>
+    <p><a href="https://github.com/pennyyates04-cpu/claude-newspaper">source &amp; corrections</a> · sources verified via web search, never fabricated</p>
+  </footer>
+
+</div>
+</body>
+</html>

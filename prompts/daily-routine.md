@@ -44,6 +44,14 @@ STEP 3 — Write the edition
 - Stay under `format.max_words` from config.
 - Save to `editions/YYYY-MM-DD.md` (America/New_York date). Copy the same content to
   `editions/latest.md`.
+- Also fill in `templates/edition.html` with the exact same content (same TL;DR, same
+  stories, same source links) — replace every `{PLACEHOLDER}` and compute `{WORD_COUNT}`
+  and `{READ_MINUTES}` (word count ÷ 200, rounded up, minimum 1). The template has two
+  example `.callout` blocks per story — one for the health track's fields, one for
+  tech-business's. Keep only the block matching today's track and delete the other one
+  entirely (don't leave it empty, don't include both). Save to `editions/YYYY-MM-DD.html`,
+  copy the same content to `editions/latest.html`. This is the newspaper-formatted page
+  published via GitHub Pages — it must stand alone and match the `.md` content exactly.
 
 STEP 4 — Generate audio (only if `config.json` -> `format.audio.enabled` is `true`)
 - Extract the TL;DR block's text as plain spoken prose (strip markdown bullets/formatting,

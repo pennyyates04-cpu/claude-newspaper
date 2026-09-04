@@ -22,7 +22,12 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           set -euo pipefail
+          REPO="${GITHUB_REPOSITORY#*/}"
+          OWNER="${GITHUB_REPOSITORY%/*}"
           CAPTION="🗞 $(date -u +%Y-%m-%d) edition"
+          if [ -f editions/latest.html ]; then
+            CAPTION="$CAPTION"$'\n'"https://${OWNER}.github.io/${REPO}/editions/latest.html"
+          fi
           AUDIO=""
           if [ -f editions/latest.mp3 ]; then
             AUDIO="editions/latest.mp3"
