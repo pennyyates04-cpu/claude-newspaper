@@ -1,0 +1,35 @@
+{
+  "newspaper_name": "Penny's Daily",
+  "timezone": "America/New_York",
+  "alternation": {
+    "rule": "day-of-year parity: even day-of-year -> health, odd day-of-year -> tech-business",
+    "tracks": {
+      "health": {
+        "title": "Health & Regenerative Medicine Edition",
+        "guidelines_file": "guidelines/health-regenerative-medicine.md",
+        "story_count": "3-7"
+      },
+      "tech-business": {
+        "title": "Tech, Business & Sales Edition",
+        "guidelines_file": "guidelines/tech-business-sales.md",
+        "story_count": "5-8"
+      }
+    }
+  },
+  "format": {
+    "summary_at_top": true,
+    "max_words": 2000,
+    "audio": {
+      "enabled": false,
+      "provider": "openai-tts (scripts/generate-audio.sh, ready but disabled until OPENAI_API_KEY is added)",
+      "voice_content": "the top summary only, read aloud, not the full edition"
+    }
+  },
+  "tone": "Neutral, concise, plain language. Explain jargon inline. No hype, no clickbait.",
+  "rules": [
+    "Never invent a story, quote, statistic, or link.",
+    "Every story cites a real publication and a real URL found via web search.",
+    "Follow the active track's guidelines file exactly for structure and evidence-labeling rules.",
+    "Prefer significance and a spread of reputable sources over volume."
+  ]
+}

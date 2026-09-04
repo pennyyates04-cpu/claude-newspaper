@@ -1,0 +1,3 @@
+# Never commit secrets — the routine supplies these via the environment.
+.env
+*.local
