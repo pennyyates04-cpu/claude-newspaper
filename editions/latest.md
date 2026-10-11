@@ -1,116 +1,89 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Saturday, October 10, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Sunday, October 11, 2026
 
-*Compiled 7:14 AM ET. Covering roughly the last 24–72 hours.*
+*Compiled 7:08 AM ET. Covering developments from the last several months.*
 
 ---
 
 ## TL;DR
 
-- SAP used its SAP Connect event (October 5–7) to push its "Autonomous Enterprise" and Joule AI agents toward general availability, claiming 20% productivity gains internally but with analysts noting most new agents won't ship broadly until early 2027.
-- ServiceNow launched "AI Workflow Factory" on October 6, a new product meant to close the gap between piloting AI agents and running them safely in production, with Accenture and Infosys as launch partners.
-- Workday disclosed in a September 29 SEC filing that it's cutting about 2.5% of its workforce (roughly 500 people), mostly in Product & Technology — its second round of 2026 layoffs.
-- Oracle began cutting about 70 more jobs in Ireland this week, mostly in engineering, as part of a global restructuring that has already eliminated roughly 21,000 positions to help fund its AI buildout.
-- Two AI agent startups, China's Manus and U.S.-based Nous Research, each raised large new funding rounds this week, underscoring how much capital is still chasing standalone AI agent companies.
+- A Nature Metabolism study of over 300 people across seven cohorts found whole-blood NAD+ levels don't fall with age or lifestyle changes, undercutting a core premise behind NAD+ "anti-aging" supplements and IV infusions.
+- The FDA agreed to let Entera Bio run a single, streamlined phase 3 trial of EB613 — a once-daily oral osteoporosis pill — using 12-month hip bone density as the primary endpoint instead of waiting years for fracture data.
+- Severance Hospital in South Korea launched a government-backed, randomized, placebo-controlled trial testing a patient's own fat-derived stem cells for knee osteoarthritis in 165 patients.
+- A September 2026 meta-analysis of six randomized trials in 355 patients found platelet-rich plasma injections provide no meaningful benefit over placebo for tennis elbow.
+- A small Bangor University trial found a 90-second cold-water dip between sauna rounds measurably eased the heart-rate and temperature strain of a second hot session, without reducing recovery.
 
 ---
 
-## SAP pushes its "Autonomous Enterprise" toward general availability, but much of it is still roadmap
+## A Large Study Undercuts the Idea That NAD+ Levels Fall With Age
 
-**What happened:** At SAP Connect in Las Vegas (October 5–7), SAP said it's making its "Autonomous Enterprise" architecture — first previewed at Sapphire in May — generally available this month alongside an expanded Joule AI agent lineup covering finance, HR, procurement, supply planning, and manufacturing. SAP said Joule Work is already used internally by 110,000 employees, with roughly 20% productivity gains claimed in finance, HR, and procurement. Novartis, Nestlé, and PwC were named as early customers. Analysts at Constellation Research cautioned most of what was announced won't reach customers broadly until SAP's Early Adopter Care program in Q1 2027.
-**Why it matters:** SAP is making an aggressive bet on "autonomous" AI agents running whole ERP/HR/finance processes — directly competing with Oracle Fusion and NetSuite's own AI roadmap — but the gap between SAP's announcement and what's actually shipping is a recurring pattern worth watching.
+**What happened:** Researchers led by Riekelt Houtkooper at Amsterdam UMC, with first author Maria Trętowicz, measured whole-blood NAD+ (nicotinamide adenine dinucleotide, a molecule cells need to produce energy) across seven independent human cohorts totaling more than 300 people. They found NAD+ levels stayed stable across age groups and did not shift with the lifestyle interventions tested, though levels did change in response to supplementation with nicotinamide riboside, an NAD+ precursor. The study was published in Nature Metabolism and covered by NutraIngredients on June 2, 2026. A separate, not-yet-peer-reviewed preprint posted in February 2026 reached the same conclusion.
+**Why it matters:** The idea that NAD+ declines with age and that boosting it can slow aging underpins a large and growing market for NAD+ pills and IV infusions. This is one of the largest look-backs yet at whether the basic premise — that blood NAD+ actually falls with age — holds up.
 
-**Sales angle:** With a prospect evaluating SAP, it's fair to ask what's actually live today versus roadmap — SAP's own analysts flagged that most of this ships in Q4 2026/Q1 2027, not now.
-**SDR takeaway:** "Generally available" doesn't always mean a customer can use it yet — distinguishing shipped features from roadmap announcements applies to every vendor's AI claims, NetSuite's included.
-**Conversation starter:** "SAP just previewed a big slate of new finance and supply-chain AI agents — has your team looked at what's usable today versus what's still coming next year?"
-**Signal:** 🔥 Must Know
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — over 300 people across seven cohorts, though the design pools existing cohort data rather than running a new prospective trial.
+**How promising:** The sample size and consistency across seven independent cohorts make this a credible challenge to a widely repeated claim, but outside researchers, including Joseph Baur, note that other studies have found NAD+ declines in specific tissues like muscle and brain — so whole-blood levels may simply be the wrong thing to measure.
+**What we don't know yet:** Whether NAD+ actually declines in tissues that matter for aging (brain, muscle) even if blood levels don't, and whether any NAD+-boosting product provides a measurable benefit to healthy people.
+**Availability:** Not a clinical treatment — it's a research finding about a popular supplement category, not a therapy. NAD+ pills and infusions remain widely sold despite the unresolved evidence.
 
-**Source:** Constellation Research, "SAP highlights its autonomous enterprise, Joule agent vision," October 2026 — https://www.constellationr.com/insights/news/sap-highlights-its-autonomous-enterprise-joule-agent-vision
-
----
-
-## ServiceNow launches "AI Workflow Factory" to close the gap between piloting AI agents and running them in production
-
-**What happened:** ServiceNow launched AI Workflow Factory on October 6 at its World Forum event in Mumbai. The product links Process Mining, a new "Autonomous Engineer" agent, App Engine, AI Control Tower, and "Action Fabric" into one loop: find a broken workflow, have AI redesign and build a fix, then keep it governed. The core platform is globally available now; Autonomous Engineer is in early access. Accenture and Infosys are launch partners, with Infosys integrating it into its own Topaz and Cobalt AI platforms. Action Fabric extends ServiceNow's governance layer to third-party AI agents too, not just its own.
-**Why it matters:** ServiceNow is explicitly targeting the "AI execution gap" — companies that have piloted AI agents but can't yet run them safely at scale — the same problem Oracle, SAP, Salesforce, and Workday are all racing to solve right now.
-
-**Sales angle:** ServiceNow is positioning itself as a governance layer sitting atop other vendors' AI agents — worth knowing if a prospect runs ServiceNow for IT workflows and asks how NetSuite's AI features would coexist with it.
-**SDR takeaway:** "AI execution gap" is useful shorthand for the distance between piloting an AI agent and trusting it to run unsupervised in production — a concern that comes up constantly in enterprise AI talks.
-**Conversation starter:** "A lot of vendors are talking about the gap between testing AI agents and trusting them to run on their own — has that been a sticking point with any AI tools you've piloted?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** ServiceNow Newsroom, October 6, 2026 — https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-AI-Workflow-Factory-to-turn-workflow-improvement-into-a-continuous-agentic-AI-powered-loop/default.aspx
+**Source:** NutraIngredients, June 2, 2026 — https://www.nutraingredients.com/Article/2026/06/02/blood-nad-may-not-be-a-useful-biomarker-of-aging-after-all/
 
 ---
 
-## Workday cuts about 500 jobs — its second round of layoffs this year
+## FDA Lets a Daily Osteoporosis Pill Skip Years of Fracture-Rate Testing
 
-**What happened:** Workday disclosed in a Form 8-K filed with the SEC on September 29 that it's cutting approximately 2.5% of its workforce — roughly 500 employees out of about 20,900 globally — concentrated in its Product and Technology organization, plus a reduction in leased office space. Restructuring charges are estimated in the tens of millions of dollars. This follows a separate 2% cut to Workday's Global Customer Operations team in February 2026.
-**Why it matters:** A second HCM/ERP competitor trimming staff in the same year it's also touting AI-driven product growth is a pattern worth noting when customers ask about vendor stability.
+**What happened:** Entera Bio's EB613 is a once-daily oral tablet containing a parathyroid hormone analog, designed to build bone rather than just slow its loss — the mechanism behind existing injectable drugs like teriparatide (Forteo). The FDA agreed in June 2026 to let the company run a single, randomized, double-blind, placebo-controlled phase 3 trial in roughly 750 postmenopausal women with osteoporosis, using the percent change in total hip bone mineral density (BMD) at 12 months as the primary endpoint, rather than requiring a longer trial powered to detect actual fracture reduction. In an earlier placebo-controlled phase 2 trial, EB613 produced bone-density gains in the spine, hip, and femoral neck after six months. Entera plans to start the phase 3 trial in late 2026, with topline data expected in the second half of 2028.
+**Why it matters:** Most osteoporosis treatments are injectable or infused; an effective oral pill could be easier for patients to stay on long-term. The FDA's willingness to accept a bone-density endpoint instead of years of fracture data — a regulatory shift finalized in December 2025 — could also speed up development of other osteoporosis drugs.
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — phase 2 testing showed bone-density gains after six months; the pivotal phase 3 trial (about 750 women) has not yet begun.
+**How promising:** The phase 2 density signal is real and the drug's underlying mechanism is already validated by approved injectable drugs, but bone density is a surrogate for fracture risk, not fracture risk itself — the phase 3 trial won't directly measure whether the pill prevents fractures.
+**What we don't know yet:** Whether the bone-density gains translate into fewer fractures, and the drug's long-term safety profile in a large population.
+**Availability:** Experimental only — EB613 is not FDA-approved; the registrational trial has not yet enrolled patients.
 
-**Sales angle:** If a prospect runs Workday for HCM or financials and has noticed the repeated layoffs, it's a legitimate, low-key way to open a conversation about roadmap continuity and support responsiveness.
-**SDR takeaway:** Layoffs concentrated in "Product and Technology" often signal a shift in engineering priorities, not just cost-cutting — worth distinguishing from cuts in sales or customer-facing teams.
-**Conversation starter:** "Workday's had a couple rounds of layoffs in its product org this year — has that come up in how your team thinks about your HCM or financials roadmap?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** HR Executive, "Workday files more job cuts, customer ops teams hit," September 2026 — https://hrexecutive.com/workday-files-more-job-cuts-customer-ops-teams-hit/
-
----
-
-## Oracle cuts about 70 more jobs in Ireland as its global AI-funded restructuring continues
-
-**What happened:** Oracle began a collective redundancy process in Ireland this week, telling staff on October 6 that about 70 roles — mostly in engineering and development, with some sales and finance positions also affected — would be eliminated. Ireland's Minister for Enterprise, Peter Burke, was formally notified, as EU rules require. This follows an earlier cut of roughly 150 Irish roles in April 2026 and is part of a global reduction Oracle has described as about 21,000 positions (roughly 13% of headcount), tied to funding its AI infrastructure buildout. Oracle employs around 650 people in Ireland after the latest round.
-**Why it matters:** It's a reminder that Oracle's record AI/cloud infrastructure growth and its cost-cutting are happening at the same time — useful context for any prospect asking about Oracle's financial health or where its investment priorities sit.
-
-**Sales angle:** If a prospect asks "is Oracle still investing in NetSuite, or is it all AI infrastructure now?" — these cuts are concentrated in engineering roles tied to Oracle's AI capex strategy, not NetSuite's product or support teams specifically.
-**SDR takeaway:** Oracle has now cut Irish jobs twice in 2026 (150 in April, 70 this week) as part of a 21,000-position global reduction — useful context if a prospect brings up Oracle's stability.
-**Conversation starter:** "Oracle's investing heavily in AI infrastructure while trimming costs elsewhere — has that trade-off come up when your team evaluates vendor stability?"
-**Signal:** 🔥 Must Know
-
-**Source:** The Irish Times, October 7, 2026 — https://www.irishtimes.com/business/2026/10/07/oracle-to-cut-another-70-jobs-in-ireland-in-ai-cost-cutting-push/
+**Source:** BioSpace, June 22, 2026 — https://www.biospace.com/entera-bio-announces-fda-agreement-for-a-single-phase-3-clinical-trial-to-support-an-nda-for-eb613-for-the-treatment-of-osteoporosis-total-hip-bmd-established-as-primary-endpoint
 
 ---
 
-## China's Manus raises $500M+ in its first round since the Meta deal collapsed
+## South Korean Hospital Launches a Randomized Trial of a Patient's Own Fat Stem Cells for Knee Arthritis
 
-**What happened:** Butterfly Effect, the Chinese company behind the AI agent Manus, raised more than $500 million in a round led by Boyu Capital and IDG Capital, with existing investors Tencent, HSG (formerly Sequoia China), and ZhenFund also participating, per reports dated October 8. The company hasn't disclosed its new valuation. It's Manus's first funding round since Meta's roughly $2 billion acquisition of it fell apart earlier in 2026 after Chinese regulators ordered it unwound; Manus resumed independent operations in August.
-**Why it matters:** It shows large, independent capital is still backing standalone AI agent companies rather than everything consolidating into Big Tech — relevant context for how crowded and well-funded the AI agent vendor landscape has become.
+**What happened:** Severance Hospital, together with Seoul National University Hospital and Inha University Hospital, was selected in July 2026 for South Korea's "Advanced Regenerative Medicine Clinical Research Activation Support Project," backed by roughly 2.9 billion won ($2.1 million) in government funding over 21 months. Led by orthopedic surgeon Kim Sunghwan, the multi-center trial will enroll 165 patients with knee osteoarthritis in a randomized, double-blind, placebo-controlled design, injecting each patient's own adipose (fat)-derived mesenchymal stem cells into the knee to assess pain relief and possible cartilage regeneration.
+**Why it matters:** Stem-cell injections for knee arthritis are already sold at clinics in many countries, but rigorous, blinded, placebo-controlled evidence for autologous fat-derived cells specifically has been limited. A trial of this size and design could produce some of the more credible human data yet on whether the approach does more than a placebo injection.
+**Evidence:** Little or no credible evidence (current commercial use); trial is designed to test this directly
+**Studied in humans:** The trial just launched and has not yet reported data; a related product (JointStem, a similar but distinct cell therapy) has reported five-year follow-up benefits in company-issued (not independently peer-reviewed) materials from a separate, earlier Korean trial.
+**How promising:** The randomized, double-blind, placebo-controlled design is a meaningfully higher evidence bar than most stem-cell-for-arthritis offerings get, but it's a new trial — there are no results yet to evaluate.
+**What we don't know yet:** Whether the therapy outperforms placebo, and if so, by how much and for how long.
+**Availability:** Not yet available through this trial (still enrolling); similar autologous stem-cell knee injections are already sold commercially at some clinics outside rigorous trial settings, generally without comparable evidence.
 
-**Sales angle:** With dozens of well-funded, independent AI agent vendors now in market, prospects evaluating point-solution agents versus a built-in agent layer (like NetSuite's) are facing real vendor-selection fatigue — useful framing for that conversation.
-**SDR takeaway:** The Meta-Manus deal falling apart due to Chinese regulatory intervention is a reminder cross-border AI acquisitions face real geopolitical risk, not just ordinary antitrust review.
-**Conversation starter:** "There's a lot of new money flowing into standalone AI agent startups right now — has your team found it hard to tell which are worth evaluating versus just noise?"
-**Signal:** 👀 Watch This
-
-**Source:** TechCrunch, October 8, 2026 — https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/
-
----
-
-## Open-source AI agent startup Nous Research raises $90M, launches enterprise product "Hermes for Businesses"
-
-**What happened:** Nous Research, maker of the open-source Hermes AI agent, raised a $90 million round led by Robot Ventures at a $1.5 billion valuation, with backers including Nvidia, Union Square Ventures, Menlo Ventures, and Samsung, per reports dated October 7 citing the Wall Street Journal. The round funds "Hermes for Businesses," which lets companies pick which underlying AI model powers their agents by cost or goal while keeping data private. Nous says Hermes has been cloned over 24 million times since its February 2026 release, with annualized revenue around $36 million as of mid-September and a goal of $100 million by year-end.
-**Why it matters:** It's a concrete, fast-growing example of "bring-your-own-model" enterprise AI agents — where a business picks its AI model rather than being locked into one vendor's — gaining real commercial traction.
-
-**Sales angle:** Prospects increasingly expect model flexibility and data privacy built into core business systems' AI features, not bolted on — a useful reference point discussing how NetSuite's AI handles model choice and data control.
-**SDR takeaway:** "Bring-your-own-model" is becoming a real enterprise AI buying criterion, not just a developer preference — a term that may come up in technical evaluations.
-**Conversation starter:** "Some AI agent vendors now let companies choose which model powers their tools — has model choice or data privacy come up in how your team evaluates AI features?"
-**Signal:** 👀 Watch This
-
-**Source:** TechCrunch, October 7, 2026 — https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users
+**Source:** Asia Economy (Asiae), July 24, 2026 — https://view.asiae.co.kr/en/article/2026072410051114984
 
 ---
 
-## Manufacturing kept growing in September, but input prices spiked sharply
+## A Meta-Analysis Finds Platelet-Rich Plasma Doesn't Beat Placebo for Tennis Elbow
 
-**What happened:** The ISM's September 2026 Manufacturing PMI, released October 1, came in at 54.5% — just 0.1 point below August — marking a ninth straight month of sector expansion. New Orders rose to 55.3% (up 1.6 points, the first growth after four months of contraction) and Employment rose to 52.7% (up 1.5 points). The Prices subindex jumped to 77.9%, up 6.8 points, which coverage tied to steel, aluminum, and tariff-driven input costs. Supplier Deliveries held at 59%, still signaling slower deliveries for a tenth straight month.
-**Why it matters:** Manufacturing is still growing and even adding orders and jobs, but the sharp jump in input costs is a direct margin squeeze — exactly the kind of pressure that pushes manufacturers and distributors to look harder at cost visibility and inventory tools.
+**What happened:** A meta-analysis pooling six randomized controlled trials covering 355 patients with lateral epicondylitis (tennis elbow) found that platelet-rich plasma (PRP) injections — which use a concentrate of a patient's own blood platelets to try to stimulate healing — produced no statistically significant improvement in pain or function compared with placebo injections at any time point measured. The analysis was published in the American Journal of Sports Medicine in early 2026 and presented at the International Congress on Shoulder and Elbow Surgery in September 2026, with results reported by Healio on September 25, 2026.
+**Why it matters:** PRP is widely marketed and used for tendon injuries, including by professional athletes, often at significant out-of-pocket cost. This adds to a growing body of placebo-controlled evidence — including earlier negative trials for Achilles tendinopathy and ACL reconstruction — suggesting PRP's benefit for tendon conditions may be smaller than its popularity implies.
+**Evidence:** Little or no credible evidence (for lateral epicondylitis specifically)
+**Studied in humans:** Yes — six randomized, placebo-controlled trials totaling 355 patients.
+**How promising:** The result is consistent with a 2020 meta-analysis of five earlier placebo-controlled trials that also found no benefit, strengthening confidence in the negative finding for this specific condition. Some regenerative-medicine researchers dispute the conclusion, arguing that platelet concentration varies widely between preparations and that higher-dose formulations may still help — a claim not yet confirmed in placebo-controlled trials.
+**What we don't know yet:** Whether specific PRP formulations (e.g., higher platelet concentration, leukocyte-rich vs. leukocyte-poor) perform better, and whether PRP works for other conditions where evidence is more mixed.
+**Availability:** Already widely available and commonly sold at orthopedic and sports-medicine clinics, despite this trial evidence.
 
-**Sales angle:** Rising input costs plus slower supplier deliveries is a strong, timely talking point for manufacturing and distribution prospects — a direct case for better landed-cost tracking, multi-location inventory visibility, and demand planning, all core NetSuite ERP value props.
-**SDR takeaway:** The ISM Prices subindex measures how much more manufacturers pay for raw materials — a 6.8-point jump in one month is a large move and a concrete number to cite with manufacturing prospects.
-**Conversation starter:** "Manufacturing input costs jumped sharply last month per the latest ISM data — has that cost pressure shown up in how your team thinks about inventory or supplier planning?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Institute for Supply Management, October 1, 2026 — https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/
+**Source:** Healio, September 25, 2026 — https://www.healio.com/news/orthopedics/20260925/prp-for-lateral-epicondylitis-may-not-relieve-pain-improve-function-vs-placebo
 
 ---
 
-*1,948 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## A Short Cold Dip Between Sauna Rounds Eases Heat Strain, Bangor University Study Finds
+
+**What happened:** Researchers at Bangor University (Tomos Owen, Callum Giles, Samuel Leaney, Geoff Coombs, and Samuel Oliver), working with a Welsh sauna business, tested 16 healthy adults in a crossover design: two 15-minute sauna bouts at 85°C, each followed by a 10-minute cooling break either in 23°C air alone or in air plus a 90-second, 20°C whole-body cold-water immersion. The cold-water cooling break reduced the rise in heart rate and core temperature during the second sauna bout and lowered how hot and strained participants felt, while temperature and sweat rate returned to normal faster afterward. The study was published online ahead of print in Experimental Physiology on July 2, 2026.
+**Why it matters:** Sauna use is popular and growing, often paired informally with cold plunges, but there's been little controlled data on how a brief cold dip during a multi-round sauna session actually affects the body's heat and cardiovascular strain in the moment.
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — 16 healthy adults in a controlled, counterbalanced crossover design.
+**How promising:** The within-person crossover design is a reasonably strong way to isolate the effect of the cold dip, but the sample is small and the measured outcomes are acute physiological strain markers, not long-term health or cardiovascular outcomes.
+**What we don't know yet:** Whether easing acute strain during sauna sessions translates into any longer-term health benefit or risk difference, and whether the effect holds at different water temperatures, dip durations, or sauna temperatures.
+**Availability:** Freely available now — this describes a way of using an existing practice (sauna bathing), not a drug or device.
+
+**Source:** Experimental Physiology, July 2, 2026 — https://doi.org/10.1113/EP093626
+
+---
+
+*1731 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
