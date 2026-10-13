@@ -1,88 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Monday, October 12, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Tuesday, October 13, 2026
 
-*Compiled 7:29 AM ET. Covering roughly the last 24–72 hours.*
+*Compiled 7:26 AM ET. Covering developments from the last several months.*
 
 ---
 
 ## TL;DR
 
-- A Financial Times report that OpenAI's annualized revenue is closer to $50 billion, not the ~$70 billion figure previously circulated, triggered a broad AI-stock selloff on October 8, with Oracle falling nearly 5% given its heavy exposure to OpenAI's cloud spending.
-- Oracle's own Q1 FY2027 results (reported September 10) showed cloud infrastructure revenue up 121% to $7.4 billion, but free cash flow turned negative by about $5 billion as AI data-center spending outpaces cash generation.
-- Salesforce notified 133 more employees in California and Washington that their jobs will end October 5 — its fourth round of Bay Area cuts in under a year.
-- Deloitte forecasts a record $1.70–$1.71 trillion in US holiday retail sales this season, with e-commerce growing fastest at 7.5–8.4%.
-- A new ValueSelling Associates survey of 153 sales leaders and reps found cold calling still outperforms AI-written prospecting emails nearly 6-to-1.
+- A UC San Diego prototype ring called CHARM passively pulls sweat from the finger to track glucose, ketones, and other biomarkers, and its readings tracked closely with a standard continuous glucose monitor in early human testing.
+- A retrospective, industry-funded comparison of NAD+ and NR IV infusions found the NAD+ version caused more side effects and took roughly two and a half times longer, while neither infusion changed standard safety labs.
+- A new 2026 follow-up on a small creatine-supplement pilot trial in Alzheimer's patients found a rise in cellular energy markers in blood cells — but the increase in mitochondrial respiration showed up only in women.
+- A Stanford-led analysis found women who used estrogen-only hormone therapy after menopause had 35% lower odds of an Alzheimer's diagnosis, though the study is observational.
+- A nationwide Danish registry study of nearly 877,000 women found no increase in all-cause mortality tied to menopausal hormone therapy use over a 14-year median follow-up.
 
 ---
 
-## OpenAI revenue shortfall rattles Oracle and the AI trade
+## A Finger Ring That Reads Sweat Could Make Continuous Biomarker Tracking Less Invasive
 
-**What happened:** On October 8, 2026, the Financial Times reported that OpenAI told investors its annualized revenue run rate was about $50 billion at the end of September — roughly $20 billion below the ~$70 billion figure that had circulated in recent weeks. Oracle, which supplies a large share of the computing infrastructure behind ChatGPT through its Stargate cloud deals, fell about 4.7% to roughly $136.82 by midafternoon trading. Nvidia, Broadcom, and Microsoft also declined. Part of the gap may reflect accounting differences — rival Anthropic counts revenue booked through cloud partners like AWS and Google Cloud, while OpenAI's figure reportedly does not — but the report still rattled investors already nervous about the scale of AI infrastructure spending commitments.
-**Why it matters:** Oracle has bet heavily on AI cloud infrastructure demand, with its stock price closely tied to confidence that customers like OpenAI can pay for the capacity Oracle is building. Any sign that a major AI customer's revenue is smaller than assumed raises questions about whether the broader AI infrastructure buildout is outrunning actual paying demand.
+**What happened:** Researchers in Joseph Wang's lab at UC San Diego, led by postdoctoral researcher Tamoghna Saha, built a prototype ring called CHARM (Continuous Health Analyzing Ring Module) that uses a built-in osmotic hydrogel to passively draw sweat from the finger — no exercise or stimulation needed — and an electrochemical sensor array to measure it. The device can track glucose, ketones, vitamin C, uric acid, lactate, and alcohol, though it reads at most four of those at once, and runs about 12 hours on a flexible battery before recharging. The work was published in Nature Communications in late July 2026. In testing that included people with type 1 diabetes, the ring's glucose readings tracked closely with a standard continuous glucose monitor, and its ketone readings matched a blood ketone meter.
+**Why it matters:** Most wearables that measure body chemistry, like continuous glucose monitors, require a sensor inserted under the skin. A ring that reads sweat passively could make ongoing biomarker tracking far less invasive, with potential use for diabetes management and broader metabolic monitoring.
 
-**Sales angle:** If a prospect brings up AI infrastructure headlines, it's worth distinguishing "AI hype volatility" affecting hyperscalers and chipmakers from NetSuite's own AI roadmap and financial footing — most ERP buyers aren't exposed to this specific risk.
-**SDR takeaway:** "Annualized revenue run rate" can be calculated differently company to company (gross vs. net of partner sales) — a useful distinction whenever any vendor touts a big revenue number.
-**Conversation starter:** "There's been a lot of volatility in AI infrastructure stocks this month — has that affected how your team is budgeting for AI tools next year?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — validated against standard continuous glucose monitors and blood ketone meters in human testing that included people with type 1 diabetes, though this is early-stage prototype testing, not a large clinical trial.
+**How promising:** Matching an established CGM for glucose and a blood meter for ketones in real users is a meaningful validation step, but the ring can only read a handful of markers at once and will need practical upgrades — like a replaceable sensor component — before it could be worn daily over the long term.
+**What we don't know yet:** How accuracy holds up over weeks of continuous wear, how it performs across a larger and more varied population, and whether it will reach commercial production.
+**Availability:** Experimental only — a research prototype, not an approved or commercially sold device.
 
-**Source:** via Officechai, citing the Financial Times, October 8, 2026 — https://officechai.com/ai/oracle-drops-5-nvidia-microsoft-also-fall-after-report-that-openais-revenue-is-lower-than-initially-reported/
-
----
-
-## Oracle's cloud infrastructure revenue more than doubled — but free cash flow went negative
-
-**What happened:** Oracle reported Q1 fiscal 2027 results (quarter ended August 31, 2026) on September 10, 2026. Total revenue rose 30% to about $19.3 billion. Cloud infrastructure (IaaS) revenue jumped 121% to $7.4 billion, while cloud applications revenue (SaaS, which includes NetSuite) grew 10% to $4.2 billion. Non-GAAP EPS was $1.92, up 30%. But free cash flow was negative by roughly $5 billion as Oracle keeps spending heavily on data centers; remaining performance obligations (contracted future revenue) rose to $664 billion. Oracle raised full-year guidance to at least $90 billion in total revenue.
-**Why it matters:** It's the clearest look yet at the tension driving Oracle's recent stock volatility: cloud infrastructure demand is real and growing fast, but Oracle is burning cash to build capacity ahead of when it gets paid — the same dynamic behind this week's OpenAI-driven selloff above.
-
-**Sales angle:** NetSuite's own cloud applications revenue (+10%) is growing far slower than Oracle's AI infrastructure business — useful context if a prospect assumes NetSuite's roadmap or stability depends on AI infrastructure economics; NetSuite's SaaS business is profitable in its own right.
-**SDR takeaway:** "Remaining performance obligations" (RPO) means contracted future revenue not yet recognized — Oracle's $664 billion RPO is a number you may hear cited as evidence of backlog strength.
-**Conversation starter:** "Oracle's cloud infrastructure numbers have been huge lately — has that come up in how your team thinks about the Oracle ecosystem versus other cloud or ERP vendors?"
-**Signal:** 🔥 Must Know
-
-**Source:** Oracle Investor Relations, September 10, 2026 — https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx
+**Source:** UC San Diego Today, July 24, 2026 — https://today.ucsd.edu/story/new-wearable-ring-tracks-glucose-ketone-and-other-biomarkers-in-sweat-simultaneously
 
 ---
 
-## Salesforce cuts 133 more jobs — its fourth Bay Area round in under a year
+## A Head-to-Head Look at NAD+ vs. NR IV Infusions Finds the Pricier One Causes More Side Effects
 
-**What happened:** Salesforce filed WARN notices in early August disclosing that 133 employees across San Francisco (74 roles) and Seattle/Bellevue (59 roles, including at Tableau) would lose their jobs effective October 5, 2026. Neither filing states a reason. It follows at least three earlier rounds of Bay Area cuts over the past year, including a widely reported 2025 round where CEO Marc Benioff said AI agent tool Agentforce let the company cut its support organization from about 9,000 to roughly 5,000 people, saying "I need less heads."
-**Why it matters:** Salesforce is one of the most visible examples of a software vendor publicly tying headcount reduction to AI agent deployment — a narrative that shapes how executives at prospect companies think about AI's effect on their own staffing.
+**What happened:** A retrospective review of electronic medical records from clients of Restore Hyper Wellness, a commercial IV-therapy chain, compared people who received four consecutive days of a 500 mg NAD+ IV infusion against others who received an equivalent nicotinamide riboside (NR) IV infusion, with 30 days of follow-up. The study, published in Frontiers in Aging in 2026 and funded by Restore Hyper Wellness and Niagen Biosciences (which makes NR supplements), found the NAD+ group reported more side effects — nausea, headache, diarrhea, and muscle tightness — than the NR group, which mostly reported mild tingling, slight nausea, and coldness. NAD+ infusions also took roughly 97 minutes on average versus about 37 minutes for NR. Standard safety labs (liver enzymes, kidney markers, inflammation, thyroid function) didn't meaningfully change in either group; NR IV, but not NAD+ IV, was linked to a drop in HbA1c at 30 days.
+**Why it matters:** NAD+ IV infusions are heavily marketed at wellness clinics as an anti-aging and energy treatment, often at significant out-of-pocket cost. This is a rare head-to-head comparison of tolerability for the two most common infusion options, rather than just a safety claim from a clinic's marketing material.
 
-**Sales angle:** If a prospect brings up AI replacing jobs, Salesforce's own framing — redeploying staff rather than only cutting, with support costs reportedly down 17% since its AI agent rollout — is a concrete, citable data point for discussing NetSuite's AI roadmap in measured terms.
-**SDR takeaway:** Distinguish rounds of layoffs explicitly tied to AI efficiency gains (Salesforce's 2025 support reorg) from ones with no stated cause (this October's 133 cuts) — don't assume every vendor layoff is an AI story.
-**Conversation starter:** "Salesforce has talked a lot about AI agents changing its own headcount needs — has that shaped how your team thinks about AI's impact on your own operations?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Little or no credible evidence (for any health or anti-aging benefit — this study measured tolerability, not efficacy)
+**Studied in humans:** Yes — a retrospective records review of real clinic clients, not a randomized, placebo-controlled trial.
+**How promising:** It's a useful real-world tolerability comparison, but the retrospective design and funding from the two companies that sell these infusions make it a weak basis for any claim about actual health benefit, and no outcome measured was a validated marker of anti-aging or disease prevention.
+**What we don't know yet:** Whether either infusion provides any measurable benefit to otherwise healthy people, and how the tolerability findings would hold up in an independent, blinded trial.
+**Availability:** Already widely available and commercially sold at wellness clinics, despite the lack of efficacy evidence.
 
-**Source:** International Business Times UK, October 2026 — https://www.ibtimes.co.uk/salesforce-announces-133-job-cuts-california-washington-1813239
-
----
-
-## Deloitte forecasts a record $1.7 trillion holiday shopping season
-
-**What happened:** Deloitte's annual holiday retail forecast, released September 10, 2026, projects total US holiday retail sales (November 2026 through January 2027) of $1.70–$1.71 trillion, up 4.0–4.8% from last year. E-commerce is forecast to grow fastest, 7.5–8.4%, to $316.1–$318.9 billion. Deloitte's model assumes disposable personal income grows 4.5–5.2% during the season, and flags continued value-seeking behavior — like brand switching and promotion use — even as overall spending rises.
-**Why it matters:** For any prospect in retail, e-commerce, or consumer goods, this is the baseline budget and inventory-planning assumption they're almost certainly already working against this quarter.
-
-**Sales angle:** Faster e-commerce growth plus persistent promotion-driven, value-seeking consumers is a strong, timely hook for retail and e-commerce prospects to discuss inventory visibility, multi-channel order management, and margin tracking — all core NetSuite ERP value props during peak season.
-**SDR takeaway:** "Disposable personal income" (DPI) is income left after taxes — Deloitte ties its holiday forecast directly to DPI growth, a useful macro term when discussing consumer spending outlooks.
-**Conversation starter:** "Deloitte's projecting a record holiday season but with shoppers still hunting for deals — how is your team balancing growth expectations against margin pressure this quarter?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Deloitte, September 10, 2026 — https://www.deloitte.com/us/en/about/press-room/deloitte-forecasts-holiday-retail-sales.html
+**Source:** Frontiers in Aging, 2026 — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12907335/
 
 ---
 
-## New research: cold calling still beats AI-written prospecting emails nearly 6-to-1
+## New Data From a Small Creatine Trial in Alzheimer's Finds a Cellular Energy Boost — Mostly in Women
 
-**What happened:** A ValueSelling Associates survey of 153 sales leaders and reps, released September 1, 2026, found that cold calling remains the second most effective prospecting method (47% effectiveness), behind only client referrals, while AI-written personalized emails scored just 8%. The rankings are little changed from a comparable 2018 study. 46% of sales leaders said reps give up on cold calling too easily, and 39% said reps are afraid to pick up the phone.
-**Why it matters:** Despite years of AI-prospecting-tool hype, human-led, higher-effort channels are still outperforming automated ones by a wide margin — directly relevant to how SDRs should prioritize their own time.
+**What happened:** Researchers at the University of Kansas Medical Center, led by Matthew Taylor, published a 2026 follow-up analysis of their CABA pilot trial (ClinicalTrials.gov NCT05383833), an 8-week, open-label, single-arm study that gave 20 grams per day of creatine monohydrate to 20 people with Alzheimer's disease (35% female). The new paper, in Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring, reports that mitochondrial respiration in blood cells rose in female participants but not male participants, while a separate marker of cellular energy, lymphocyte ATP, rose in both sexes. Brain levels of two other metabolic markers, NAA and glutathione, didn't change. An earlier companion analysis of the same trial had found brain creatine levels rose about 11% and reported a moderate improvement on working-memory tests.
+**Why it matters:** Impaired brain energy metabolism is a well-established feature of Alzheimer's disease, and creatine is already a cheap, widely available supplement. This adds early evidence that it may have a measurable effect on cellular energy production in people with the disease — and a hint that the effect could differ by sex, a factor often overlooked in Alzheimer's research.
 
-**Sales angle:** This is a useful, evidence-based counterpoint when a prospect's team is over-indexed on AI-generated outbound email at the expense of live conversations — effectiveness data, not just opinion, backs prioritizing the phone.
-**SDR takeaway:** AI tools can help with research and personalization, but the data says they shouldn't replace the phone call as a core prospecting channel — call reluctance, not lack of AI tooling, looks like the bigger performance gap.
-**Conversation starter:** "A lot of sales research this year is showing cold calling still outperforms AI-written outbound by a wide margin — has that matched what your team's seeing?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — 20 people with Alzheimer's disease, but in a single-arm pilot with no placebo comparison group.
+**How promising:** The rise in a cellular energy marker in both sexes, and in brain creatine levels specifically, suggests the supplement is doing something measurable in affected tissue — but without blinding or a control group, the reported cognitive improvement could reflect practice effects or expectation rather than a true drug effect, and outside neurologists have cautioned there isn't yet well-established data to recommend creatine for cognition.
+**What we don't know yet:** Why the mitochondrial effect appeared only in women, whether blood-cell energy changes reflect what's happening in the brain, and whether any of this translates into slower cognitive decline in a larger, placebo-controlled trial.
+**Availability:** Creatine monohydrate is sold over the counter as a supplement, but it is not an approved or established Alzheimer's treatment; people with Alzheimer's should talk to a clinician before starting high-dose supplementation.
 
-**Source:** ValueSelling Associates, via Demand Gen Report, September 2026 — https://www.demandgenreport.com/industry-news/news-brief/valueselling-report-finds-cold-calling-beats-ai-written-emails-6-to-1/54360/
+**Source:** Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring, 2026 — https://doi.org/10.1002/trc2.70228
 
 ---
 
-*1,446 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Estrogen-Only Hormone Therapy Linked to Lower Alzheimer's Risk in New Stanford Analysis
+
+**What happened:** Stanford researchers analyzed data from 21,462 participants, comparing 258 women who reported using estrogen-only menopausal hormone therapy against roughly 2,701 women who reported no hormone therapy use. Women who used estrogen-only therapy had 35% lower odds of developing Alzheimer's disease and 39% lower odds of a dementia diagnosis overall. The study was published in Neurology on August 12, 2026. Estrogen-only therapy is typically prescribed to women who have had a hysterectomy, since adding estrogen without progesterone raises uterine cancer risk in women who still have a uterus.
+**Why it matters:** The finding runs counter to the 2003 Women's Health Initiative Memory Study, which found hormone therapy was linked to higher dementia risk — a result that shaped two decades of caution around hormone therapy. The study's senior author notes that the women in the older trial started therapy later in life, which may have obscured a benefit from earlier use.
+
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — an observational analysis of 21,462 participants, not a randomized trial.
+**How promising:** The size of the association and its consistency with a plausible biological mechanism (estrogen's known effects on brain metabolism) make it worth taking seriously, but it's an association from observational data, not proof that the hormone therapy itself lowers Alzheimer's risk — the American Academy of Neurology and the study's own authors stress that more research is needed before making recommendations to women.
+**What we don't know yet:** Whether the relationship is causal, how it might differ for women who still have a uterus and take combined estrogen-progesterone therapy, and what timing or duration of use matters most.
+**Availability:** Estrogen-only hormone therapy is already FDA-approved and prescribed for menopause symptom management; using it specifically to reduce Alzheimer's risk is not an approved or established indication.
+
+**Source:** Stanford Medicine, August 12, 2026 — https://med.stanford.edu/news/all-news/2026/08/study-ties-estrogen-based-menopausal-hormone-therapy-to-lower-al.html
+
+---
+
+## A Nearly 877,000-Woman Danish Study Finds No Mortality Increase From Menopausal Hormone Therapy
+
+**What happened:** A nationwide Danish registry study led by Anders Pretzmann Mikkelsen of Copenhagen University Hospital Herlev followed 876,805 women born in Denmark between 1950 and 1977, from age 45 through mid-2023 — a median of 14.3 years. About 11.9% of the women had redeemed a prescription for menopausal hormone therapy, and 5.4% died during follow-up. Although crude death rates were higher among hormone-therapy users (54.9 versus 35.5 per 10,000 person-years), after adjusting for other factors the hazard ratio was 0.96, meaning no increase in all-cause mortality among users; cause-specific mortality from cardiovascular disease and cancer didn't differ either. Among a small subgroup of 703 women who'd had both ovaries removed between ages 45 and 54, hormone therapy use was linked to 27–34% lower mortality. The study was published in The BMJ on February 18, 2026.
+**Why it matters:** Menopausal hormone therapy use has dropped sharply since the early 2000s over mortality and cancer fears. This is one of the largest and longest-running look-backs at whether hormone therapy use is actually tied to higher death rates in the real world, and it adds to a growing body of 2026 research suggesting the therapy is safer than widely believed.
+
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — a registry-based cohort of 876,805 women, one of the largest studies of its kind.
+**How promising:** The sheer size and length of follow-up make this a credible, well-powered look at real-world mortality outcomes, but as an observational study it can't rule out "healthy-user bias" — the tendency for healthier women to be the ones prescribed and to stay on hormone therapy — and the dataset lacked information on smoking and body mass index, two factors that could affect the result.
+**What we don't know yet:** Whether the reassuring mortality numbers hold up after fully accounting for lifestyle differences between users and non-users, and whether the result applies to women with higher-risk health profiles who were underrepresented in the data.
+**Availability:** Menopausal hormone therapy is already FDA-approved and widely prescribed; this study doesn't change its approval status, but adds to the evidence clinicians and patients can weigh when deciding whether to use it.
+
+**Source:** The BMJ, February 18, 2026 — https://www.bmj.com/content/392/bmj-2025-085998
+
+---
+
+*1979 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
