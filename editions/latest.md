@@ -1,93 +1,88 @@
-# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
-### Tuesday, October 13, 2026
+# 🗞 Penny's Daily — Tech, Business & Sales Edition
+### Wednesday, October 14, 2026
 
-*Compiled 7:26 AM ET. Covering developments from the last several months.*
+*Compiled 7:26 AM ET. Covering roughly the last 24–72 hours.*
 
 ---
 
 ## TL;DR
 
-- A UC San Diego prototype ring called CHARM passively pulls sweat from the finger to track glucose, ketones, and other biomarkers, and its readings tracked closely with a standard continuous glucose monitor in early human testing.
-- A retrospective, industry-funded comparison of NAD+ and NR IV infusions found the NAD+ version caused more side effects and took roughly two and a half times longer, while neither infusion changed standard safety labs.
-- A new 2026 follow-up on a small creatine-supplement pilot trial in Alzheimer's patients found a rise in cellular energy markers in blood cells — but the increase in mitochondrial respiration showed up only in women.
-- A Stanford-led analysis found women who used estrogen-only hormone therapy after menopause had 35% lower odds of an Alzheimer's diagnosis, though the study is observational.
-- A nationwide Danish registry study of nearly 877,000 women found no increase in all-cause mortality tied to menopausal hormone therapy use over a 14-year median follow-up.
+- Workday announced new "Autopilot" AI agents at its Rising 2026 conference that complete whole HR and finance tasks rather than just assisting, starting with a recruiting agent now in early access.
+- Workday also opened its Trusted Agent Platform for headless, customer-built AI agents and announced a partnership with Anthropic to bring Claude into its new Sana-powered home screen.
+- Salesforce's Winter '27 release went live on October 12, auto-enabling its Agentforce AI agents by default and shifting them toward completing entire workflows instead of single tasks.
+- Goldman Sachs kicked off big-bank earnings season with a strong beat: $18.68 billion in Q3 revenue and $17.01 diluted EPS, both above analyst estimates.
+- A new Liferay survey finds 54% of companies are already running AI agents in production or piloting them, but only 25% consistently measure whether those agents are actually working.
 
 ---
 
-## A Finger Ring That Reads Sweat Could Make Continuous Biomarker Tracking Less Invasive
+## Workday Launches "Autopilot" Agents That Finish Whole Tasks, Not Just Assist
 
-**What happened:** Researchers in Joseph Wang's lab at UC San Diego, led by postdoctoral researcher Tamoghna Saha, built a prototype ring called CHARM (Continuous Health Analyzing Ring Module) that uses a built-in osmotic hydrogel to passively draw sweat from the finger — no exercise or stimulation needed — and an electrochemical sensor array to measure it. The device can track glucose, ketones, vitamin C, uric acid, lactate, and alcohol, though it reads at most four of those at once, and runs about 12 hours on a flexible battery before recharging. The work was published in Nature Communications in late July 2026. In testing that included people with type 1 diabetes, the ring's glucose readings tracked closely with a standard continuous glucose monitor, and its ketone readings matched a blood ketone meter.
-**Why it matters:** Most wearables that measure body chemistry, like continuous glucose monitors, require a sensor inserted under the skin. A ring that reads sweat passively could make ongoing biomarker tracking far less invasive, with potential use for diabetes management and broader metabolic monitoring.
+**What happened:** At its Rising 2026 conference in Las Vegas (October 12–15), Workday announced on October 13 a new set of "Autopilot" AI agents built to complete real work across HR, finance, and IT rather than simply assist a human doing it. The first one targets recruiting: it drafts candidate outreach and builds shortlists for a recruiter to approve. It's available to early-adopter customers now, with Workday targeting broader general availability in early 2027.
+**Why it matters:** Workday is one of NetSuite's most direct competitors in HR and finance software, and this marks a concrete shift from "AI assistant" positioning toward AI that finishes a task end-to-end — a framing an increasing number of enterprise software vendors are racing to adopt.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — validated against standard continuous glucose monitors and blood ketone meters in human testing that included people with type 1 diabetes, though this is early-stage prototype testing, not a large clinical trial.
-**How promising:** Matching an established CGM for glucose and a blood meter for ketones in real users is a meaningful validation step, but the ring can only read a handful of markers at once and will need practical upgrades — like a replaceable sensor component — before it could be worn daily over the long term.
-**What we don't know yet:** How accuracy holds up over weeks of continuous wear, how it performs across a larger and more varied population, and whether it will reach commercial production.
-**Availability:** Experimental only — a research prototype, not an approved or commercially sold device.
+**Sales angle:** If a prospect currently runs Workday for HR or finance, ask whether they're piloting its new autopilot agents — it's a live signal of how much they're already investing in agentic AI workflows, which shapes how receptive they'll be to NetSuite's own AI roadmap.
+**SDR takeaway:** Enterprise software vendors are racing from agents that assist a person one task at a time toward agents that complete a whole workflow end-to-end (like sourcing and shortlisting candidates) — a distinction worth knowing since most AI marketing now leans on this language.
+**Conversation starter:** "A lot of HR and finance platforms are rolling out AI agents that complete whole tasks now instead of just assisting — has your team tried any of those yet, or is it still early days?"
+**Signal:** 🔥 Must Know
 
-**Source:** UC San Diego Today, July 24, 2026 — https://today.ucsd.edu/story/new-wearable-ring-tracks-glucose-ketone-and-other-biomarkers-in-sweat-simultaneously
-
----
-
-## A Head-to-Head Look at NAD+ vs. NR IV Infusions Finds the Pricier One Causes More Side Effects
-
-**What happened:** A retrospective review of electronic medical records from clients of Restore Hyper Wellness, a commercial IV-therapy chain, compared people who received four consecutive days of a 500 mg NAD+ IV infusion against others who received an equivalent nicotinamide riboside (NR) IV infusion, with 30 days of follow-up. The study, published in Frontiers in Aging in 2026 and funded by Restore Hyper Wellness and Niagen Biosciences (which makes NR supplements), found the NAD+ group reported more side effects — nausea, headache, diarrhea, and muscle tightness — than the NR group, which mostly reported mild tingling, slight nausea, and coldness. NAD+ infusions also took roughly 97 minutes on average versus about 37 minutes for NR. Standard safety labs (liver enzymes, kidney markers, inflammation, thyroid function) didn't meaningfully change in either group; NR IV, but not NAD+ IV, was linked to a drop in HbA1c at 30 days.
-**Why it matters:** NAD+ IV infusions are heavily marketed at wellness clinics as an anti-aging and energy treatment, often at significant out-of-pocket cost. This is a rare head-to-head comparison of tolerability for the two most common infusion options, rather than just a safety claim from a clinic's marketing material.
-
-**Evidence:** Little or no credible evidence (for any health or anti-aging benefit — this study measured tolerability, not efficacy)
-**Studied in humans:** Yes — a retrospective records review of real clinic clients, not a randomized, placebo-controlled trial.
-**How promising:** It's a useful real-world tolerability comparison, but the retrospective design and funding from the two companies that sell these infusions make it a weak basis for any claim about actual health benefit, and no outcome measured was a validated marker of anti-aging or disease prevention.
-**What we don't know yet:** Whether either infusion provides any measurable benefit to otherwise healthy people, and how the tolerability findings would hold up in an independent, blinded trial.
-**Availability:** Already widely available and commercially sold at wellness clinics, despite the lack of efficacy evidence.
-
-**Source:** Frontiers in Aging, 2026 — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12907335/
+**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workday-Launches-Autopilot-Agents-That-Get-Real-Work-Done-Across-HR,-Finance,-and-IT
 
 ---
 
-## New Data From a Small Creatine Trial in Alzheimer's Finds a Cellular Energy Boost — Mostly in Women
+## Workday Opens Its Platform to Outside AI Agents, Partners With Anthropic
 
-**What happened:** Researchers at the University of Kansas Medical Center, led by Matthew Taylor, published a 2026 follow-up analysis of their CABA pilot trial (ClinicalTrials.gov NCT05383833), an 8-week, open-label, single-arm study that gave 20 grams per day of creatine monohydrate to 20 people with Alzheimer's disease (35% female). The new paper, in Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring, reports that mitochondrial respiration in blood cells rose in female participants but not male participants, while a separate marker of cellular energy, lymphocyte ATP, rose in both sexes. Brain levels of two other metabolic markers, NAA and glutathione, didn't change. An earlier companion analysis of the same trial had found brain creatine levels rose about 11% and reported a moderate improvement on working-memory tests.
-**Why it matters:** Impaired brain energy metabolism is a well-established feature of Alzheimer's disease, and creatine is already a cheap, widely available supplement. This adds early evidence that it may have a measurable effect on cellular energy production in people with the disease — and a hint that the effect could differ by sex, a factor often overlooked in Alzheimer's research.
+**What happened:** Also on October 13 at Rising, Workday announced its Trusted Agent Platform is now "headless" — letting customers build and run their own AI agents with governed access to Workday's HR and finance data, instead of only using Workday-built agents inside Workday's own interface. Components including Agent-Ready Tools, Workday Data Cloud, a Developer Agent, Custom Agents, and an Agent Harness are now generally available. Workday also announced a partnership with Anthropic, including a plugin that lets Claude work with Workday's new Sana-powered home screen; it's in early access now, with general availability expected later in 2026.
+**Why it matters:** Opening HR and finance data to externally built, governed AI agents — rather than keeping agents locked inside one vendor's own interface — is a meaningfully different architecture bet than most ERP/HCM vendors have made publicly, and the Anthropic tie-up signals how enterprise software vendors are choosing AI model partners.
 
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — 20 people with Alzheimer's disease, but in a single-arm pilot with no placebo comparison group.
-**How promising:** The rise in a cellular energy marker in both sexes, and in brain creatine levels specifically, suggests the supplement is doing something measurable in affected tissue — but without blinding or a control group, the reported cognitive improvement could reflect practice effects or expectation rather than a true drug effect, and outside neurologists have cautioned there isn't yet well-established data to recommend creatine for cognition.
-**What we don't know yet:** Why the mitochondrial effect appeared only in women, whether blood-cell energy changes reflect what's happening in the brain, and whether any of this translates into slower cognitive decline in a larger, placebo-controlled trial.
-**Availability:** Creatine monohydrate is sold over the counter as a supplement, but it is not an approved or established Alzheimer's treatment; people with Alzheimer's should talk to a clinician before starting high-dose supplementation.
+**Sales angle:** If a prospect's IT or finance team cares about building its own AI agents rather than only consuming vendor-built ones, Workday's "headless" pitch is a useful comparison point when discussing NetSuite's own AI Connector Service and how open a platform's data is to outside agents.
+**SDR takeaway:** "Headless" here means the platform's functionality and data are reachable via APIs and agents without requiring the vendor's own front-end screen — a term that may come up whenever a prospect discusses platform openness or agent interoperability.
+**Conversation starter:** "Workday just opened up its platform so companies can build their own AI agents against HR and finance data — is building custom AI agents internally something your team has explored, or are you mainly looking at what vendors ship out of the box?"
+**Signal:** 💡 Worth Knowing
 
-**Source:** Alzheimer's & Dementia: Diagnosis, Assessment & Disease Monitoring, 2026 — https://doi.org/10.1002/trc2.70228
-
----
-
-## Estrogen-Only Hormone Therapy Linked to Lower Alzheimer's Risk in New Stanford Analysis
-
-**What happened:** Stanford researchers analyzed data from 21,462 participants, comparing 258 women who reported using estrogen-only menopausal hormone therapy against roughly 2,701 women who reported no hormone therapy use. Women who used estrogen-only therapy had 35% lower odds of developing Alzheimer's disease and 39% lower odds of a dementia diagnosis overall. The study was published in Neurology on August 12, 2026. Estrogen-only therapy is typically prescribed to women who have had a hysterectomy, since adding estrogen without progesterone raises uterine cancer risk in women who still have a uterus.
-**Why it matters:** The finding runs counter to the 2003 Women's Health Initiative Memory Study, which found hormone therapy was linked to higher dementia risk — a result that shaped two decades of caution around hormone therapy. The study's senior author notes that the women in the older trial started therapy later in life, which may have obscured a benefit from earlier use.
-
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — an observational analysis of 21,462 participants, not a randomized trial.
-**How promising:** The size of the association and its consistency with a plausible biological mechanism (estrogen's known effects on brain metabolism) make it worth taking seriously, but it's an association from observational data, not proof that the hormone therapy itself lowers Alzheimer's risk — the American Academy of Neurology and the study's own authors stress that more research is needed before making recommendations to women.
-**What we don't know yet:** Whether the relationship is causal, how it might differ for women who still have a uterus and take combined estrogen-progesterone therapy, and what timing or duration of use matters most.
-**Availability:** Estrogen-only hormone therapy is already FDA-approved and prescribed for menopause symptom management; using it specifically to reduce Alzheimer's risk is not an approved or established indication.
-
-**Source:** Stanford Medicine, August 12, 2026 — https://med.stanford.edu/news/all-news/2026/08/study-ties-estrogen-based-menopausal-hormone-therapy-to-lower-al.html
+**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workdays-Trusted-Agent-Platform-Now-Delivers-Headless-Access-to-HR-and-Finance,-Letting-Customers-Build-and-Run-Lawful-AI-Agents
 
 ---
 
-## A Nearly 877,000-Woman Danish Study Finds No Mortality Increase From Menopausal Hormone Therapy
+## Salesforce Turns Agentforce On by Default in Its Winter '27 Release
 
-**What happened:** A nationwide Danish registry study led by Anders Pretzmann Mikkelsen of Copenhagen University Hospital Herlev followed 876,805 women born in Denmark between 1950 and 1977, from age 45 through mid-2023 — a median of 14.3 years. About 11.9% of the women had redeemed a prescription for menopausal hormone therapy, and 5.4% died during follow-up. Although crude death rates were higher among hormone-therapy users (54.9 versus 35.5 per 10,000 person-years), after adjusting for other factors the hazard ratio was 0.96, meaning no increase in all-cause mortality among users; cause-specific mortality from cardiovascular disease and cancer didn't differ either. Among a small subgroup of 703 women who'd had both ovaries removed between ages 45 and 54, hormone therapy use was linked to 27–34% lower mortality. The study was published in The BMJ on February 18, 2026.
-**Why it matters:** Menopausal hormone therapy use has dropped sharply since the early 2000s over mortality and cancer fears. This is one of the largest and longest-running look-backs at whether hormone therapy use is actually tied to higher death rates in the real world, and it adds to a growing body of 2026 research suggesting the therapy is safer than widely believed.
+**What happened:** Salesforce's Winter '27 release reached general availability on October 12, 2026. The headline change: Agentforce, Salesforce's AI agent platform, is now auto-enabled by default for orgs with Agentforce access, rather than requiring customers to opt in. Salesforce is also framing the release around agents that complete entire workflows rather than assist with single tasks — including new commerce-search agents the company says lift conversion by 13%, and voice-based scheduling agents that compress booking calls that used to take 15 minutes into seconds.
+**Why it matters:** Salesforce auto-enabling its flagship AI product for existing customers — rather than waiting for opt-in — is an aggressive distribution strategy, reflecting how major enterprise software vendors are trying to make "powered by AI agents" the default state of their platforms rather than an add-on.
 
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — a registry-based cohort of 876,805 women, one of the largest studies of its kind.
-**How promising:** The sheer size and length of follow-up make this a credible, well-powered look at real-world mortality outcomes, but as an observational study it can't rule out "healthy-user bias" — the tendency for healthier women to be the ones prescribed and to stay on hormone therapy — and the dataset lacked information on smoking and body mass index, two factors that could affect the result.
-**What we don't know yet:** Whether the reassuring mortality numbers hold up after fully accounting for lifestyle differences between users and non-users, and whether the result applies to women with higher-risk health profiles who were underrepresented in the data.
-**Availability:** Menopausal hormone therapy is already FDA-approved and widely prescribed; this study doesn't change its approval status, but adds to the evidence clinicians and patients can weigh when deciding whether to use it.
+**Sales angle:** A prospect using Salesforce may already have Agentforce turned on without having explicitly chosen to adopt it — worth asking what they've noticed, since it affects how primed they are to evaluate AI features in other systems like NetSuite.
+**SDR takeaway:** Vendor-reported performance figures (like a "13% conversion lift") typically come without disclosed methodology, sample size, or baseline — worth keeping in mind before repeating a vendor's own AI performance claims to a prospect as if independently verified.
+**Conversation starter:** "Salesforce just made its AI agents on-by-default for existing customers instead of opt-in — has that changed how your team is using it, or caught anyone off guard?"
+**Signal:** 🔥 Must Know
 
-**Source:** The BMJ, February 18, 2026 — https://www.bmj.com/content/392/bmj-2025-085998
+**Source:** Salesforce, October 12, 2026 — https://salesforce.com/news/stories/winter-2027-product-release-announcement
 
 ---
 
-*1979 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Goldman Sachs Beats Estimates, Kicking Off Big-Bank Earnings Season
+
+**What happened:** Goldman Sachs reported third-quarter 2026 results on October 13: net revenues of $18.68 billion, up 23% from a year earlier, and diluted earnings per share of $17.01 — both well above analyst estimates (Zacks had projected revenue of $16.87 billion). Net earnings were $5.29 billion, and annualized return on equity was 18.7%. The results kick off third-quarter earnings season for major US banks.
+**Why it matters:** Big-bank earnings are a widely watched signal for the health of lending, trading, and deal activity across the broader economy — a strong beat from Goldman, which is heavily weighted toward investment banking and trading, suggests continued strength in capital-markets activity even as other parts of the market show AI-spending-related jitters.
+
+**Sales angle:** Prospects in financial services, or any business dependent on capital-markets activity (private equity, M&A advisory, corporate finance teams raising debt or equity), may be more willing to invest in new systems when their own revenue backdrop — deal flow, trading volumes — is as strong as Goldman's numbers suggest it currently is.
+**SDR takeaway:** "Return on equity" (ROE) measures how efficiently a company generates profit from shareholders' equity — a common metric in financial-services conversations, and Goldman's 18.7% annualized ROE this quarter is a strong number worth having as a reference point.
+**Conversation starter:** "Goldman just posted a pretty strong earnings beat to kick off bank earnings season — has that kind of capital-markets strength shown up in how your own clients or business are feeling this quarter?"
+**Signal:** 💡 Worth Knowing
+
+**Source:** Goldman Sachs Group, Inc., SEC Form 8-K, October 13, 2026 — https://www.sec.gov/Archives/edgar/data/0000886982/000088698226000529/a3q26gsearningsresults.htm
+
+---
+
+## Most Companies Running AI Agents Aren't Measuring Whether They Work, Liferay Survey Finds
+
+**What happened:** A Liferay-commissioned survey of 500 US professionals involved in AI decisions or day-to-day AI use, fielded via Pollfish and released August 12, 2026, found that 54% of companies are running AI agents in production or actively piloting them. But only 25% consistently measure AI's impact against defined KPIs, and just 24% have a company-wide AI usage policy. Technology companies reported the highest adoption at 72%, followed by healthcare (66%) and transportation/logistics (64%); the most common use cases were data analysis and reporting (35%) and customer support (32%).
+**Why it matters:** It's a concrete data point on a gap showing up across most 2026 AI-adoption research: companies are deploying AI agents faster than they're building the governance and measurement practices to know whether those agents are actually working.
+
+**Sales angle:** If a prospect's team is excited about AI agents but can't point to how they're measuring results, that's a legitimate, non-pushy opening to talk about how a system like NetSuite ties AI features to measurable financial and operational outcomes rather than agent activity for its own sake.
+**SDR takeaway:** "54% adoption" headlines are common in 2026 AI surveys, but the more useful number underneath is usually the measurement gap — a reminder to ask prospects how they'd know if an AI tool were actually helping, not just whether they're using one.
+**Conversation starter:** "A lot of companies say they're running AI agents now, but most aren't yet measuring the actual impact — is that something your team has a clear way of tracking, or is it still early?"
+**Signal:** 👀 Watch This
+
+**Source:** CMSWire, citing Liferay's 2026 Agentic AI Adoption and Governance Report, August 12, 2026 — https://www.cmswire.com/the-wire/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/
+
+---
+
+*1,569 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
