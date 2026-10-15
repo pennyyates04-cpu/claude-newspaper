@@ -1,88 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Wednesday, October 14, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Thursday, October 15, 2026
 
-*Compiled 7:26 AM ET. Covering roughly the last 24–72 hours.*
+*Compiled 7:19 AM ET. Covering developments from the last several weeks.*
 
 ---
 
 ## TL;DR
 
-- Workday announced new "Autopilot" AI agents at its Rising 2026 conference that complete whole HR and finance tasks rather than just assisting, starting with a recruiting agent now in early access.
-- Workday also opened its Trusted Agent Platform for headless, customer-built AI agents and announced a partnership with Anthropic to bring Claude into its new Sana-powered home screen.
-- Salesforce's Winter '27 release went live on October 12, auto-enabling its Agentforce AI agents by default and shifting them toward completing entire workflows instead of single tasks.
-- Goldman Sachs kicked off big-bank earnings season with a strong beat: $18.68 billion in Q3 revenue and $17.01 diluted EPS, both above analyst estimates.
-- A new Liferay survey finds 54% of companies are already running AI agents in production or piloting them, but only 25% consistently measure whether those agents are actually working.
+- Life Biosciences reported that its cellular-reprogramming gene therapy, ER-100, was well tolerated through eight weeks in three glaucoma patients, with two showing visual field improvement in an ongoing Phase 1 safety trial.
+- University of Birmingham researchers found that blocking the P2X7 receptor sharply cut inflammatory signaling in living human brain tissue, pointing to already-tested drugs that could be repurposed for Alzheimer's, Parkinson's, and brain injury.
+- Cedars-Sinai researchers identified a protein, PD-L2, that lets aging "senescent" cells hide from the immune system using a trick borrowed from cancer biology, and blocking it in mice reduced senescent-cell buildup and improved insulin sensitivity and grip strength.
+- A six-month Australian randomized trial found that high-intensity interval training, unlike moderate-intensity exercise, let older adults lose fat without losing muscle.
+- A Stanford spinout, Adaptyx Biosciences, presented first-in-human data for a wearable sensor that continuously tracks cortisol from fluid just beneath the skin, and is now pursuing FDA review as a Class II device.
 
 ---
 
-## Workday Launches "Autopilot" Agents That Finish Whole Tasks, Not Just Assist
+## A Gene Therapy Designed to Make Aging Eye Cells Younger Shows an Early Safety Signal in Glaucoma Patients
 
-**What happened:** At its Rising 2026 conference in Las Vegas (October 12–15), Workday announced on October 13 a new set of "Autopilot" AI agents built to complete real work across HR, finance, and IT rather than simply assist a human doing it. The first one targets recruiting: it drafts candidate outreach and builds shortlists for a recruiter to approve. It's available to early-adopter customers now, with Workday targeting broader general availability in early 2027.
-**Why it matters:** Workday is one of NetSuite's most direct competitors in HR and finance software, and this marks a concrete shift from "AI assistant" positioning toward AI that finishes a task end-to-end — a framing an increasing number of enterprise software vendors are racing to adopt.
+**What happened:** Life Biosciences announced on October 8, 2026 interim Phase 1 data for ER-100, an experimental therapy built on partial cellular reprogramming — activating a small set of genes associated with restoring a more youthful state to aged cells. ER-100 is injected into one eye, then switched on by a course of oral doxycycline taken for about eight weeks, so the reprogramming genes stay active only while the drug is being taken. Three participants with open-angle glaucoma had been dosed and followed through day 56. The company reported no dose-limiting toxicities, serious adverse events, or adverse events of special interest; it attributed all reported side effects to the injection procedure, a steroid, or participants' pre-existing conditions rather than to ER-100 itself. Two of the three participants showed improvement in portions of their visual field by day 56. Based on these early safety results, an independent data safety monitoring board recommended escalating to a higher dose in the ongoing trial, which plans to enroll up to 18 people with glaucoma or NAION (a form of optic nerve damage) across four U.S. sites.
+**Why it matters:** This is among the first attempts to test partial cellular reprogramming directly in people rather than only in mice. Glaucoma and related optic neuropathies damage the optic nerve in ways current treatments can't reverse, so any therapy that restores lost visual function — rather than just slowing further loss — would be a notable departure if the signal holds up.
 
-**Sales angle:** If a prospect currently runs Workday for HR or finance, ask whether they're piloting its new autopilot agents — it's a live signal of how much they're already investing in agentic AI workflows, which shapes how receptive they'll be to NetSuite's own AI roadmap.
-**SDR takeaway:** Enterprise software vendors are racing from agents that assist a person one task at a time toward agents that complete a whole workflow end-to-end (like sourcing and shortlisting candidates) — a distinction worth knowing since most AI marketing now leans on this language.
-**Conversation starter:** "A lot of HR and finance platforms are rolling out AI agents that complete whole tasks now instead of just assisting — has your team tried any of those yet, or is it still early days?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — three people with open-angle glaucoma in an open-label Phase 1 safety trial; the trial is not designed or powered to establish efficacy.
+**How promising:** The therapy appears tolerable so far, and a visual field improvement in two of three early participants is an encouraging early signal, but outside experts have cautioned that ER-100 doesn't lower eye pressure — the main driver of glaucoma damage — so any benefit may not address the disease's root cause or prove durable.
+**What we don't know yet:** Whether the visual improvements persist, replicate in more patients, or reflect true reprogramming of optic nerve cells rather than measurement variability; also unknown is the therapy's long-term cancer risk, a general safety concern for approaches that reactivate embryonic-type genes.
+**Availability:** Experimental only — an ongoing, dose-escalating Phase 1 trial, not an approved or commercially available treatment.
 
-**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workday-Launches-Autopilot-Agents-That-Get-Real-Work-Done-Across-HR,-Finance,-and-IT
-
----
-
-## Workday Opens Its Platform to Outside AI Agents, Partners With Anthropic
-
-**What happened:** Also on October 13 at Rising, Workday announced its Trusted Agent Platform is now "headless" — letting customers build and run their own AI agents with governed access to Workday's HR and finance data, instead of only using Workday-built agents inside Workday's own interface. Components including Agent-Ready Tools, Workday Data Cloud, a Developer Agent, Custom Agents, and an Agent Harness are now generally available. Workday also announced a partnership with Anthropic, including a plugin that lets Claude work with Workday's new Sana-powered home screen; it's in early access now, with general availability expected later in 2026.
-**Why it matters:** Opening HR and finance data to externally built, governed AI agents — rather than keeping agents locked inside one vendor's own interface — is a meaningfully different architecture bet than most ERP/HCM vendors have made publicly, and the Anthropic tie-up signals how enterprise software vendors are choosing AI model partners.
-
-**Sales angle:** If a prospect's IT or finance team cares about building its own AI agents rather than only consuming vendor-built ones, Workday's "headless" pitch is a useful comparison point when discussing NetSuite's own AI Connector Service and how open a platform's data is to outside agents.
-**SDR takeaway:** "Headless" here means the platform's functionality and data are reachable via APIs and agents without requiring the vendor's own front-end screen — a term that may come up whenever a prospect discusses platform openness or agent interoperability.
-**Conversation starter:** "Workday just opened up its platform so companies can build their own AI agents against HR and finance data — is building custom AI agents internally something your team has explored, or are you mainly looking at what vendors ship out of the box?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workdays-Trusted-Agent-Platform-Now-Delivers-Headless-Access-to-HR-and-Finance,-Letting-Customers-Build-and-Run-Lawful-AI-Agents
+**Source:** Life Biosciences, October 8, 2026 — https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/
 
 ---
 
-## Salesforce Turns Agentforce On by Default in Its Winter '27 Release
+## Blocking a Single Receptor Calms Inflammation in Living Human Brain Tissue — and the Drugs to Do It Already Exist
 
-**What happened:** Salesforce's Winter '27 release reached general availability on October 12, 2026. The headline change: Agentforce, Salesforce's AI agent platform, is now auto-enabled by default for orgs with Agentforce access, rather than requiring customers to opt in. Salesforce is also framing the release around agents that complete entire workflows rather than assist with single tasks — including new commerce-search agents the company says lift conversion by 13%, and voice-based scheduling agents that compress booking calls that used to take 15 minutes into seconds.
-**Why it matters:** Salesforce auto-enabling its flagship AI product for existing customers — rather than waiting for opt-in — is an aggressive distribution strategy, reflecting how major enterprise software vendors are trying to make "powered by AI agents" the default state of their platforms rather than an add-on.
+**What happened:** Researchers at the University of Birmingham, led by Professor Nicholas Barnes, tested P2X7 receptor-blocking compounds on living human brain tissue obtained during neurosurgery, as well as on human microglia-like immune cells grown from blood monocytes. Blocking the P2X7 receptor significantly reduced the release of inflammatory cytokines, including IL-1β, from both tissue types. The findings were published in the journal Brain in 2026. Because several P2X7-blocking compounds have already gone through human safety testing for other conditions, the authors argue they could be repurposed and moved toward brain-disease trials faster than an entirely new drug could.
+**Why it matters:** Chronic neuroinflammation is a feature of a wide range of brain conditions — including Alzheimer's, Parkinson's, traumatic brain injury, and some psychiatric disorders — but most anti-inflammatory drugs tested in the brain so far have failed in clinical trials. Demonstrating the effect directly in living human brain tissue, rather than only in mouse models, is a more direct way to show a mechanism is relevant to human biology.
 
-**Sales angle:** A prospect using Salesforce may already have Agentforce turned on without having explicitly chosen to adopt it — worth asking what they've noticed, since it affects how primed they are to evaluate AI features in other systems like NetSuite.
-**SDR takeaway:** Vendor-reported performance figures (like a "13% conversion lift") typically come without disclosed methodology, sample size, or baseline — worth keeping in mind before repeating a vendor's own AI performance claims to a prospect as if independently verified.
-**Conversation starter:** "Salesforce just made its AI agents on-by-default for existing customers instead of opt-in — has that changed how your team is using it, or caught anyone off guard?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary
+**Studied in humans:** Partially — the experiments used real human brain tissue and human immune cells in the lab (ex vivo), not treatment of living patients; no clinical trial of this approach has been run yet.
+**How promising:** Showing the effect directly in human tissue strengthens the case that the mechanism translates to people, and existing, already-tested P2X7 blockers could shorten the path to a clinical trial — but a laboratory-tissue result, however encouraging, is a long way from showing a drug changes the course of disease in patients.
+**What we don't know yet:** Whether blocking P2X7 in living patients actually slows or improves any of the targeted conditions, which existing compound is best suited for repurposing, and what dose and treatment duration would be needed.
+**Availability:** Experimental only — this is laboratory research; no P2X7 blocker is currently approved for any brain condition.
 
-**Source:** Salesforce, October 12, 2026 — https://salesforce.com/news/stories/winter-2027-product-release-announcement
-
----
-
-## Goldman Sachs Beats Estimates, Kicking Off Big-Bank Earnings Season
-
-**What happened:** Goldman Sachs reported third-quarter 2026 results on October 13: net revenues of $18.68 billion, up 23% from a year earlier, and diluted earnings per share of $17.01 — both well above analyst estimates (Zacks had projected revenue of $16.87 billion). Net earnings were $5.29 billion, and annualized return on equity was 18.7%. The results kick off third-quarter earnings season for major US banks.
-**Why it matters:** Big-bank earnings are a widely watched signal for the health of lending, trading, and deal activity across the broader economy — a strong beat from Goldman, which is heavily weighted toward investment banking and trading, suggests continued strength in capital-markets activity even as other parts of the market show AI-spending-related jitters.
-
-**Sales angle:** Prospects in financial services, or any business dependent on capital-markets activity (private equity, M&A advisory, corporate finance teams raising debt or equity), may be more willing to invest in new systems when their own revenue backdrop — deal flow, trading volumes — is as strong as Goldman's numbers suggest it currently is.
-**SDR takeaway:** "Return on equity" (ROE) measures how efficiently a company generates profit from shareholders' equity — a common metric in financial-services conversations, and Goldman's 18.7% annualized ROE this quarter is a strong number worth having as a reference point.
-**Conversation starter:** "Goldman just posted a pretty strong earnings beat to kick off bank earnings season — has that kind of capital-markets strength shown up in how your own clients or business are feeling this quarter?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Goldman Sachs Group, Inc., SEC Form 8-K, October 13, 2026 — https://www.sec.gov/Archives/edgar/data/0000886982/000088698226000529/a3q26gsearningsresults.htm
+**Source:** University of Birmingham, 2026 — https://www.birmingham.ac.uk/news/2026/brain-cell-study-identifies-new-drug-target-to-treat-alzheimers-disease
 
 ---
 
-## Most Companies Running AI Agents Aren't Measuring Whether They Work, Liferay Survey Finds
+## Aging Cells Use a Cancer-Style Immune Checkpoint to Hide From the Body's Defenses, Cedars-Sinai Finds
 
-**What happened:** A Liferay-commissioned survey of 500 US professionals involved in AI decisions or day-to-day AI use, fielded via Pollfish and released August 12, 2026, found that 54% of companies are running AI agents in production or actively piloting them. But only 25% consistently measure AI's impact against defined KPIs, and just 24% have a company-wide AI usage policy. Technology companies reported the highest adoption at 72%, followed by healthcare (66%) and transportation/logistics (64%); the most common use cases were data analysis and reporting (35%) and customer support (32%).
-**Why it matters:** It's a concrete data point on a gap showing up across most 2026 AI-adoption research: companies are deploying AI agents faster than they're building the governance and measurement practices to know whether those agents are actually working.
+**What happened:** Researchers at Cedars-Sinai, led by Selim Chaib, found that senescent cells — aging cells that stop dividing but don't die, and accumulate with age — raise levels of a protein called PD-L2 on their surface, which appears to help them evade clearance by the immune system. PD-L2 is already known from cancer immunotherapy, where a related checkpoint protein helps tumor cells hide from immune attack. In older mice, genetically removing or blocking PD-L2 reduced the buildup of senescent cells and lowered the inflammatory signals those cells produce, and was linked to better insulin sensitivity and grip strength compared with untreated older mice. The study was published in Cell Metabolism, with Cedars-Sinai's release dated September 10, 2026.
+**Why it matters:** Senescent cells are a major target of the "senolytic" anti-aging field because their buildup is linked to inflammation, frailty, and age-related disease. Most current senolytic drugs try to kill these cells directly; this finding points to a different approach — blocking the signal that lets them hide, similar in concept to cancer immunotherapy — and raises the possibility that PD-L2 could double as a blood marker for tracking senescent-cell burden.
 
-**Sales angle:** If a prospect's team is excited about AI agents but can't point to how they're measuring results, that's a legitimate, non-pushy opening to talk about how a system like NetSuite ties AI features to measurable financial and operational outcomes rather than agent activity for its own sake.
-**SDR takeaway:** "54% adoption" headlines are common in 2026 AI surveys, but the more useful number underneath is usually the measurement gap — a reminder to ask prospects how they'd know if an AI tool were actually helping, not just whether they're using one.
-**Conversation starter:** "A lot of companies say they're running AI agents now, but most aren't yet measuring the actual impact — is that something your team has a clear way of tracking, or is it still early?"
-**Signal:** 👀 Watch This
+**Evidence:** Promising but preliminary
+**Studied in humans:** No — the findings are from mice; no human trial has tested blocking PD-L2 for aging-related purposes.
+**How promising:** The parallel to a validated cancer-immunotherapy mechanism gives the idea real biological plausibility, and pairing fewer senescent cells with functional improvements (insulin sensitivity, grip strength) in mice is more convincing than a marker change alone — but translating an immune-checkpoint approach from mice to people, especially given that blocking such checkpoints in cancer treatment can cause serious immune side effects, remains an unproven leap.
+**What we don't know yet:** Whether blocking PD-L2 in humans would meaningfully reduce senescent-cell burden or improve healthspan, and whether it would carry the same autoimmune-type side-effect risks seen with checkpoint-blocking cancer drugs.
+**Availability:** Experimental only — a preclinical mouse finding; no therapy targeting PD-L2 for aging is in human development yet.
 
-**Source:** CMSWire, citing Liferay's 2026 Agentic AI Adoption and Governance Report, August 12, 2026 — https://www.cmswire.com/the-wire/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/
+**Source:** Cedars-Sinai, September 10, 2026 — https://www.cedars-sinai.org/newsroom/blocking-a-protein-may-reduce-buildup-of-harmful-aging-cells/
 
 ---
 
-*1,569 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## In Older Adults, High-Intensity Intervals — Not Moderate Exercise — Preserved Muscle While Cutting Fat
+
+**What happened:** Researchers at the University of the Sunshine Coast in Australia randomly assigned 123 healthy older adults (averaging about 72 years old) to six months of supervised treadmill-based moderate-intensity training, high-intensity interval training (HIIT), or a low-intensity active control, with three 45-minute sessions per week. Both the moderate- and high-intensity groups lost more fat mass than the control group, by similar amounts. But only the moderate-intensity group also lost lean (muscle) mass along with the fat; the HIIT group lost fat without losing lean mass. The findings, from a sub-study of a larger randomized trial, were published in the journal Maturitas, with ScienceDaily covering the results on October 7, 2026.
+**Why it matters:** Older adults who lose weight through diet or moderate exercise often lose muscle alongside fat, which can worsen age-related frailty even as the scale number drops. If HIIT reliably avoids that tradeoff, it would be a meaningful, practical distinction for how older adults should exercise for body composition, not just general fitness.
+
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — a randomized, supervised six-month trial in 123 healthy older adults.
+**How promising:** The randomized design and reasonably large sample make this a credible signal, and it fits a plausible mechanism (HIIT's greater mechanical and metabolic stress on muscle), but it's one trial in healthy volunteers, and the research team itself says the result needs confirmation before becoming a firm recommendation.
+**What we don't know yet:** Whether the same pattern holds in older adults with existing health conditions or lower baseline fitness, whether the lean-mass difference reflects true muscle-fiber preservation versus water or glycogen content, and how durable the effect is beyond six months.
+**Availability:** Not a medical treatment — HIIT is a widely accessible form of exercise; no clinical availability question applies.
+
+**Source:** ScienceDaily (University of the Sunshine Coast), October 7, 2026 — https://www.sciencedaily.com/releases/2026/10/261007233348.htm
+
+---
+
+## A Wearable Sensor That Tracks Cortisol Around the Clock Moves Toward FDA Review
+
+**What happened:** Adaptyx Biosciences, a Stanford spinout, presented first-in-human data for a wearable sensor that continuously measures free cortisol from interstitial fluid just beneath the skin, using programmable DNA-based molecular switches that bind the hormone and generate a continuous electrical signal. In one study, the wearable's readings tracked paired venous blood cortisol during a controlled oral hydrocortisone challenge; in a second, overnight study, the sensor captured a person's natural cortisol rhythm — including the typical morning cortisol-awakening rise and overnight low point — during normal daily activity. The company says its human testing program has now collected more than 400 hours of in-body monitoring data and that it is pursuing FDA submission as a Class II device.
+**Why it matters:** Cortisol is central to stress physiology, sleep, and metabolic health, but it's currently measured mainly through single-point blood, saliva, or urine tests that miss its natural rise and fall over the day. A validated continuous cortisol sensor could do for stress-hormone monitoring something like what continuous glucose monitors did for diabetes — turning an occasional snapshot into an ongoing signal patients and clinicians could act on.
+
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — two small first-in-human studies: a controlled hormone-challenge comparison against blood draws, and an overnight natural-rhythm monitoring study.
+**How promising:** Tracking blood cortisol during a controlled challenge and picking up the expected daily rhythm are meaningful early validation steps for a genuinely new sensor type, but the company has not yet published detailed accuracy data in a peer-reviewed journal, and it has not received any FDA clearance.
+**What we don't know yet:** How accurate the sensor is across a broader range of cortisol levels and real-world conditions, how it performs over weeks of continuous wear, and when or whether it will clear FDA review.
+**Availability:** Experimental only — in development and not yet FDA-cleared or commercially available.
+
+**Source:** MD+DI (Adaptyx Biosciences), 2026 — https://mddionline.com/diabetes/adaptyx-unveils-first-continuous-cortisol-monitor-here-s-what-you-need-to-know
+
+---
+
+*1950 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
