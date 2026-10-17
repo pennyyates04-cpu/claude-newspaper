@@ -1,102 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Friday, October 16, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Saturday, October 17, 2026
 
-*Compiled 7:09 AM ET. Covering roughly the last 24–72 hours.*
+*Compiled 7:08 AM ET. Covering developments from the last several weeks.*
 
 ---
 
 ## TL;DR
 
-- Oracle proposed a new utility deal and customer bill credits to help power its Project Jupiter AI data-center campus in New Mexico, while sticking with its on-site fuel-cell design.
-- TSMC and ASML both posted record quarterly results this week, and ASML warned its planned equipment capacity won't meet AI-driven chip demand through 2028.
-- Intuit rolled out new "Intuit Intelligence" AI agents for QuickBooks in Canada, the UK, and Australia, pushing the same task-completing-agent pitch as Workday and Salesforce this month.
-- Bank of America beat revenue estimates but posted lower profit after a $1.2 billion regulatory settlement charge.
-- New TrustRadius data show most B2B software buyers now use AI to research vendors, but the large majority still fact-check it before deciding.
+- A study of nearly 200,000 people found that regular late-night eaters had roughly 20–30% higher rates of fatty liver disease and cirrhosis than people who didn't eat late.
+- A Phase 1/2a gene-therapy trial published in the New England Journal of Medicine showed an optogenetic treatment plus light-stimulating goggles was safe for years and let some blind retinitis pigmentosa patients detect objects again.
+- A randomized trial found that semaglutide slowed several DNA-methylation "biological age" clocks in people with HIV-associated fat accumulation, though the researchers caution this isn't proof the drug reverses aging.
+- University of Vienna researchers discovered that many gut bacterial "species" actually contain several genetically distinct hidden lineages, some of which are linked to aging, inflammatory bowel disease, colorectal cancer, and type 2 diabetes.
+- Rubedo Life Sciences reported that its topical senescent-cell-clearing drug candidate nearly halved precancerous skin lesions in an early, company-reported trial.
 
 ---
 
-## Oracle Proposes New Power Deal and Customer Bill Credits for Its New Mexico AI Mega-Campus
+## Late-Night Eating Is Linked to Sharply Higher Risk of Fatty Liver Disease and Cirrhosis
 
-**What happened:** On October 13, Oracle proposed an energy service agreement with utility El Paso Electric to support the next phase of its Project Jupiter AI data-center campus in Doña Ana County, New Mexico — covering late-stage construction, startup power, and backup/life-safety needs, with Oracle saying it could spend at least $100 million on power there over 10 years. Oracle also proposed up to $55 million a year, for up to three years, in electricity bill credits for the utility's New Mexico residential and small-business customers, and reaffirmed that an on-site Bloom Energy fuel-cell microgrid (up to 2.45 gigawatts) — not new gas turbines — remains the campus's primary power source. Separately, Oracle is seeking up to 2 gigawatts of new solar, wind, and geothermal power for 2027–2031 delivery.
-**Why it matters:** Oracle keeps revising the design and financing of its roughly $165 billion, 1,400-acre Project Jupiter campus in response to local pushback over water and emissions, and this is the clearest sign yet that Oracle — NetSuite's parent company — will pay nearby communities directly to keep the project moving, a preview of how AI infrastructure buildouts are reshaping Oracle's capital spending ahead of SuiteWorld 2026 later this month.
+**What happened:** Researchers at Oregon Health & Science University and Massachusetts General Hospital, led by Robert Wilechansky, analyzed decades of dietary-timing data from nearly 200,000 participants across the Nurses' Health Study, Nurses' Health Study II, and the Health Professionals Follow-Up Study. People who regularly ate after dinner or close to bedtime had roughly 20–30% higher rates of metabolic dysfunction–associated steatotic liver disease (MASLD, formerly called NAFLD) and cirrhosis than people who didn't eat late, even after adjusting for total calorie intake and other factors. The findings were published in *Clinical Gastroenterology and Hepatology* and widely covered in mid-October 2026.
+**Why it matters:** MASLD affects roughly a third of adults and can progress silently to cirrhosis and liver failure. If meal timing independently raises that risk, it's a modifiable behavior doctors could flag now, not just a future drug target.
 
-**Sales angle:** Oracle's AI-driven capex and public infrastructure fights are a live example of what "AI infrastructure investment" costs in practice — useful context if a prospect asks how committed Oracle is to its AI roadmap, or brings up Oracle's debt and credit-rating headlines.
-**SDR takeaway:** A "fuel-cell microgrid" generates power on-site through an electrochemical reaction rather than combustion, producing fewer emissions than a traditional gas turbine — a term likely to resurface as more enterprise tech companies site AI data centers near power-constrained grids.
-**Conversation starter:** "Oracle's been in the news for how it's funding and powering its AI data centers — has the pace of AI infrastructure spending from vendors like Oracle factored into how your team thinks about their AI roadmap?"
-**Signal:** 🔥 Must Know
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — nearly 200,000 people across three long-running cohort studies with decades of follow-up, but purely observational.
+**How promising:** A large sample and a consistent association across three separate cohorts make the signal statistically convincing, and it fits known circadian-metabolism biology, but the diet data was self-reported and the design can't prove causation.
+**What we don't know yet:** Whether eating-timing itself drives the excess risk, independent of diet quality, total calories, sleep, and other confounds the study couldn't fully control for. OHSU's team is now recruiting for an interventional follow-up trial.
+**Availability:** Not a medical treatment — meal timing is a free behavior change, not a clinical intervention.
 
-**Source:** Oracle Newsroom, October 13, 2026 — https://www.oracle.com/news/announcement/oracle-proposes-plan-to-offset-customers-utility-costs-2026-10-13/
-
----
-
-## TSMC Posts Record Quarter as AI Chip Demand Keeps Outrunning Supply
-
-**What happened:** Taiwan Semiconductor Manufacturing Co. reported third-quarter 2026 results on October 15: consolidated revenue of NT$1.49 trillion (about $46.7 billion), up 50.9% in local currency from a year earlier, with net income up 68.7% and a 66.4% gross margin. Advanced technologies (7-nanometer and smaller) made up 79% of wafer revenue, including a fast-ramping 2-nanometer node. TSMC guided fourth-quarter revenue to $52.3–$54.3 billion, above what analysts had expected.
-**Why it matters:** TSMC manufactures the advanced chips behind most of the generative-AI boom — Nvidia, AMD, Apple, and others all depend on it — so a result this far above its own guidance signals AI chip demand is still accelerating, not slowing, directly feeding the capital-spending wave at cloud and AI infrastructure companies, including Oracle.
-
-**Sales angle:** When a prospect talks about "pausing" AI spending over cost concerns, numbers like TSMC's record quarter are a useful data point that overall enterprise and hyperscaler AI investment is still accelerating industry-wide, even if any one company's budget is tight.
-**SDR takeaway:** "Advanced node" (7nm, 2nm, etc.) refers to the physical size of transistors on a chip — smaller nodes pack more computing power and efficiency into the same chip, and are the main hardware constraint behind today's AI compute shortages.
-**Conversation starter:** "Chipmakers like TSMC just posted their biggest quarter yet on AI demand — are you seeing that kind of AI investment show up in your own budget conversations, or is it still mostly talk?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Taiwan Semiconductor Manufacturing Co., SEC Form 6-K, October 15, 2026 — https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm
+**Source:** News-Medical.net (OHSU/Massachusetts General), October 9, 2026 — https://www.news-medical.net/news/20261009/Late-night-snacking-may-affect-liver-health.aspx
 
 ---
 
-## ASML Says Planned Chipmaking-Equipment Supply Won't Meet AI Demand Through 2028
+## Gene Therapy and Light-Stimulating Goggles Let Blind Patients With Retinitis Pigmentosa Detect Objects Again
 
-**What happened:** ASML, the Dutch company whose lithography machines chipmakers like TSMC depend on, reported record third-quarter 2026 net sales of about €11.7 billion and net income of about €5.0 billion on October 14, and raised its full-year 2026 sales guidance to €44–45 billion. CEO Christophe Fouquet said customers are raising their equipment demand forecasts because of AI investment — some asking for orders stretching into 2029 and 2030 — and that ASML's already-planned 30% capacity increase for 2027 still won't be enough to meet demand in either 2027 or 2028.
-**Why it matters:** ASML has a near-monopoly on the extreme ultraviolet lithography machines needed to make the most advanced AI chips, so its statement that supply can't catch up to demand through 2028 signals that AI infrastructure shortages — and the capital spending they drive — will persist for years, not quarters.
+**What happened:** GenSight Biologics and the Quinze-Vingts National Hospital in Paris published multi-year results from the Phase 1/2a PIONEER trial of GS030 in the October 8, 2026 issue of the *New England Journal of Medicine*. GS030 pairs an eye injection carrying a gene for the light-sensitive protein ChrimsonR — which reprograms surviving retinal ganglion cells to respond to light, bypassing the photoreceptors destroyed by retinitis pigmentosa — with goggles that convert a camera image into pulses of amber light those reprogrammed cells can detect. Patients with advanced retinitis pigmentosa and little or no usable vision were followed for up to several years. The therapy was safe and well tolerated at every dose tested, with no treatment-related serious adverse events leading to discontinuation, and several participants showed exploratory improvements in light sensitivity and in tasks like detecting, locating, and judging the orientation of objects.
+**Why it matters:** Retinitis pigmentosa has no treatment that restores vision once photoreceptors are lost. Years of favorable safety data published in a top journal, alongside functional signals, is a meaningful step toward testing whether this approach can give some blind patients usable, if crude, vision.
 
-**Sales angle:** This is useful, vendor-neutral evidence for conversations with prospects in hardware-adjacent industries about why AI-related equipment and cloud compute costs may stay elevated — it isn't one company's pricing decision, it's a multi-year supply constraint.
-**SDR takeaway:** A single company controlling a critical step in a supply chain that every major chipmaker depends on is a textbook example of a supply-chain "chokepoint" — worth recognizing when prospects describe their own concentration risk with a key supplier.
-**Conversation starter:** "The company that makes the machines behind the most advanced AI chips just said it can't keep up with demand through 2028 — has that kind of multi-year supply constraint shown up anywhere in your own planning?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — a Phase 1/2a trial in a small number of patients with advanced retinitis pigmentosa, followed for multiple years; the trial was designed primarily to test safety.
+**How promising:** Years of favorable safety data combined with functional gains in several patients is an encouraging combination, but the trial wasn't statistically powered to prove efficacy, and the restored vision is coarse light, motion, and shape detection rather than detailed sight.
+**What we don't know yet:** How consistently patients respond, how much real-world benefit (mobility, object recognition) it provides, and whether a larger, controlled efficacy trial will confirm the signal.
+**Availability:** Experimental only — not approved; the company says it is now working toward an efficacy-focused trial.
 
-**Source:** ASML Holding N.V., SEC Form 6-K, October 14, 2026 — https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm
-
----
-
-## Intuit Rolls Out "Intuit Intelligence" AI Agents for QuickBooks in Canada, UK, and Australia
-
-**What happened:** On October 14, Intuit launched "Intuit Intelligence" for QuickBooks and Intuit Accountant Suite in Canada, part of a wider rollout that also covers the UK and Australia. Unlike a chatbot that only answers questions, the tools are built to complete tasks directly — drafting invoices from uploaded documents, chasing overdue payments, and flagging anomalies — while leaving final approval to the user. Intuit says early users save about 13 hours a month, though it also says the AI can make mistakes and still needs human review.
-**Why it matters:** QuickBooks is one of NetSuite's biggest competitors at the small-business end of the market, and this is Intuit pushing the same "agents that finish tasks, not just assist" positioning that Workday and Salesforce have also leaned into this month — a sign the whole ERP/accounting software category is converging on agentic AI as its core pitch.
-
-**Sales angle:** A prospect currently on QuickBooks who's outgrowing it may be hearing a lot of AI-agent marketing from Intuit right now — a good opening to ask what's actually changed in their day-to-day work, since vendor AI claims, including NetSuite's own, are easiest to evaluate against real usage rather than demos.
-**SDR takeaway:** Intuit's own claimed time savings (about 13 hours a month) is a vendor-reported figure without disclosed methodology — a reminder that marketing stats like this are a conversation starter, not proof, until a prospect describes their own experience.
-**Conversation starter:** "QuickBooks just rolled out a new set of AI agents that draft invoices and chase late payments automatically — if you're still on QuickBooks, is that the kind of thing that would actually save your team time, or does it not go far enough for where your business is now?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** IT Brief UK, October 14, 2026 — https://itbrief.co.uk/story/intuit-rolls-out-ai-tools-for-quickbooks-in-canada
+**Source:** News-Medical.net, October 12, 2026 — https://www.news-medical.net/news/20261012/Gene-therapy-and-special-goggles-help-some-blind-adults-detect-objects-again.aspx
 
 ---
 
-## Bank of America Beats on Revenue, but Profit Falls on a $1.2 Billion Settlement Charge
+## Semaglutide Slowed Several "Biological Age" Clocks in a Randomized HIV Trial
 
-**What happened:** Bank of America reported third-quarter 2026 results on October 14: revenue of about $30 billion, up 3% year-over-year, but net income fell to $6.9 billion ($0.91 per diluted share) from $8.3 billion a year earlier, reflecting a $1.2 billion charge tied to a regulatory settlement. Adjusted earnings, which exclude that charge, were $8.1 billion ($1.08 per share). Net interest income rose 8% to $16.4 billion, and the bank's net charge-off ratio improved to 0.44%.
-**Why it matters:** Big-bank earnings are a widely watched read on the broader economy's health, and Bank of America's results show underlying lending and interest income staying strong even as a one-time legal charge drags down the headline profit number — a distinction worth knowing if a prospect cites "bank earnings" in either direction.
+**What happened:** Researchers led by Michael Corley at UC San Diego ran a post-hoc analysis of a 32-week, randomized, double-blind, placebo-controlled Phase 2b trial of semaglutide (the GLP-1 drug sold as Ozempic/Wegovy) in 108 people with HIV-associated lipohypertrophy (abnormal fat accumulation), with 84 participants providing blood for epigenetic analysis. Compared with placebo, semaglutide slowed several DNA-methylation "aging clock" measures — including roughly a 9% slower pace of aging on the DunedinPACE clock and a multi-year reduction on the PhenoAge clock — and the effects held up after adjusting for weight change and inflammation markers. The analysis was published in *Nature Communications* in 2026. Corley cautioned: "We are not saying that semaglutide reverses aging or makes people younger," only that it may slow some biological processes associated with aging.
+**Why it matters:** GLP-1 drugs are already used by millions for diabetes and weight loss. If they also measurably slow biological-aging markers, that reframes them as a potential longevity intervention, not just a metabolic one — but that's a big "if" resting on this evidence alone.
 
-**Sales angle:** Prospects in financial services, or any business whose customers depend on consumer and commercial lending, may see this as a sign that core lending demand remains solid even when a single quarter's headline numbers look weaker because of a one-off charge.
-**SDR takeaway:** "Net charge-off ratio" measures the share of loans a bank has written off as unlikely to be repaid — a lower number signals improving loan quality, and it's a common reference point in conversations with finance teams at lending-dependent businesses.
-**Conversation starter:** "Bank of America's headline profit was down this quarter, but that was mostly a one-time legal charge — their actual lending business looked strong. Has anything like a one-time charge skewed how your own numbers read this quarter?"
-**Signal:** 👀 Watch This
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — a randomized, placebo-controlled trial, though this is a secondary/exploratory analysis in a specific population (people with HIV) with a modest sample (84 with paired blood samples).
+**How promising:** The randomized design and a consistent effect across multiple independent epigenetic clocks make this more credible than a single-measure finding, but epigenetic clocks are themselves imperfect proxies for aging, and the result hasn't been linked to any hard clinical outcome or shown in people without HIV.
+**What we don't know yet:** Whether the epigenetic changes translate into fewer age-related diseases or longer life, whether they persist after stopping the drug, and whether they'd appear in the general population.
+**Availability:** Clinically available — semaglutide is FDA-approved for diabetes and weight management, but using it specifically to slow aging is not an approved use and remains unproven.
 
-**Source:** Bank of America Newsroom, October 14, 2026 — https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/10/bank-of-america-reports-third-quarter-2026-financial-results.html
-
----
-
-## Most B2B Buyers Now Use AI to Research Vendors — But Almost All of Them Double-Check It
-
-**What happened:** TrustRadius's 2026 B2B Buying Disconnect report, based on a January 2026 survey of 1,862 technology buyers and 444 vendors and released July 15, found that 63% of buyers used AI tools during their most recent purchase journey. Of those, 94% said they fact-check AI's answers at least some of the time. Product demos, free trials, and user reviews remain the most influential resources in the buying process; use of analyst reports has fallen to just 13% of buyers, down 63% since 2022.
-**Why it matters:** It's concrete evidence that AI chatbots have become a normal part of how buyers research vendors like NetSuite, but — contrary to a lot of AI-anxiety headlines — buyers are explicitly not taking AI's word at face value, which means the fundamentals of enterprise sales, like demos, trials, and real customer proof, still decide deals.
-
-**Sales angle:** If a prospect mentions researching NetSuite or a competitor using ChatGPT or another AI tool, that's now the norm rather than a red flag — the real opening is making sure your own demos, trial experience, and customer references are strong enough to survive the fact-checking buyers are doing afterward.
-**SDR takeaway:** Don't assume AI research replaces a demo or trial — the data says buyers increasingly start with AI but still verify through hands-on product experience before deciding, so the traditional sales motion still matters most at the end of the funnel.
-**Conversation starter:** "A lot of software buyers are starting their research with AI tools now, but most still double-check what it tells them with a real demo — has that been true for how your team's been evaluating new systems?"
-**Signal:** 👀 Watch This
-
-**Source:** TrustRadius (via HG Insights), July 15, 2026 — https://hginsights.com/news/trustradius-2026-b2b-buying-disconnect-report-reveals-ai-has-changed-how-buyers-research-but-not-what-they-trust/
+**Source:** PMC (Corley et al., *Nature Communications*, 2026) — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12338914/
 
 ---
 
-*1,985 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Some Gut Bacteria "Species" Are Actually Several Hidden Lineages — And Some Are Tied to Aging and Disease
+
+**What happened:** Researchers at the University of Vienna's Centre for Microbiology and Environmental Systems Science, led by Xiaoqian Annie Yu and Martin Polz, used a genomics-first "reverse ecology" approach — starting from genetic sequence data rather than species labels — to analyze thousands of gut bacterial isolates and metagenomic samples from people of different ages, countries, and health states. They found that many bacterial groups classified as a single species actually contain several genetically distinct, ecologically specialized lineages shaped by competition inside the gut. Some of these lineages were associated with older age, inflammatory bowel disease, colorectal cancer, or type 2 diabetes, and some competing lineages had spread between people across continents within just a few decades — a pattern previously documented mainly in disease-causing pathogens. The study, "Genome-wide sweeps create ecological units in the human gut microbiome," was published in *Nature* in 2026.
+**Why it matters:** Microbiome research usually treats a bacterial species as a single unit, which may hide biologically important differences. If specific hidden lineages genuinely track with aging and disease, they could become more precise biomarkers or targets than today's broad, species-level microbiome measurements.
+
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — a large-scale analysis of human gut bacterial genomes and metagenomic data across many cohorts, but it is observational and associational, not an interventional study.
+**How promising:** The scale and genomic rigor of the analysis make the existence of these hidden lineages credible, and the cross-continental spread finding is a genuinely new observation, but the links to aging and specific diseases are correlations in existing data, not evidence that the lineages cause those conditions.
+**What we don't know yet:** Which genes or functions distinguish the disease-associated lineages, whether they play any causal role, and whether they could eventually serve as diagnostic markers or treatment targets.
+**Availability:** Not a treatment or clinical test — basic research only.
+
+**Source:** University of Vienna, May 6, 2026 — https://www.univie.ac.at/en/news/press-room/press-releases/detail/evolutionary-processes-shape-bacterial-populations-in-the-human-gut
+
+---
+
+## A Topical Drug That Kills "Zombie" Skin Cells Nearly Halved Precancerous Lesions in Early Testing
+
+**What happened:** Rubedo Life Sciences reported preliminary results from an open-label Phase 1b/2a U.S. trial of RLS-1496, a topical cream designed to selectively eliminate senescent ("zombie") skin cells that accumulate with age and sun damage. The drug modulates GPX4, an enzyme that normally protects cells from oxidative damage, making senescent cells more vulnerable to ferroptosis (an iron-dependent form of cell death) while aiming to spare healthy cells — a strategy the company calls "Adaptive SenoTherapeutics." In adults with actinic keratosis (precancerous, sun-damaged skin patches) treated on the forearm, the first 18 of 24 evaluated patients showed a 46% reduction in lesion count at four weeks, versus 11% in an untreated comparison area, with minimal irritation reported. The company presented the data at the RBC Capital Markets healthcare conference on May 19, 2026; a separate, earlier Phase 1 trial of the same drug in psoriasis, atopic dermatitis, and skin aging had already met its primary safety endpoint.
+**Why it matters:** Actinic keratosis affects millions of older adults and can progress to skin cancer. Current treatments (freezing, topical chemotherapy) often cause significant irritation, so a well-tolerated drug that clears the underlying senescent cells — rather than just removing visible lesions — would be a genuinely different approach, and a real-world test of whether targeting cellular senescence can treat a common condition, not just a longevity concept.
+
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — two small, early-stage (Phase 1 and Phase 1b/2a) open-label or single-center trials; not yet a randomized, double-blind, placebo-controlled study.
+**How promising:** The lesion-reduction effect size is large for an early trial and pairs with a plausible, well-characterized mechanism, but the results are company-reported, preliminary, and not yet peer-reviewed, and independent researchers caution that senescent cells also play some beneficial roles (such as wound healing), so broadly clearing them could carry unknown tradeoffs.
+**What we don't know yet:** Whether the effect holds up in a larger, placebo-controlled, peer-reviewed trial, how durable the lesion reduction is, and whether broadly clearing senescent cells causes longer-term side effects.
+**Availability:** Experimental only — an investigational drug, not approved or commercially available.
+
+**Source:** BioSpace (Rubedo Life Sciences), May 2026 — https://www.biospace.com/press-releases/rubedos-rls-1496-reduces-actinic-keratosis-pre-cancerous-skin-lesions-by-46-at-four-weeks-with-minimal-irritation-in-preliminary-results-of-phase-1b-2a-study
+
+---
+
+*1862 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
