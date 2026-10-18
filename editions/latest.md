@@ -1,93 +1,116 @@
-# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
-### Saturday, October 17, 2026
+# 🗞 Penny's Daily — Tech, Business & Sales Edition
+### Sunday, October 18, 2026
 
-*Compiled 7:08 AM ET. Covering developments from the last several weeks.*
+*Compiled 7:04 AM ET. Covering roughly the last two and a half weeks.*
 
 ---
 
 ## TL;DR
 
-- A study of nearly 200,000 people found that regular late-night eaters had roughly 20–30% higher rates of fatty liver disease and cirrhosis than people who didn't eat late.
-- A Phase 1/2a gene-therapy trial published in the New England Journal of Medicine showed an optogenetic treatment plus light-stimulating goggles was safe for years and let some blind retinitis pigmentosa patients detect objects again.
-- A randomized trial found that semaglutide slowed several DNA-methylation "biological age" clocks in people with HIV-associated fat accumulation, though the researchers caution this isn't proof the drug reverses aging.
-- University of Vienna researchers discovered that many gut bacterial "species" actually contain several genetically distinct hidden lineages, some of which are linked to aging, inflammatory bowel disease, colorectal cancer, and type 2 diabetes.
-- Rubedo Life Sciences reported that its topical senescent-cell-clearing drug candidate nearly halved precancerous skin lesions in an early, company-reported trial.
+- Gartner raised its 2026 global AI spending forecast to about $2.7 trillion (up 49.5% year-over-year), with 2027 spending projected near $3.6 trillion.
+- Morgan Stanley beat Q3 2026 estimates with $20.3 billion in net revenue and $3.03 per diluted share, up from $2.80 a year ago, on strong trading and wealth management results.
+- Workday announced it's acquiring identity-management startup C1.ai and partnering with Anthropic as it rebuilds its HR and finance products around AI agents.
+- A new ValueSelling Group survey found cold calls still outperform AI-written emails 47% to 8% among B2B sales leaders.
+- Adobe forecasts a record $275.1 billion U.S. online holiday shopping season this year, up 6.7% from 2025.
 
 ---
 
-## Late-Night Eating Is Linked to Sharply Higher Risk of Fatty Liver Disease and Cirrhosis
+## Gartner Raises 2026 Global AI Spending Forecast to $2.7 Trillion, Up 49.5%
 
-**What happened:** Researchers at Oregon Health & Science University and Massachusetts General Hospital, led by Robert Wilechansky, analyzed decades of dietary-timing data from nearly 200,000 participants across the Nurses' Health Study, Nurses' Health Study II, and the Health Professionals Follow-Up Study. People who regularly ate after dinner or close to bedtime had roughly 20–30% higher rates of metabolic dysfunction–associated steatotic liver disease (MASLD, formerly called NAFLD) and cirrhosis than people who didn't eat late, even after adjusting for total calorie intake and other factors. The findings were published in *Clinical Gastroenterology and Hepatology* and widely covered in mid-October 2026.
-**Why it matters:** MASLD affects roughly a third of adults and can progress silently to cirrhosis and liver failure. If meal timing independently raises that risk, it's a modifiable behavior doctors could flag now, not just a future drug target.
+**What happened:** On September 16, Gartner raised its forecast for worldwide AI spending to about $2.7 trillion in 2026 (up 49.5% from 2025) and roughly $3.6 trillion in 2027. It also raised its 2026 growth outlook for AI application-development platforms from 28% to 39%, citing AI infrastructure demand that's stayed strong despite rising memory-chip prices.
+**Why it matters:** Gartner's spending forecasts are one of the most widely cited independent benchmarks of enterprise AI investment, and an upward revision this large signals that AI buying is still accelerating rather than leveling off — which shapes how every enterprise software vendor, NetSuite's competitors included, pitches "AI" as a budget line item to CFOs and CIOs.
 
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — nearly 200,000 people across three long-running cohort studies with decades of follow-up, but purely observational.
-**How promising:** A large sample and a consistent association across three separate cohorts make the signal statistically convincing, and it fits known circadian-metabolism biology, but the diet data was self-reported and the design can't prove causation.
-**What we don't know yet:** Whether eating-timing itself drives the excess risk, independent of diet quality, total calories, sleep, and other confounds the study couldn't fully control for. OHSU's team is now recruiting for an interventional follow-up trial.
-**Availability:** Not a medical treatment — meal timing is a free behavior change, not a clinical intervention.
+**Sales angle:** When a prospect says their company is "being cautious on AI spend," this forecast is useful context that the broader market is moving the other way — a good opening to ask what's actually driving their caution rather than assuming it reflects the industry.
+**SDR takeaway:** Gartner splits AI spending into infrastructure (chips, servers, data centers), software, and services; infrastructure is still the largest category, but software and services are growing fastest — worth knowing which bucket a prospect's "AI budget" actually falls into.
+**Conversation starter:** "Gartner just said worldwide AI spending is on track to grow almost 50% this year — is that kind of growth showing up in your own company's budget conversations, or does it feel disconnected from what you're seeing day to day?"
+**Signal:** 💡 Worth Knowing
 
-**Source:** News-Medical.net (OHSU/Massachusetts General), October 9, 2026 — https://www.news-medical.net/news/20261009/Late-night-snacking-may-affect-liver-health.aspx
-
----
-
-## Gene Therapy and Light-Stimulating Goggles Let Blind Patients With Retinitis Pigmentosa Detect Objects Again
-
-**What happened:** GenSight Biologics and the Quinze-Vingts National Hospital in Paris published multi-year results from the Phase 1/2a PIONEER trial of GS030 in the October 8, 2026 issue of the *New England Journal of Medicine*. GS030 pairs an eye injection carrying a gene for the light-sensitive protein ChrimsonR — which reprograms surviving retinal ganglion cells to respond to light, bypassing the photoreceptors destroyed by retinitis pigmentosa — with goggles that convert a camera image into pulses of amber light those reprogrammed cells can detect. Patients with advanced retinitis pigmentosa and little or no usable vision were followed for up to several years. The therapy was safe and well tolerated at every dose tested, with no treatment-related serious adverse events leading to discontinuation, and several participants showed exploratory improvements in light sensitivity and in tasks like detecting, locating, and judging the orientation of objects.
-**Why it matters:** Retinitis pigmentosa has no treatment that restores vision once photoreceptors are lost. Years of favorable safety data published in a top journal, alongside functional signals, is a meaningful step toward testing whether this approach can give some blind patients usable, if crude, vision.
-
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — a Phase 1/2a trial in a small number of patients with advanced retinitis pigmentosa, followed for multiple years; the trial was designed primarily to test safety.
-**How promising:** Years of favorable safety data combined with functional gains in several patients is an encouraging combination, but the trial wasn't statistically powered to prove efficacy, and the restored vision is coarse light, motion, and shape detection rather than detailed sight.
-**What we don't know yet:** How consistently patients respond, how much real-world benefit (mobility, object recognition) it provides, and whether a larger, controlled efficacy trial will confirm the signal.
-**Availability:** Experimental only — not approved; the company says it is now working toward an efficacy-focused trial.
-
-**Source:** News-Medical.net, October 12, 2026 — https://www.news-medical.net/news/20261012/Gene-therapy-and-special-goggles-help-some-blind-adults-detect-objects-again.aspx
+**Source:** Gartner, September 16, 2026 — https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026
 
 ---
 
-## Semaglutide Slowed Several "Biological Age" Clocks in a Randomized HIV Trial
+## Morgan Stanley Beats Q3 2026 Estimates on Strong Trading and Wealth Management
 
-**What happened:** Researchers led by Michael Corley at UC San Diego ran a post-hoc analysis of a 32-week, randomized, double-blind, placebo-controlled Phase 2b trial of semaglutide (the GLP-1 drug sold as Ozempic/Wegovy) in 108 people with HIV-associated lipohypertrophy (abnormal fat accumulation), with 84 participants providing blood for epigenetic analysis. Compared with placebo, semaglutide slowed several DNA-methylation "aging clock" measures — including roughly a 9% slower pace of aging on the DunedinPACE clock and a multi-year reduction on the PhenoAge clock — and the effects held up after adjusting for weight change and inflammation markers. The analysis was published in *Nature Communications* in 2026. Corley cautioned: "We are not saying that semaglutide reverses aging or makes people younger," only that it may slow some biological processes associated with aging.
-**Why it matters:** GLP-1 drugs are already used by millions for diabetes and weight loss. If they also measurably slow biological-aging markers, that reframes them as a potential longevity intervention, not just a metabolic one — but that's a big "if" resting on this evidence alone.
+**What happened:** Morgan Stanley reported third-quarter 2026 results on October 14: net revenue of $20.3 billion, up from $18.2 billion a year earlier, and net income of $4.9 billion, or $3.03 per diluted share, versus $2.80 a year ago. That topped the $2.93-per-share consensus analysts had expected.
+**Why it matters:** Morgan Stanley is among the first major banks to report each quarter, and a beat driven by trading and wealth management — not cost-cutting — is read as a sign that corporate deal activity and capital markets stayed healthy through the summer, relevant context for any prospect whose business touches financing, M&A, or wealth clients.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — a randomized, placebo-controlled trial, though this is a secondary/exploratory analysis in a specific population (people with HIV) with a modest sample (84 with paired blood samples).
-**How promising:** The randomized design and a consistent effect across multiple independent epigenetic clocks make this more credible than a single-measure finding, but epigenetic clocks are themselves imperfect proxies for aging, and the result hasn't been linked to any hard clinical outcome or shown in people without HIV.
-**What we don't know yet:** Whether the epigenetic changes translate into fewer age-related diseases or longer life, whether they persist after stopping the drug, and whether they'd appear in the general population.
-**Availability:** Clinically available — semaglutide is FDA-approved for diabetes and weight management, but using it specifically to slow aging is not an approved use and remains unproven.
+**Sales angle:** If a prospect in financial services or a capital-markets-adjacent industry mentions a cautious outlook, Morgan Stanley's results are a useful data point that institutional deal flow and trading activity were strong last quarter, even if any one company's numbers look different.
+**SDR takeaway:** "Net revenue" is total income before most expenses; "net income" is what's left after costs, taxes, and charges — the gap between the two tells you how much of a swing in profit came from one-time items versus the core business.
+**Conversation starter:** "Morgan Stanley just posted a strong beat on trading and wealth management — has deal activity or capital-markets demand picked up in your corner of the business lately?"
+**Signal:** 👀 Watch This
 
-**Source:** PMC (Corley et al., *Nature Communications*, 2026) — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12338914/
-
----
-
-## Some Gut Bacteria "Species" Are Actually Several Hidden Lineages — And Some Are Tied to Aging and Disease
-
-**What happened:** Researchers at the University of Vienna's Centre for Microbiology and Environmental Systems Science, led by Xiaoqian Annie Yu and Martin Polz, used a genomics-first "reverse ecology" approach — starting from genetic sequence data rather than species labels — to analyze thousands of gut bacterial isolates and metagenomic samples from people of different ages, countries, and health states. They found that many bacterial groups classified as a single species actually contain several genetically distinct, ecologically specialized lineages shaped by competition inside the gut. Some of these lineages were associated with older age, inflammatory bowel disease, colorectal cancer, or type 2 diabetes, and some competing lineages had spread between people across continents within just a few decades — a pattern previously documented mainly in disease-causing pathogens. The study, "Genome-wide sweeps create ecological units in the human gut microbiome," was published in *Nature* in 2026.
-**Why it matters:** Microbiome research usually treats a bacterial species as a single unit, which may hide biologically important differences. If specific hidden lineages genuinely track with aging and disease, they could become more precise biomarkers or targets than today's broad, species-level microbiome measurements.
-
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — a large-scale analysis of human gut bacterial genomes and metagenomic data across many cohorts, but it is observational and associational, not an interventional study.
-**How promising:** The scale and genomic rigor of the analysis make the existence of these hidden lineages credible, and the cross-continental spread finding is a genuinely new observation, but the links to aging and specific diseases are correlations in existing data, not evidence that the lineages cause those conditions.
-**What we don't know yet:** Which genes or functions distinguish the disease-associated lineages, whether they play any causal role, and whether they could eventually serve as diagnostic markers or treatment targets.
-**Availability:** Not a treatment or clinical test — basic research only.
-
-**Source:** University of Vienna, May 6, 2026 — https://www.univie.ac.at/en/news/press-room/press-releases/detail/evolutionary-processes-shape-bacterial-populations-in-the-human-gut
+**Source:** Morgan Stanley, October 14, 2026 — https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/3q2026.pdf
 
 ---
 
-## A Topical Drug That Kills "Zombie" Skin Cells Nearly Halved Precancerous Lesions in Early Testing
+## Workday Goes "Agentic," Acquires Identity Startup C1.ai, Partners With Anthropic
 
-**What happened:** Rubedo Life Sciences reported preliminary results from an open-label Phase 1b/2a U.S. trial of RLS-1496, a topical cream designed to selectively eliminate senescent ("zombie") skin cells that accumulate with age and sun damage. The drug modulates GPX4, an enzyme that normally protects cells from oxidative damage, making senescent cells more vulnerable to ferroptosis (an iron-dependent form of cell death) while aiming to spare healthy cells — a strategy the company calls "Adaptive SenoTherapeutics." In adults with actinic keratosis (precancerous, sun-damaged skin patches) treated on the forearm, the first 18 of 24 evaluated patients showed a 46% reduction in lesion count at four weeks, versus 11% in an untreated comparison area, with minimal irritation reported. The company presented the data at the RBC Capital Markets healthcare conference on May 19, 2026; a separate, earlier Phase 1 trial of the same drug in psoriasis, atopic dermatitis, and skin aging had already met its primary safety endpoint.
-**Why it matters:** Actinic keratosis affects millions of older adults and can progress to skin cancer. Current treatments (freezing, topical chemotherapy) often cause significant irritation, so a well-tolerated drug that clears the underlying senescent cells — rather than just removing visible lesions — would be a genuinely different approach, and a real-world test of whether targeting cellular senescence can treat a common condition, not just a longevity concept.
+**What happened:** At its Workday Rising conference (October 12–15, Las Vegas), Workday said it's rebuilding its products around AI agents rather than a traditional screen-based interface, agreed to acquire identity-management startup C1.ai — which manages access for both human employees and AI agents — and announced a partnership with Anthropic so Claude and Workday's Sana AI assistant can hand off tasks to each other using MCP (Model Context Protocol). The C1.ai deal should close by late January 2027; terms weren't disclosed. The moves build on Workday's 2025 acquisition of Sana, now positioned as a new AI-powered front door for HR and finance work.
+**Why it matters:** Workday competes with NetSuite and Oracle for mid-market and enterprise finance and HR deals, and this is Workday committing its core pitch to "agentic" AI that can act on a company's behalf, not just answer questions — intensifying the same agent-vs-agent positioning race already underway at Salesforce, Intuit, and Oracle.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — two small, early-stage (Phase 1 and Phase 1b/2a) open-label or single-center trials; not yet a randomized, double-blind, placebo-controlled study.
-**How promising:** The lesion-reduction effect size is large for an early trial and pairs with a plausible, well-characterized mechanism, but the results are company-reported, preliminary, and not yet peer-reviewed, and independent researchers caution that senescent cells also play some beneficial roles (such as wound healing), so broadly clearing them could carry unknown tradeoffs.
-**What we don't know yet:** Whether the effect holds up in a larger, placebo-controlled, peer-reviewed trial, how durable the lesion reduction is, and whether broadly clearing senescent cells causes longer-term side effects.
-**Availability:** Experimental only — an investigational drug, not approved or commercially available.
+**Sales angle:** A prospect currently on Workday who's hearing heavy "agentic AI" messaging from them is a good opening to ask what's actually shipped and in use today versus what's still roadmap, since every major HR/finance vendor is making similar claims right now.
+**SDR takeaway:** MCP (Model Context Protocol) is an emerging standard that lets different companies' AI tools exchange tasks and data with each other — expect it to come up more as vendors talk about AI agents working across systems.
+**Conversation starter:** "Workday just said it's rebuilding itself around AI agents that can act on a company's behalf, not just answer questions — if you're using Workday today, has anything like that actually reached your team, or is it still mostly roadmap talk?"
+**Signal:** 💡 Worth Knowing
 
-**Source:** BioSpace (Rubedo Life Sciences), May 2026 — https://www.biospace.com/press-releases/rubedos-rls-1496-reduces-actinic-keratosis-pre-cancerous-skin-lesions-by-46-at-four-weeks-with-minimal-irritation-in-preliminary-results-of-phase-1b-2a-study
+**Source:** IT Daily, October 13, 2026 — https://itdaily.com/news/cloud/workday-goes-headless-and-acquires-c1-ai/
 
 ---
 
-*1862 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Cold Calls Still Beat AI-Written Emails 6-to-1, New ValueSelling Study Finds
+
+**What happened:** A September 2026 survey from ValueSelling Group found that among B2B sales leaders, referrals were rated the most effective prospecting method, with cold calls second at 47% — compared with just 8% for AI-written personalized emails. The same survey found 46% of sales leaders say reps give up on prospects too quickly, 40% cite difficulty handling objections, and 39% say reps are simply afraid to pick up the phone.
+**Why it matters:** It's a direct, current data point against the assumption that AI tools have replaced old-school prospecting — human-led outreach, especially the phone call, still outperforms AI-generated alternatives in sales leaders' own rankings, even as AI tool adoption keeps climbing elsewhere in the sales stack.
+
+**Sales angle:** This is a useful reminder for your own prospecting mix: AI tools are good for research, list-building, and drafting, but the data says they're a poor substitute for a referral or a real phone conversation when it comes to actually landing a response.
+**SDR takeaway:** "Objection handling" is responding to a prospect's stated reason for not moving forward (price, timing, no perceived need) in a way that keeps the conversation open — the survey's finding that 40% of leaders see this as a weak spot is worth remembering as a coaching area.
+**Conversation starter:** "There's new research out saying cold calls still beat AI-written emails by about 6 to 1 for getting a response — does that match what you're seeing, or has your team moved further toward AI-driven outreach?"
+**Signal:** 🔥 Must Know
+
+**Source:** Demand Gen Report (ValueSelling Group), September 2026 — https://www.demandgenreport.com/?p=54360
+
+---
+
+## Adobe Forecasts a Record $275 Billion U.S. Online Holiday Season
+
+**What happened:** Adobe's 2026 holiday forecast projects a record $275.1 billion in U.S. online spending from November 1 through December 31, up 6.7% from last year, with Cyber Week (Thanksgiving through Cyber Monday) alone expected to hit $47.5 billion, up 7.4%. Adobe expects total online spending for October through December to reach $370.9 billion, up 7%, with the strongest category growth in grocery, toys, cosmetics, and furniture.
+**Why it matters:** Adobe's holiday forecast, built from its own e-commerce analytics across trillions of website visits, is one of the most widely cited reads on consumer demand heading into the fourth quarter — a strong number is good news for any retail, e-commerce, or consumer-goods prospect currently finalizing inventory, staffing, or systems decisions before the season starts.
+
+**Sales angle:** For a retail or e-commerce prospect, a record holiday forecast is a good reason to ask whether their current systems — inventory, order management, financial close — can handle a bigger-than-last-year peak without manual workarounds.
+**SDR takeaway:** "Cyber Week" refers to the five-day stretch from Thanksgiving through Cyber Monday, the single biggest online shopping period of the year — a term that comes up often in retail and e-commerce conversations.
+**Conversation starter:** "Adobe's projecting the biggest online holiday season ever this year — does your team feel confident your systems can handle that kind of peak volume, or is that something you're still working through?"
+**Signal:** 💡 Worth Knowing
+
+**Source:** Adobe Digital Insights, October 2026 — https://business.adobe.com/assets/resources/holiday-shopping-report/2026/pdf/2026-adobe-digital-insights-holiday-forecast.pdf
+
+---
+
+## AI Still Soaking Up Venture Capital Even as Overall Deal Value Drops, PitchBook Finds
+
+**What happened:** The PitchBook-NVCA Venture Monitor for Q3 2026, released October 8, found U.S. venture deal value hit a record $515.8 billion for the first nine months of 2026 — about 44% above the previous full-year record — but the total is skewed by a handful of giant AI rounds: OpenAI and Anthropic alone raised more than $200 billion combined in the first half. Q3 alone saw deal value fall roughly 40% from Q2, to $98.4 billion, as megadeal activity cooled and the exits (IPOs, acquisitions) needed to return money to investors kept lagging.
+**Why it matters:** It's a sign the venture market is increasingly bifurcated — a small number of frontier AI labs are absorbing most of the capital, while everyone else, including many SaaS and mid-market startups that could become NetSuite prospects, is fundraising in a much tighter market than the eye-popping headline totals suggest.
+
+**Sales angle:** A startup prospect who isn't a frontier AI lab may be facing a tougher fundraising environment than "record VC funding" headlines suggest — worth asking directly about their runway and growth plans rather than assuming they have easy access to capital.
+**SDR takeaway:** "Deal value" counts the dollars invested, not the number of deals — a market can set a dollar record while most companies still struggle to raise, because a handful of giant rounds skew the total.
+**Conversation starter:** "A lot of this year's record VC funding numbers are really just OpenAI and Anthropic — has the broader fundraising environment felt tighter for a company like yours?"
+**Signal:** 👀 Watch This
+
+**Source:** SiliconANGLE, October 8, 2026 — https://siliconangle.com/?p=849755
+
+---
+
+## Oracle Health and Saudi Arabia's King Faisal Hospital Plan an AI-Driven Healthcare Data Partnership
+
+**What happened:** On October 1, Oracle Health and King Faisal Specialist Hospital & Research Centre (KFSH) in Saudi Arabia signed a non-binding MOU to explore a connected healthcare ecosystem linking clinical, genomic, and research data, using Oracle's cloud, data, and AI tools. KFSH CEO Dr. Majid Al Fayyadh said the goal is better clinician insights and faster treatment discovery, tying the effort to Saudi Arabia's Vision 2030 plan.
+**Why it matters:** It's a reminder that Oracle's AI ambitions reach well beyond NetSuite and cloud infrastructure into vertical-specific data platforms like Oracle Health (formerly Cerner) — a sign of how NetSuite's parent company is positioning AI as a cross-industry growth engine, not just a cloud-infrastructure story.
+
+**Sales angle:** If a prospect brings up Oracle's broader AI push as a reason to be cautious about vendor focus, it's useful to distinguish NetSuite's own ERP-specific AI roadmap from headline Oracle AI news in unrelated industries like healthcare.
+**SDR takeaway:** A "non-binding MOU" signals intent to explore a partnership, not a signed contract — a distinction worth remembering when evaluating how real an "AI partnership" announcement actually is.
+**Conversation starter:** "Oracle's been expanding its AI partnerships across a lot of industries lately — has that broader AI push from Oracle factored into how your team thinks about NetSuite specifically, or do you see them as pretty separate?"
+**Signal:** 👀 Watch This
+
+**Source:** Oracle Newsroom, October 1, 2026 — https://www.oracle.com/news/announcement/oracle-and-king-faisal-specialist-hospital-research-centre-to-advance-healthcare-innovation-2026-10-01/
+
+---
+
+*1,999 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
