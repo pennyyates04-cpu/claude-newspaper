@@ -1,116 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Sunday, October 18, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Monday, October 19, 2026
 
-*Compiled 7:04 AM ET. Covering roughly the last two and a half weeks.*
+*Compiled 7:07 AM ET. Covering roughly the last week.*
 
 ---
 
 ## TL;DR
 
-- Gartner raised its 2026 global AI spending forecast to about $2.7 trillion (up 49.5% year-over-year), with 2027 spending projected near $3.6 trillion.
-- Morgan Stanley beat Q3 2026 estimates with $20.3 billion in net revenue and $3.03 per diluted share, up from $2.80 a year ago, on strong trading and wealth management results.
-- Workday announced it's acquiring identity-management startup C1.ai and partnering with Anthropic as it rebuilds its HR and finance products around AI agents.
-- A new ValueSelling Group survey found cold calls still outperform AI-written emails 47% to 8% among B2B sales leaders.
-- Adobe forecasts a record $275.1 billion U.S. online holiday shopping season this year, up 6.7% from 2025.
+- Harvard/Wyss Institute researchers used a gene-expression screen to find a single gene, SRSF1, that reversed signs of cellular aging in human skin cells and slowed frailty and modestly extended lifespan in mice, without erasing the cells' identity.
+- Mass General Brigham and Broad Institute scientists identified a brain enzyme, Pla2g2f, that is elevated in cognitively "resilient" older people and protects memory and brain-cell health in aging mice when boosted.
+- A new randomized trial found that a pasteurized gut bacterium, Akkermansia muciniphila, roughly cut in half the weight regained after a low-calorie diet, though the study's funding ties to the supplement's maker warrant some caution.
+- The injury-recovery peptide BPC-157 has shed one restrictive FDA label but remains an unapproved drug with almost no human clinical-trial evidence behind the claims routinely made about it.
+- Startup Lume Health unveiled a wristband sensor that claims to continuously track stress and sleep hormones through sweat — a genuinely new wearable category that still has no independent accuracy data behind it.
 
 ---
 
-## Gartner Raises 2026 Global AI Spending Forecast to $2.7 Trillion, Up 49.5%
+## A Single Gene Reversed Signs of Cellular Aging — Without Erasing Cell Identity
 
-**What happened:** On September 16, Gartner raised its forecast for worldwide AI spending to about $2.7 trillion in 2026 (up 49.5% from 2025) and roughly $3.6 trillion in 2027. It also raised its 2026 growth outlook for AI application-development platforms from 28% to 39%, citing AI infrastructure demand that's stayed strong despite rising memory-chip prices.
-**Why it matters:** Gartner's spending forecasts are one of the most widely cited independent benchmarks of enterprise AI investment, and an upward revision this large signals that AI buying is still accelerating rather than leveling off — which shapes how every enterprise software vendor, NetSuite's competitors included, pitches "AI" as a budget line item to CFOs and CIOs.
+**What happened:** Researchers at Harvard's Wyss Institute, led by genomics pioneer George Church, built a computational model that predicts a cell's "transcriptomic age" from its gene-activity pattern, then screened for genes that could push an aged pattern back toward a youthful one. The top hit was SRSF1, a gene that processes and splices RNA. In human skin cells, boosting SRSF1 reduced markers of cellular senescence, internal stress, and inflammation while the cells kept functioning as skin cells — unlike older "whole genome" reprogramming methods, which can erase a cell's identity and raise cancer risk. In aged mice, switching on SRSF1 cut the progression of physical frailty by 44% and was associated with a 14% longer median lifespan, in small groups of about 9-10 mice per group. The work was published in *Nature Aging* on October 14, 2026.
+**Why it matters:** Partial cellular reprogramming is one of the most closely watched strategies in longevity science, and a single, identity-preserving gene target would be a simpler and potentially safer alternative to multi-gene reprogramming cocktails that are already in early human trials.
 
-**Sales angle:** When a prospect says their company is "being cautious on AI spend," this forecast is useful context that the broader market is moving the other way — a good opening to ask what's actually driving their caution rather than assuming it reflects the industry.
-**SDR takeaway:** Gartner splits AI spending into infrastructure (chips, servers, data centers), software, and services; infrastructure is still the largest category, but software and services are growing fastest — worth knowing which bucket a prospect's "AI budget" actually falls into.
-**Conversation starter:** "Gartner just said worldwide AI spending is on track to grow almost 50% this year — is that kind of growth showing up in your own company's budget conversations, or does it feel disconnected from what you're seeing day to day?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** No — only human cells in a lab dish; the frailty and lifespan results are from mice only
+**How promising:** Notable because it sidesteps a major safety concern (loss of cell identity) that dogs other reprogramming approaches, but single-gene lifespan claims from small mouse cohorts frequently don't replicate at larger scale or translate to humans
+**What we don't know yet:** Whether raising SRSF1 is safe over a lifetime in a living mammal (no long-term cancer surveillance data were reported), whether the lifespan effect holds up in larger mouse studies, and whether it does anything meaningful in the much more complex context of a human body
+**Availability:** Purely experimental — no human trials exist
 
-**Source:** Gartner, September 16, 2026 — https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026
-
----
-
-## Morgan Stanley Beats Q3 2026 Estimates on Strong Trading and Wealth Management
-
-**What happened:** Morgan Stanley reported third-quarter 2026 results on October 14: net revenue of $20.3 billion, up from $18.2 billion a year earlier, and net income of $4.9 billion, or $3.03 per diluted share, versus $2.80 a year ago. That topped the $2.93-per-share consensus analysts had expected.
-**Why it matters:** Morgan Stanley is among the first major banks to report each quarter, and a beat driven by trading and wealth management — not cost-cutting — is read as a sign that corporate deal activity and capital markets stayed healthy through the summer, relevant context for any prospect whose business touches financing, M&A, or wealth clients.
-
-**Sales angle:** If a prospect in financial services or a capital-markets-adjacent industry mentions a cautious outlook, Morgan Stanley's results are a useful data point that institutional deal flow and trading activity were strong last quarter, even if any one company's numbers look different.
-**SDR takeaway:** "Net revenue" is total income before most expenses; "net income" is what's left after costs, taxes, and charges — the gap between the two tells you how much of a swing in profit came from one-time items versus the core business.
-**Conversation starter:** "Morgan Stanley just posted a strong beat on trading and wealth management — has deal activity or capital-markets demand picked up in your corner of the business lately?"
-**Signal:** 👀 Watch This
-
-**Source:** Morgan Stanley, October 14, 2026 — https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/3q2026.pdf
+**Source:** Medical Xpress (Wyss Institute at Harvard), October 14, 2026 — https://medicalxpress.com/news/2026-10-reversing-age-reprogramming-gene-networks.html
 
 ---
 
-## Workday Goes "Agentic," Acquires Identity Startup C1.ai, Partners With Anthropic
+## A Brain Enzyme Found in Cognitively "Resilient" Seniors Protects Memory in Aging Mice
 
-**What happened:** At its Workday Rising conference (October 12–15, Las Vegas), Workday said it's rebuilding its products around AI agents rather than a traditional screen-based interface, agreed to acquire identity-management startup C1.ai — which manages access for both human employees and AI agents — and announced a partnership with Anthropic so Claude and Workday's Sana AI assistant can hand off tasks to each other using MCP (Model Context Protocol). The C1.ai deal should close by late January 2027; terms weren't disclosed. The moves build on Workday's 2025 acquisition of Sana, now positioned as a new AI-powered front door for HR and finance work.
-**Why it matters:** Workday competes with NetSuite and Oracle for mid-market and enterprise finance and HR deals, and this is Workday committing its core pitch to "agentic" AI that can act on a company's behalf, not just answer questions — intensifying the same agent-vs-agent positioning race already underway at Salesforce, Intuit, and Oracle.
+**What happened:** Researchers from Mass General Brigham and the Broad Institute found that a secreted enzyme called Pla2g2f rises naturally in a memory-related brain region (the hippocampal dentate gyrus) as people and mice age. In aging mice, lowering Pla2g2f worsened synapse loss, brain inflammation, and memory, while raising it protected against those changes and helped preserve memory. In human brain-tissue data, PLA2G2F activity was highest in "resilient" older adults — people whose cognition stayed intact despite having amyloid-beta plaque buildup usually associated with Alzheimer's. In lab-grown human brain immune cells (microglia), boosting the enzyme reduced buildup of fatty deposits linked to brain aging. The study appeared in *Nature Neuroscience* on October 15, 2026.
+**Why it matters:** Most Alzheimer's research has focused on clearing amyloid plaques; this points to a different strategy — boosting a molecule the brain already makes that appears to help some people stay cognitively sharp despite plaque buildup — and it's unusual in tying a causal mouse mechanism directly to real human brain data.
 
-**Sales angle:** A prospect currently on Workday who's hearing heavy "agentic AI" messaging from them is a good opening to ask what's actually shipped and in use today versus what's still roadmap, since every major HR/finance vendor is making similar claims right now.
-**SDR takeaway:** MCP (Model Context Protocol) is an emerging standard that lets different companies' AI tools exchange tasks and data with each other — expect it to come up more as vendors talk about AI agents working across systems.
-**Conversation starter:** "Workday just said it's rebuilding itself around AI agents that can act on a company's behalf, not just answer questions — if you're using Workday today, has anything like that actually reached your team, or is it still mostly roadmap talk?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** Partially — human brain-tissue gene-activity data and human microglia cells in a dish were used, but there is no human drug trial
+**How promising:** The combination of causal mouse experiments and correlational human brain data makes this more compelling than a mouse study alone, but it's still a long way from a treatment
+**What we don't know yet:** Whether any drug can safely raise Pla2g2f in a living human brain, whether doing so would help people who already have cognitive decline (versus mainly reflecting pre-existing resilience), and no such drug currently exists
+**Availability:** Experimental only — no therapy exists yet
 
-**Source:** IT Daily, October 13, 2026 — https://itdaily.com/news/cloud/workday-goes-headless-and-acquires-c1-ai/
-
----
-
-## Cold Calls Still Beat AI-Written Emails 6-to-1, New ValueSelling Study Finds
-
-**What happened:** A September 2026 survey from ValueSelling Group found that among B2B sales leaders, referrals were rated the most effective prospecting method, with cold calls second at 47% — compared with just 8% for AI-written personalized emails. The same survey found 46% of sales leaders say reps give up on prospects too quickly, 40% cite difficulty handling objections, and 39% say reps are simply afraid to pick up the phone.
-**Why it matters:** It's a direct, current data point against the assumption that AI tools have replaced old-school prospecting — human-led outreach, especially the phone call, still outperforms AI-generated alternatives in sales leaders' own rankings, even as AI tool adoption keeps climbing elsewhere in the sales stack.
-
-**Sales angle:** This is a useful reminder for your own prospecting mix: AI tools are good for research, list-building, and drafting, but the data says they're a poor substitute for a referral or a real phone conversation when it comes to actually landing a response.
-**SDR takeaway:** "Objection handling" is responding to a prospect's stated reason for not moving forward (price, timing, no perceived need) in a way that keeps the conversation open — the survey's finding that 40% of leaders see this as a weak spot is worth remembering as a coaching area.
-**Conversation starter:** "There's new research out saying cold calls still beat AI-written emails by about 6 to 1 for getting a response — does that match what you're seeing, or has your team moved further toward AI-driven outreach?"
-**Signal:** 🔥 Must Know
-
-**Source:** Demand Gen Report (ValueSelling Group), September 2026 — https://www.demandgenreport.com/?p=54360
+**Source:** Medical Xpress (Mass General Brigham/Broad Institute), October 15, 2026 — https://medicalxpress.com/news/2026-10-brain-molecule-memory-aging.html
 
 ---
 
-## Adobe Forecasts a Record $275 Billion U.S. Online Holiday Season
+## A Gut Bacterium Nearly Halved Weight Regain After a Low-Calorie Diet, Industry-Funded Trial Finds
 
-**What happened:** Adobe's 2026 holiday forecast projects a record $275.1 billion in U.S. online spending from November 1 through December 31, up 6.7% from last year, with Cyber Week (Thanksgiving through Cyber Monday) alone expected to hit $47.5 billion, up 7.4%. Adobe expects total online spending for October through December to reach $370.9 billion, up 7%, with the strongest category growth in grocery, toys, cosmetics, and furniture.
-**Why it matters:** Adobe's holiday forecast, built from its own e-commerce analytics across trillions of website visits, is one of the most widely cited reads on consumer demand heading into the fourth quarter — a strong number is good news for any retail, e-commerce, or consumer-goods prospect currently finalizing inventory, staffing, or systems decisions before the season starts.
+**What happened:** In a randomized, placebo-controlled trial, 90 adults with overweight or obesity first completed an 8-week very-low-calorie diet (800-900 daily calories via meal-replacement shakes and soups). Those who lost at least 8% of their body weight were then randomized to take a daily supplement of pasteurized (heat-killed) *Akkermansia muciniphila* bacteria or a placebo for 24 weeks. The supplement group regained an average of 2.6 pounds over that period, versus 7.1 pounds for the placebo group. The trial, published in 2026, was funded by The Akkermansia Company, and lead author Ellen Blaak is a paid scientific adviser to the company and an inventor on a related patent application.
+**Why it matters:** Keeping weight off after rapid loss — including after stopping GLP-1 drugs like semaglutide or tirzepatide — is one of the biggest open problems in obesity medicine, and this is one of the first longer randomized human trials to test a specific gut bacterium for weight-maintenance rather than weight loss itself.
 
-**Sales angle:** For a retail or e-commerce prospect, a record holiday forecast is a good reason to ask whether their current systems — inventory, order management, financial close — can handle a bigger-than-last-year peak without manual workarounds.
-**SDR takeaway:** "Cyber Week" refers to the five-day stretch from Thanksgiving through Cyber Monday, the single biggest online shopping period of the year — a term that comes up often in retail and e-commerce conversations.
-**Conversation starter:** "Adobe's projecting the biggest online holiday season ever this year — does your team feel confident your systems can handle that kind of peak volume, or is that something you're still working through?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — 90 adults, randomized and placebo-controlled, over 24 weeks
+**How promising:** A real randomized trial with a meaningful effect size is better grounding than most microbiome weight-loss claims get, but the sponsor's financial stake and the lead author's patent interest are a genuine reason for caution, and the trial tested diet-induced weight loss specifically, not people coming off GLP-1 drugs
+**What we don't know yet:** Whether the effect persists past 24 weeks, whether it works the same way for people stopping GLP-1 medications rather than a liquid diet, and whether independently funded researchers get the same result
+**Availability:** Not an approved or validated weight-maintenance treatment; the specific pasteurized strain used in the trial is not broadly available as a medical product
 
-**Source:** Adobe Digital Insights, October 2026 — https://business.adobe.com/assets/resources/holiday-shopping-report/2026/pdf/2026-adobe-digital-insights-holiday-forecast.pdf
-
----
-
-## AI Still Soaking Up Venture Capital Even as Overall Deal Value Drops, PitchBook Finds
-
-**What happened:** The PitchBook-NVCA Venture Monitor for Q3 2026, released October 8, found U.S. venture deal value hit a record $515.8 billion for the first nine months of 2026 — about 44% above the previous full-year record — but the total is skewed by a handful of giant AI rounds: OpenAI and Anthropic alone raised more than $200 billion combined in the first half. Q3 alone saw deal value fall roughly 40% from Q2, to $98.4 billion, as megadeal activity cooled and the exits (IPOs, acquisitions) needed to return money to investors kept lagging.
-**Why it matters:** It's a sign the venture market is increasingly bifurcated — a small number of frontier AI labs are absorbing most of the capital, while everyone else, including many SaaS and mid-market startups that could become NetSuite prospects, is fundraising in a much tighter market than the eye-popping headline totals suggest.
-
-**Sales angle:** A startup prospect who isn't a frontier AI lab may be facing a tougher fundraising environment than "record VC funding" headlines suggest — worth asking directly about their runway and growth plans rather than assuming they have easy access to capital.
-**SDR takeaway:** "Deal value" counts the dollars invested, not the number of deals — a market can set a dollar record while most companies still struggle to raise, because a handful of giant rounds skew the total.
-**Conversation starter:** "A lot of this year's record VC funding numbers are really just OpenAI and Anthropic — has the broader fundraising environment felt tighter for a company like yours?"
-**Signal:** 👀 Watch This
-
-**Source:** SiliconANGLE, October 8, 2026 — https://siliconangle.com/?p=849755
+**Source:** ScienceAlert, 2026 — https://www.sciencealert.com/a-common-gut-microbe-may-help-prevent-weight-regain-study-finds
 
 ---
 
-## Oracle Health and Saudi Arabia's King Faisal Hospital Plan an AI-Driven Healthcare Data Partnership
+## The Injury-Recovery Peptide BPC-157 Sheds One FDA Red Flag, But Still Has Almost No Human Evidence Behind It
 
-**What happened:** On October 1, Oracle Health and King Faisal Specialist Hospital & Research Centre (KFSH) in Saudi Arabia signed a non-binding MOU to explore a connected healthcare ecosystem linking clinical, genomic, and research data, using Oracle's cloud, data, and AI tools. KFSH CEO Dr. Majid Al Fayyadh said the goal is better clinician insights and faster treatment discovery, tying the effort to Saudi Arabia's Vision 2030 plan.
-**Why it matters:** It's a reminder that Oracle's AI ambitions reach well beyond NetSuite and cloud infrastructure into vertical-specific data platforms like Oracle Health (formerly Cerner) — a sign of how NetSuite's parent company is positioning AI as a cross-industry growth engine, not just a cloud-infrastructure story.
+**What happened:** BPC-157, a peptide widely sold online and used off-label in some wellness clinics for injury and gut healing, had been placed on the FDA's "Category 2" list of bulk drug substances — a flag meaning it poses significant safety risks that could expose compounding pharmacies to FDA enforcement. That listing was removed by April 2026 after the original nominators withdrew their request, but that is not the same as approval: an FDA advisory committee voted narrowly (8-6, non-binding) in July 2026 to recommend adding BPC-157 to the approved compounding list, and as of early October 2026 no formal rule doing so had been published. It remains an unapproved drug that the FDA has not found safe or effective for any human use.
+**Why it matters:** BPC-157 is one of the most heavily marketed "research peptides," often promoted as a safe, natural recovery aid; the actual regulatory and evidence record is far murkier than the marketing suggests, and its legal status is still unsettled.
 
-**Sales angle:** If a prospect brings up Oracle's broader AI push as a reason to be cautious about vendor focus, it's useful to distinguish NetSuite's own ERP-specific AI roadmap from headline Oracle AI news in unrelated industries like healthcare.
-**SDR takeaway:** A "non-binding MOU" signals intent to explore a partnership, not a signed contract — a distinction worth remembering when evaluating how real an "AI partnership" announcement actually is.
-**Conversation starter:** "Oracle's been expanding its AI partnerships across a lot of industries lately — has that broader AI push from Oracle factored into how your team thinks about NetSuite specifically, or do you see them as pretty separate?"
-**Signal:** 👀 Watch This
+**Evidence:** Little or no credible evidence
+**Studied in humans:** Minimal — the FDA's own review reportedly identified only one small clinical study in the literature (17 patients), and it tested BPC-157 combined with a second peptide, not alone
+**How promising:** Animal and lab data offer some biological plausibility for tissue repair, but on the specific question of human safety and effectiveness, the evidence base is nearly nonexistent
+**What we don't know yet:** Long-term human safety, appropriate dosing, drug interactions, and whether the FDA will ultimately permit or restrict pharmacy compounding of it
+**Availability:** Not FDA-approved for any use; sold widely online as a "research chemical" and used in some clinics' injectable programs despite the lack of a legal compounding pathway
 
-**Source:** Oracle Newsroom, October 1, 2026 — https://www.oracle.com/news/announcement/oracle-and-king-faisal-specialist-hospital-research-centre-to-advance-healthcare-innovation-2026-10-01/
+**Source:** Holt Law regulatory alert, October 2026 — https://djholtlaw.com/regulatory-alert-the-legal-status-of-bpc-157-in-compounding-and-clinical-practice/
 
 ---
 
-*1,999 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## A Startup Debuted a Wristband That Claims to Track Stress Hormones Through Sweat
+
+**What happened:** At TechCrunch Disrupt's Startup Battlefield on October 15, 2026, startup Lume Health unveiled a wrist-worn sensor patch that clips onto existing smartwatches (like an Apple Watch or Fitbit) and uses DNA-based "aptamer" sensors to continuously measure hormones — starting with cortisol and melatonin — from sweat. The company says more than 25,000 people have joined its waitlist and it has run a small pilot with Equinox gyms; the device is still in beta, with a full consumer launch targeted for 2027.
+**Why it matters:** Current wearables track heart rate, sleep, temperature, and in some cases glucose, but not hormones — even though cortisol and related hormones drive much of what people care about with stress, sleep, and recovery. If it works as described, it would be a genuinely new category of at-home biomarker tracking relevant to nervous-system and stress physiology.
+
+**Evidence:** Little or no credible evidence
+**Studied in humans:** Only in small, company-run pilots; no independent or peer-reviewed accuracy validation has been published
+**How promising:** Continuous, non-invasive hormone tracking would be a real advance if accurate, but hormone concentrations in sweat are far lower and harder to measure reliably than glucose, and consumer wearable startups have a long track record of overstating biomarker accuracy ahead of independent validation
+**What we don't know yet:** Whether the sensor's readings actually track with blood or saliva hormone levels, how performance holds up across different skin types and activity levels, and what it will cost
+**Availability:** Not available — still in beta, targeting a 2027 launch
+
+**Source:** Fitt Insider, October 15, 2026 — https://insider.fitt.co/press-release/lume-health-unveils-first-wearable-to-continuously-measure-hormones-through-sweat-at-techcrunch-disrupt-2026/
+
+---
+
+*1,713 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
