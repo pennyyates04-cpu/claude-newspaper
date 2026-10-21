@@ -1,102 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Tuesday, October 20, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Wednesday, October 21, 2026
 
-*Compiled 7:11 AM ET. Covering roughly the last two weeks.*
+*Compiled 7:05 AM ET. Covering roughly the last few weeks.*
 
 ---
 
 ## TL;DR
 
-- A hot September inflation report pushed Fed rate-hike odds higher and intensified a selloff in AI-infrastructure debt, hitting CoreWeave and Oracle shares and credit-default-swap spreads hard this week.
-- Anthropic launched a "Cyber Mission" on October 8, partnering with 11 companies including CrowdStrike and Palo Alto Networks to secure critical infrastructure with Claude, plus a free AI vulnerability scanner for open-source software.
-- HubSpot is cutting nearly 660 jobs (about 7% of staff) as part of an AI-tied reorganization, even as CEO Yamini Rangan denies the cuts are driven by AI efficiencies.
-- Intuit expanded its "Intuit Intelligence" AI bookkeeping tools from the U.S. to Canada, the UK, and Australia, pushing QuickBooks deeper into agentic AI against competitors like Xero and MYOB.
-- Goldman Sachs beat Q3 estimates with a 29% profit jump, powered by a 72% surge in equities trading revenue.
+- A Sanford Burnham Prebys study found that autophagy — cells' internal cleanup process — doesn't simply decline with age; it shifts in opposite directions depending on cell type and sex, complicating a long-standing anti-aging theory.
+- A 102-person randomized trial found that adding the myostatin-blocking antibody apitegromab to the weight-loss drug tirzepatide roughly halved the share of lost weight that came from muscle, without changing total weight loss.
+- A 20-year analysis of nearly 2,700 women found hormone therapy started near menopause was linked to a 22% lower risk of cardiovascular disease, while starting it more than a decade after menopause was linked to higher risk.
+- Northeastern and Harvard researchers used a computational gene-network screen to flag the over-the-counter decongestant oxymetazoline as a possible longevity candidate — a prediction still untested in cells or animals.
+- A small controlled study found that adding a brief cold-water dip between sauna sessions lowered core temperature and heart rate and made a second sauna round feel easier, though long-term health effects of the combination are unknown.
 
 ---
 
-## AI Infrastructure Debt Fears Hit CoreWeave and Oracle as Rate-Hike Odds Climb
+## Cells' Internal "Recycling" Process Doesn't Simply Decline With Age — It Depends on Cell Type and Sex
 
-**What happened:** On October 14–15, a hotter-than-expected September Producer Price Index report increased bets on a Federal Reserve rate hike, triggering a selloff in heavily indebted AI infrastructure companies. CoreWeave's stock fell to $60.36 on October 15 — its lowest intraday price since May 2025 — after two days of double-digit declines, with yields on some of its bonds briefly touching 15% and credit-default-swap spreads (the market cost of insuring against default) surging past 1,000 basis points, up from roughly 600 the day before. Oracle shares fell alongside it, and Oracle's own five-year credit-default-swap spread widened to a record 288 basis points.
-**Why it matters:** This is the clearest sign yet that investors are starting to price in real credit risk around the AI infrastructure boom, not just equity volatility — and Oracle, NetSuite's parent company, is now part of that story even though NetSuite's ERP business has nothing to do with AI data-center debt.
+**What happened:** Researchers at Sanford Burnham Prebys Medical Discovery Institute studied autophagy — the process cells use to break down and recycle their own damaged components — in skin and blood samples from healthy adults aged 23 to 72, and in neurons grown in the lab from those same donors' skin cells. Autophagy did not decline uniformly with age. In skin cells from male donors, autophagy activity fell with age, but it stayed stable in skin cells from female donors; in lab-grown neurons, autophagy from female donors' cells actually rose with age. In a small subsample, more physically active older adults had blood-cell autophagy patterns closer to those of younger adults, alongside better physical performance. The work was published in *Aging Cell* (Moreno et al., DOI 10.1111/acel.70734), with the paper appearing online September 27, 2026 and press coverage running through mid-October.
+**Why it matters:** Autophagy decline is considered one of the core "hallmarks of aging," and boosting it is a target of many longevity interventions (fasting mimetics, rapamycin, and others). This study suggests a simple "autophagy always falls with age, so boost it" model is wrong — the direction of change depends on which tissue and which sex you're looking at — which has implications for how such therapies should be designed and tested.
 
-**Sales angle:** If a prospect mentions hearing "Oracle is in trouble," this is useful context — it's investor anxiety about Oracle's AI cloud infrastructure bets and debt load, not about NetSuite's ERP business or financial stability.
-**SDR takeaway:** A credit-default swap (CDS) is essentially insurance against a company defaulting on its debt; when CDS spreads widen sharply, the market is pricing in a higher chance of default — a leading indicator worth understanding when prospects raise vendor financial health.
-**Conversation starter:** "There's been a lot of noise this week about AI infrastructure debt and companies like CoreWeave and Oracle — has that kind of market volatility affected how your leadership is thinking about vendor stability?"
-**Signal:** 🔥 Must Know
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — human skin and blood samples, plus neurons derived from human donor cells, but this is cross-sectional observation, not an intervention trial
+**How promising:** Reshapes a foundational assumption in aging biology rather than offering a treatment itself; the exercise finding is suggestive but came from a very small subsample, as the researchers themselves cautioned
+**What we don't know yet:** Whether these patterns hold up in larger, more diverse cohorts, what biologically drives the sex differences, and whether exercise actually causes the autophagy shift or merely correlates with it
+**Availability:** Not a treatment — basic research only, with no clinical application yet
 
-**Source:** ROIC.ai, October 15, 2026 — https://www.roic.ai/news/coreweave-shares-plunge-to-lowest-since-may-2025-as-credit-fears-mount-10-15-2026
-
----
-
-## Anthropic Launches "Cyber Mission" to Secure Critical Infrastructure With Claude
-
-**What happened:** On October 8, Anthropic introduced the "Cyber Mission," a long-term effort to give defenders tools to secure critical infrastructure and open-source software. Its first piece, the Critical Infrastructure Defense Program, partners Anthropic with 11 companies — including Accenture, CrowdStrike, Deloitte, Palo Alto Networks, PwC, and Rockwell Automation — to give operators of power grids, water systems, and transportation networks access to frontier Claude models, on-site engineers, and Anthropic's threat research. Alongside it, Anthropic introduced a free, opt-in "OSS Scanner" that runs Claude-powered security scans on open-source projects and sends back bug reports — including a proof-of-concept exploit and a suggested fix — without human review, targeting a true-positive rate above 90%.
-**Why it matters:** It's one of the clearest signs yet that AI vendors are moving from chatbots into the operational security of physical infrastructure — a trend every enterprise software vendor, NetSuite included, will increasingly be asked about as "AI governance" and "AI security" become standard parts of vendor evaluations.
-
-**Sales angle:** Cybersecurity and compliance come up constantly with mid-market and enterprise prospects; this is a concrete example to point to when a prospect asks how seriously AI vendors are taking security risk.
-**SDR takeaway:** A "proof of concept" (PoC) in security means a working demonstration that a vulnerability can actually be exploited, not just a theoretical flaw — distinguishing real risk from noise is useful in both security and sales conversations.
-**Conversation starter:** "Anthropic just launched a program giving AI-powered security tools to companies that run power grids and water systems — has your team had conversations yet about how AI vendors get vetted for security, or is that still an open question?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** Anthropic, October 8, 2026 — https://www.anthropic.com/news/anthropic-cyber-mission
+**Source:** News-Medical.net, October 1, 2026 (reporting on Moreno et al., *Aging Cell*, September 27, 2026) — https://www.news-medical.net/news/20261001/Autophagy-changes-with-age-sex-and-cell-type-study-finds.aspx
 
 ---
 
-## HubSpot Cuts Nearly 660 Jobs in AI-Tied Reorganization
+## Adding a Muscle-Protecting Antibody to a Weight-Loss Drug Roughly Halved the Muscle Lost Alongside Fat
 
-**What happened:** On October 6, HubSpot told employees it is cutting nearly 660 jobs — about 7% of its workforce — after its board approved the restructuring on October 1. CEO Yamini Rangan said in an internal memo that the company needs to "fundamentally change the way we are organized to compete and win," reorganizing product teams around customer outcomes instead of individual product "Hubs" and removing layers of management. Rangan said the cuts are not simply a cost-cutting move or driven by AI efficiencies, even though the reorganization is tied to HubSpot's broader AI push. The company expects restructuring charges of $65–75 million, and affected employees will get severance of up to 30 weeks' pay plus extended health benefits.
-**Why it matters:** HubSpot is a direct competitor in the small-and-midmarket CRM and marketing space, and a 7% workforce cut alongside an AI-driven reorganization is a sign that well-known SaaS vendors are restructuring around AI faster than their own messaging admits — a pattern worth watching across NetSuite's competitive landscape too.
+**What happened:** In a randomized, double-blind, placebo-controlled Phase 2 trial of 102 adults with overweight or obesity, researchers tested whether apitegromab — an antibody that blocks myostatin, a protein that limits muscle growth — could reduce muscle loss during weight loss on tirzepatide (a GLP-1/GIP weight-loss drug) over 24 weeks. Total weight loss was similar between the apitegromab and placebo groups, but lean mass accounted for only 14.6% of total weight lost in the apitegromab group, versus 30.2% in the placebo group. Adverse-event rates were similar between arms. The trial (sometimes referred to as EMBRAZE) was published in *Nature Medicine* on June 8, 2026 (Pratley et al., DOI 10.1038/s41591-026-04440-4).
+**Why it matters:** Rapid weight loss from GLP-1-class drugs like tirzepatide and semaglutide often comes with substantial muscle loss — commonly estimated at 25–40% of total weight lost — raising concern about long-term frailty and metabolic health even as patients lose fat. Myostatin blockers like apitegromab are among several approaches now in human trials specifically to address that trade-off.
 
-**Sales angle:** If a HubSpot (or HubSpot-adjacent) prospect mentions internal reorganization or team changes, this context explains why — and it may be a good moment to ask how stable their current tooling and support feels right now.
-**SDR takeaway:** Companies often frame layoffs as "organizational redesign" rather than "AI replacing jobs" — both can be true at once, and it's worth reading restructuring announcements skeptically rather than taking the stated reason at face value.
-**Conversation starter:** "I saw HubSpot's going through a pretty significant reorg this month — if you use any of their products, has that created any disruption on your end, or has it been business as usual?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — 102 adults, randomized and placebo-controlled, over 24 weeks
+**How promising:** A real randomized trial with a sizable effect on a meaningful surrogate measure (the lean-mass share of weight lost), but outside experts note it didn't clearly demonstrate improved physical function or cardiometabolic outcomes, and Phase 3 trials are still needed
+**What we don't know yet:** Whether preserving this much lean mass translates into meaningful strength, function, or long-term health benefits, and how the drug performs in larger and longer trials
+**Availability:** Experimental — apitegromab is not approved for this use (it is separately in development for spinal muscular atrophy)
 
-**Source:** Boston.com, October 6, 2026 — https://www.boston.com/news/business/2026/10/06/hubspot-to-lay-off-660-employees/
-
----
-
-## Intuit Pushes "Intuit Intelligence" AI Tools Into Canada, UK, and Australia
-
-**What happened:** In mid-October, Intuit expanded "Intuit Intelligence," the AI tools it first launched for U.S. QuickBooks customers, into Canada, the UK, and Australia, rolling out in beta for QuickBooks Online and QuickBooks Online Advanced. Intuit says the tools go beyond answering questions — they can complete bookkeeping tasks directly inside QuickBooks, such as categorizing transactions, surfacing cash-flow insights, and recommending next steps, while leaving final decisions to the user. Intuit also pointed to its 2026 AI Impact Report, which found trust, not cost, is now the biggest barrier to small businesses adopting AI more widely.
-**Why it matters:** QuickBooks is one of NetSuite's most direct competitors at the small-business end of the market, and embedding "do it for you" AI agents into day-to-day bookkeeping — not just chat — is the same agentic-AI pitch every ERP and accounting vendor, NetSuite included, is racing to make credible to finance teams.
-
-**Sales angle:** A prospect currently on QuickBooks who's outgrowing it may be hearing a lot of "AI agent" messaging from Intuit right now — a good opening to ask what's actually in daily use versus still in beta, since the new features are beta-only so far.
-**SDR takeaway:** "Beta" means a feature is still being tested with a limited group of users before full release — when a vendor announces AI features that are "in beta," it's reasonable to ask how long until general availability.
-**Conversation starter:** "Intuit's been pushing AI tools into QuickBooks pretty aggressively this year — if you're using QuickBooks today, has any of that AI functionality actually changed how your team works day to day?"
-**Signal:** 👀 Watch This
-
-**Source:** iTWire, October 15, 2026 — https://itwire.com/business-it-news/data/intuit-intelligence-lands-in-australia-as-quickbooks-takes-its-ai-agent-fight-to-xero-and-myob
+**Source:** Science Media Centre expert reaction, June 2026 (covering Pratley et al., *Nature Medicine*, June 8, 2026) — https://www.sciencemediacentre.org/expert-reaction-to-study-investigating-a-drug-apitegromab-to-help-to-preserve-lean-body-mass-during-weight-loss-with-tirzepatide/
 
 ---
 
-## Goldman Sachs Beats Q3 Estimates as Equities Trading Revenue Jumps 72%
+## Starting Hormone Therapy Near Menopause Linked to Lower Cardiovascular Risk — Timing Appears to Matter a Lot
 
-**What happened:** Goldman Sachs reported Q3 2026 results on October 13: net earnings of about $5.29 billion, up roughly 29% year-over-year, with diluted earnings per share of $17.01 — well above the roughly $13 analysts expected. Net revenue came in around $18.68 billion, up 23%, driven largely by equities trading revenue of $6.44 billion, up 72% from a year earlier on strength in derivatives and financing. Investment banking fees rose about 21% to $3.22 billion, while fixed-income trading revenue was roughly flat.
-**Why it matters:** Goldman is one of the first major banks to report each quarter, and a beat this large — powered by trading and dealmaking rather than cost controls — is read as a signal that corporate deal activity and capital markets stayed healthy through the summer, which matters for any prospect in financial services or a capital-markets-adjacent industry.
+**What happened:** Using 20 years of data from the Study of Women's Health Across the Nation (SWAN), researchers analyzed 2,737 perimenopausal and recently postmenopausal women who reported hot flashes or night sweats, using statistical methods designed to emulate a series of clinical trials. Starting hormone therapy during perimenopause or early postmenopause was associated with a 22% lower risk of cardiovascular disease events compared with not using it (adjusted hazard ratio of about 0.78). Starting within 6–10 years of menopause onset showed a similar reduced risk (adjusted HR roughly 0.71–0.73), while starting more than 10 years after menopause onset was associated with higher risk (adjusted HR 1.53). The study, led by Wang and colleagues, was published in *JAMA Internal Medicine* in September 2026.
+**Why it matters:** Whether hormone therapy helps or harms the heart has been fiercely debated since the Women's Health Initiative trials raised alarms in the early 2000s. This adds large, long-running cohort evidence to the "timing hypothesis" — that starting hormone therapy early in menopause may be protective, while starting it late may not be — which could reshape how clinicians counsel patients about when, not just whether, to start treatment.
 
-**Sales angle:** If a financial-services prospect expresses caution about budgets, Goldman's results are a useful data point that institutional trading and deal activity were strong last quarter — worth probing whether their own caution reflects their specific business or a broader mood.
-**SDR takeaway:** "Diluted EPS" (earnings per share) accounts for all shares that could eventually be issued, including stock options and convertible securities — a more conservative, complete measure of profitability per share than basic EPS.
-**Conversation starter:** "Goldman just posted a pretty big earnings beat driven by trading — has deal activity or capital-markets demand picked up in your corner of the business this quarter?"
-**Signal:** 👀 Watch This
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — observational analysis of 2,737 women followed over roughly 20 years
+**How promising:** Adds meaningfully to a growing, fairly consistent body of observational evidence supporting the timing hypothesis, but as the lead author stressed, it is not a randomized trial and cannot rule out that healthier women were simply more likely to start and continue hormone therapy
+**What we don't know yet:** Whether the association reflects a true causal benefit, how it holds up in a randomized design, and more detail on subgroup differences (coverage suggested a stronger association among Black women, but full subgroup data were not available in secondary reporting)
+**Availability:** Hormone therapy is already FDA-approved and clinically available for menopausal symptoms; using it specifically to prevent cardiovascular disease is not an approved indication
 
-**Source:** Beinsure, October 13, 2026 — https://beinsure.com/news/goldman-sachs-nyse-gs-stock-price-forecast-q3-earnings-beat-as-equities-jump-72/
-
----
-
-## Hot Producer Prices Push Fed Rate-Hike Odds Higher
-
-**What happened:** The September Producer Price Index, released October 15, came in far hotter than expected: producer prices rose 1.3% month-over-month (versus a 0.6% forecast) and 6.3% year-over-year, while core PPI (which excludes food and energy) rose 0.7% after a 0.2% increase in August. The report pushed market odds of a Federal Reserve rate hike at its October 27–28 meeting to roughly 34%, up from about 29% before the data, and raised the odds of a December hike to around 63%, according to CME's FedWatch tool.
-**Why it matters:** The Fed has been raising rates to fight inflation rather than cutting them, the opposite of what most businesses expected a year ago — higher-for-longer rates raise borrowing costs for everything from AI data-center buildouts (see the CoreWeave story above) to ordinary working-capital loans, exactly the kind of macro pressure that shows up in prospects' budget conversations.
-
-**Sales angle:** A prospect who says their company is being "more careful with cash" right now has real macro backing — rising rate-hike odds are a legitimate reason for tighter budgets, not just corporate caution-speak.
-**SDR takeaway:** PPI measures price changes at the wholesale/producer level (what businesses pay), while CPI measures what consumers pay — PPI often moves first and can be an early signal of where consumer inflation, and Fed policy, is headed.
-**Conversation starter:** "With producer prices running hotter than expected and rate-hike odds climbing again, has that shown up yet in how your company is budgeting for next year?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** InvestmentNews, October 15, 2026 — https://www.investmentnews.com/equities/ppi-comes-in-much-hotter-than-expected-putting-more-rate-hike-pressure-on-the-fed/268612
+**Source:** Drug Topics, September 24, 2026 (covering Wang et al., *JAMA Internal Medicine*, September 2026) — https://www.drugtopics.com/view/study-finds-reduced-cardiovascular-risk-with-hormone-therapy-initiation
 
 ---
 
-*1,905 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## A Computational Screen of Existing Drugs Flagged an Over-the-Counter Nasal Spray as a Possible Longevity Candidate
+
+**What happened:** Researchers at Northeastern University, working with Harvard collaborators, built a computational network model linking genes tied to the recognized biological "hallmarks of aging" and used it to screen already-approved drugs for unexpected effects on those pathways. Out of the drugs analyzed, 370 were flagged as potentially affecting at least one hallmark of aging — 14 predicted to promote longevity and 14 predicted to accelerate aging. Oxymetazoline, the decongestant in sprays like Afrin, was among the predicted longevity-promoting candidates, hypothesized to work by improving cell-to-cell communication, a process that weakens with age. The team says it is now running cell-line experiments with Harvard collaborators to test the prediction directly. The work was published in *Nature Aging* (DOI 10.1038/s43587-026-01161-8), with Northeastern's release dated June 26, 2026.
+**Why it matters:** Rather than developing new anti-aging compounds from scratch, this approach mines medications whose human safety profile is already well established, which could — if validated — offer a much faster route to testing a longevity effect in people.
+
+**Evidence:** Little or no credible evidence
+**Studied in humans:** No — this is a computational prediction; no cell, animal, or human validation has yet been published
+**How promising:** An interesting proof-of-concept for a drug-repurposing strategy, but the oxymetazoline longevity effect is still a hypothesis, not a demonstrated result in any living system; chronic use of oxymetazoline also carries known risks, including rebound congestion
+**What we don't know yet:** Whether the predicted effect replicates in cells or animals at all, what dose or exposure (if any) could plausibly affect aging without causing harm, and details on the other candidate drugs the screen flagged
+**Availability:** Oxymetazoline nasal spray is already sold over-the-counter, but not for anything related to aging — using it for that purpose is not supported by any evidence yet
+
+**Source:** Northeastern University, June 26, 2026 (covering Nature Aging paper) — https://news.northeastern.edu/2026/06/26/longevity-research-drugs/
+
+---
+
+## Adding a Cold Plunge Between Sauna Rounds Changed How the Body Handled Heat Stress, Small Study Finds
+
+**What happened:** In a crossover study of 16 healthy adults, researchers tested two 15-minute sauna sessions at 85°C separated by a 10-minute break, either in 23°C air alone or air plus a brief 90-second, 20°C cold-water immersion. Adding the cold-water dip lowered core body temperature and heart rate going into the second sauna round compared with air-cooling alone, and participants rated the second round as more tolerable. Systolic blood pressure and mean arterial pressure were similar between conditions, though diastolic blood pressure was higher with the cold-water immersion. The study (Owen et al.) was published in *Experimental Physiology* in July 2026.
+**Why it matters:** Large observational cohorts have linked frequent sauna use to lower rates of sudden cardiac death and stroke, and cold exposure has become a popular recovery practice; contrast routines that combine both are increasingly common at gyms and wellness clubs, but little controlled data exists on what that combination actually does physiologically.
+
+**Evidence:** Mixed / uncertain evidence
+**Studied in humans:** Yes — 16 healthy adults, within-subject crossover design
+**How promising:** Useful, real controlled data on acute physiological response, but the sample is tiny and the measures are short-term, so it says nothing about longer-term cardiovascular benefit or harm
+**What we don't know yet:** Whether the diastolic blood pressure increase with cold-water immersion matters clinically, what happens with repeated long-term use, and whether results generalize to people with hypertension or existing heart disease rather than healthy adults
+**Availability:** Sauna and cold-plunge facilities are already widely available commercially; this is about how to sequence an existing practice, not a new treatment
+
+**Source:** Bangor University research repository, 2026 (Owen et al., *Experimental Physiology*, July 2026) — https://research.bangor.ac.uk/en/publications/thermal-and-cardiovascular-responses-to-sauna-are-attenuated-by-a/
+
+---
+
+*1,862 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
