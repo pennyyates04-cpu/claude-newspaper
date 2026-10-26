@@ -1,93 +1,88 @@
-# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
-### Sunday, October 25, 2026
+# 🗞 Penny's Daily — Tech, Business & Sales Edition
+### Monday, October 26, 2026
 
-*Compiled 7:07 AM ET. Covering roughly the last few weeks.*
+*Compiled 7:07 AM ET. Covering roughly the last two weeks, including this week's SuiteWorld 2026.*
 
 ---
 
 ## TL;DR
 
-- A secondary analysis of Insilico Medicine's AI-designed lung drug rentosertib, published in *Nature Biotechnology*, found that six independent proteomic "aging clocks" all pointed to lower biological age in treated patients versus placebo, though the effect can't yet be separated from the drug's anti-fibrotic action.
-- BioAge Labs reported that its oral NLRP3 inhibitor BGE-102 cut a key inflammation marker (hsCRP) by roughly 85% in a small Phase 1 trial in people with obesity and elevated inflammation, and was well tolerated.
-- Longeveron posted a preprint suggesting its stem-cell product laromestrocel reduced brain neuroinflammation on MRI in a 49-person Phase 2a Alzheimer's trial, with the strongest signal in the hippocampus — but the analysis is exploratory and not yet peer-reviewed.
-- A large Amsterdam UMC study found whole-blood NAD+ levels stay stable with age and don't differ between elite athletes and sedentary people, challenging a core premise behind popular NAD+ anti-aging supplements.
-- A 30-year Harvard study of roughly 111,000 people found that doing a greater variety of physical activities — not just more total exercise — was linked to about 19% lower mortality risk.
+- Gartner forecasts worldwide IT spending will grow 15% in 2027 to $7.35 trillion, crossing $7 trillion for the first time, led by AI infrastructure and software.
+- Workday and Anthropic announced a partnership wiring Claude's reasoning directly into Workday's HR and finance workflows via Sana and the Model Context Protocol.
+- SuiteWorld 2026 kicked off this week in Las Vegas as Oracle keeps rolling out "NetSuite Next" and its Ask Oracle AI assistant across North America.
+- Corporate-finance fintech Ramp raised $1.85 billion at a $60 billion valuation, one of the largest fintech rounds of the year.
+- NRF forecasts record $1.013 trillion in US holiday retail sales this season, up 4.2% from last year, as retailers take a measured approach to seasonal hiring.
 
 ---
 
-## AI-Designed Lung Drug Shows a Biological-Age Signal in Six Independent "Aging Clocks"
+## Gartner: Worldwide IT Spending to Grow 15% in 2027, Topping $7.35 Trillion for the First Time
 
-**What happened:** Insilico Medicine, a Hong Kong-based AI drug discovery company, published a secondary analysis in *Nature Biotechnology* of blood samples from 42 patients who took part in the Phase IIa trial of rentosertib, an AI-designed drug for idiopathic pulmonary fibrosis (a scarring lung disease). Researchers applied six independently developed proteomic aging clocks (including ProtAge and two OrganAge variants) to blood drawn at baseline and at weeks 2, 4, and 12. All six clocks predicted lower biological age in the treated groups relative to placebo, with the biggest signal at week four in the 30 mg twice-daily arm — some clocks suggested roughly three to four years of apparent reduction, one suggested as much as six. The paper was published around September 7, 2026, with results also presented at a Nature conference in Paris.
-**Why it matters:** Rentosertib itself was designed end-to-end by Insilico's AI platform, and this is among the first times a drug's effect on multiple independent molecular "aging clocks" has been reported from an actual human trial rather than animal data — a proof of concept that AI-designed drugs could be evaluated for broader aging effects, not just their original disease target.
+**What happened:** Gartner forecast on October 21 that worldwide IT spending will reach about $7.35 trillion in 2027, up 15% from 2026 — the first time the total crosses $7 trillion. Data center systems is the fastest-growing category, projected to grow roughly 55.5% to about $1.37 trillion, driven by AI infrastructure buildouts. IaaS is projected to grow about 25.7%, software about 14.6%, devices about 8.1%, IT services about 4.9%, and communications services about 2.9%. Gartner says hardware markets face cost pressure from memory-related price inflation even as AI drives most of the growth.
+**Why it matters:** Software spending growing nearly 15% — one of the fastest categories outside the AI data-center buildout itself — is a direct tailwind for enterprise software budgets heading into next year.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — secondary analysis of 42 patients from a randomized, double-blind, placebo-controlled Phase IIa trial
-**How promising:** Intriguing but far from conclusive — the authors themselves say they cannot distinguish a true systemic anti-aging effect from changes that simply reflect treating the lung disease, and of 54 statistical comparisons per treatment arm, roughly 21 reached significance
-**What we don't know yet:** Whether this "biological age" signal would show up in people without pulmonary fibrosis, whether it predicts any real-world health benefit, and how durable the effect is — the trial's primary focus was safety, and seven of the original participants discontinued due to liver toxicity
-**Availability:** Rentosertib is an investigational drug for pulmonary fibrosis, not approved for any use related to aging
+**Sales angle:** Finance and IT leaders are actively building 2027 budgets right now, and Gartner's numbers say AI investment is the main thing reshaping those budgets — a timely, data-backed reason to ask about a prospect's own planning.
+**SDR takeaway:** "Net-new spend" in forecasts like this one refers to the dollar increase over the prior year, not total spend — useful to know when a prospect or report cites a growth figure rather than an absolute number.
+**Conversation starter:** "Gartner just forecast IT spending will cross $7 trillion for the first time next year, with AI infrastructure as the biggest driver — is AI investment reshaping how your team is planning next year's software budget?"
+**Signal:** 🔥 Must Know
 
-**Source:** The Next Web, September 2026 (reporting on Insilico Medicine et al., *Nature Biotechnology*) — https://thenextweb.com/news/insilico-rentosertib-proteomic-aging-clocks
-
----
-
-## Experimental Anti-Inflammatory Pill Cuts a Key Blood Marker by ~85% in Early Human Trial
-
-**What happened:** BioAge Labs announced Phase 1 results for BGE-102, an oral, brain-penetrant small-molecule inhibitor of NLRP3 — a protein complex that drives inflammation. In a randomized, double-blind, placebo-controlled multiple-ascending-dose study in healthy volunteers and people with obesity (BMI 32–42) and elevated inflammation (hsCRP above 3 mg/L), the 120 mg and a newly tested 60 mg once-daily dose each produced median reductions in high-sensitivity CRP (hsCRP, a standard inflammation marker) of roughly 85% by three weeks, with most active-treatment participants dropping below the 2 mg/L threshold associated with lower cardiovascular risk. The company said BGE-102 was well tolerated at all doses tested. The release was issued April 21, 2026.
-**Why it matters:** NLRP3-driven inflammation has been implicated in heart disease, diabetes, and neurodegeneration, and an oral, brain-penetrant inhibitor that lowers hsCRP this consistently — if the effect holds up in larger trials — could become a general-purpose anti-inflammatory tool well beyond its original target.
-
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — Phase 1, randomized, double-blind, placebo-controlled, roughly 15 active-treatment participants per dose cohort
-**How promising:** A strong, consistent biomarker effect for a brand-new drug, but Phase 1 trials are designed for safety and dosing, not efficacy, and the cohorts are small
-**What we don't know yet:** Whether lowering hsCRP this way actually reduces heart attacks, strokes, or other hard clinical outcomes — that is the question BioAge's planned Phase 2 cardiovascular-risk trial (results expected by year-end 2026) is designed to test
-**Availability:** Experimental only — not approved or available outside clinical trials
-
-**Source:** BioSpace (BioAge Labs press release), April 21, 2026 — https://www.biospace.com/press-releases/bioage-reports-positive-phase-1-data-for-bge-102-a-novel-oral-nlrp3-inhibitor-demonstrating-potential-best-in-class-reductions-in-hscrp
+**Source:** Gartner, October 21, 2026 — https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-forecasts-worldwide-it-spending-to-grow-15-percent-in-2027-totaling-7-point-35-trillion
 
 ---
 
-## Stem-Cell Therapy Shows Reduced Brain Inflammation on MRI in Small Alzheimer's Trial — But It's Still a Preprint
+## Workday and Anthropic Partner to Wire Claude's Reasoning Into HR and Finance Workflows
 
-**What happened:** Longeveron released a post-hoc, exploratory analysis of its Phase 2a CLEAR MIND trial (NCT05233774; 49 participants with mild Alzheimer's disease), testing its stem-cell product laromestrocel (formerly called Lomecel-B). Using "free-water" MRI imaging, a technique for detecting neuroinflammation, the analysis found that laromestrocel appeared to slow the progression of neuroinflammation compared with placebo, with the clearest effect in brain regions central to Alzheimer's pathology, including the left hippocampus. The preprint was posted to medRxiv and announced September 30, 2026; it has not yet completed peer review. The trial's original efficacy and safety results were published separately in *Nature Medicine* in March 2025.
-**Why it matters:** Neuroinflammation is increasingly seen as a driver of Alzheimer's progression, not just a side effect of it, and this is among the first human imaging evidence that a cell-based regenerative therapy might directly dampen that process in a region of the brain central to memory.
+**What happened:** At Workday Rising on October 13, Workday and Anthropic announced a partnership connecting Claude to Sana, Workday's AI agent and orchestration layer, and to Workday's underlying HR and finance data. The two systems pass information and tasks through the Model Context Protocol (MCP), an open standard, so employees can start work in either Claude or Sana and keep the same context. Workday says its existing permissions, approval requirements, and audit controls continue to apply to any request made through Claude. "Sana in Claude" is live for early-access customers now, with general availability expected in late 2026.
+**Why it matters:** It's a concrete example of a major enterprise software vendor embedding a frontier AI model's reasoning directly into day-to-day business workflows while keeping the underlying data and governance inside its own system — a pattern NetSuite and other ERP/HCM vendors will likely need to match.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — 49 participants with mild Alzheimer's disease in a randomized Phase 2a trial, though this specific MRI analysis is a secondary, post-hoc look at the data
-**How promising:** A real human imaging signal rather than a surrogate blood marker, which is notable, but the sample is small, the analysis wasn't the trial's pre-specified primary endpoint, and the write-up has not yet been peer-reviewed
-**What we don't know yet:** Whether the MRI changes translate into meaningfully slower cognitive decline, and whether the finding holds up once the preprint is reviewed and, ideally, replicated in a larger trial
-**Availability:** Laromestrocel is investigational and has not been approved by the FDA or any other regulator
+**Sales angle:** A prospect currently on Workday may soon start hearing about "Claude in Workday" or Sana from their account team — understanding what it actually does (and doesn't) helps position NetSuite's own AI roadmap credibly in that conversation.
+**SDR takeaway:** The Model Context Protocol (MCP) is an open standard that lets an AI assistant like Claude plug into a business application's data and tools without a custom integration being built for each individual connection — it's becoming the common "wiring" enterprise AI agents use to reach business systems.
+**Conversation starter:** "Workday just connected Claude's reasoning directly into their HR and finance workflows through an open standard called MCP — has your team looked at how AI agents are being wired into the systems you already use, versus a separate standalone chatbot?"
+**Signal:** 🔥 Must Know
 
-**Source:** GlobeNewswire (Longeveron press release), September 30, 2026 — preprint at https://www.medrxiv.org/content/10.64898/2026.09.16.26363132v1
-
----
-
-## Large Study Finds Blood NAD+ Doesn't Decline With Age — Undercutting a Popular Supplement's Main Pitch
-
-**What happened:** Researchers at Amsterdam UMC, led by Riekelt Houtkooper, measured whole-blood NAD+ (a molecule central to cellular energy metabolism, and the target of popular NMN/NR supplements) across seven independent human cohorts totaling more than 300 people, using high-resolution mass spectrometry. They found whole-blood NAD+ levels stayed remarkably stable with age and were essentially unchanged by lifestyle factors — elite athletes showed the same levels as sedentary people. NAD+ did rise in response to taking nicotinamide riboside (NR) supplements, but that supplement-driven bump is distinct from any age-related decline, which the data didn't show. The study was published in *Nature Metabolism* in June 2026 (DOI 10.1038/s42255-026-01537-5); a separate unreviewed preprint from February 2026 reached a similar conclusion.
-**Why it matters:** The idea that NAD+ naturally declines with age — largely based on animal and tissue studies — is the central marketing claim behind a multi-billion-dollar NAD+/NMN/NR supplement industry; this is one of the largest human blood datasets to directly test that premise in people, and it didn't hold up.
-
-**Evidence:** Mixed / uncertain evidence
-**Studied in humans:** Yes — pooled analysis of over 300 people across seven independent cohorts, including elite athletes and sedentary controls
-**How promising:** Not promising for the "declining NAD+ causes aging, so supplement to restore it" narrative specifically — this is solid, sizable human data directly contradicting that premise, though outside experts note whole blood may not reflect what's happening inside individual tissues
-**What we don't know yet:** Whether NAD+ levels inside specific tissues (muscle, liver, brain) decline with age even though whole-blood levels don't, and whether that would matter for a different reason than the one supplements are currently marketed on
-**Availability:** NAD+ precursor supplements (NMN, NR) are already widely sold over the counter; nothing here changes their legal availability, only the evidence behind the age-decline rationale for taking them
-
-**Source:** Boston Globe, June 1, 2026 (reporting on Houtkooper et al., *Nature Metabolism*) — https://www.bostonglobe.com/2026/06/01/nation/new-research-longevity-supplement/
+**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workday-and-Anthropic-Announce-New-Partnership-to-Connect-Reasoning-to-the-Rules-That-Run-the-Business,-Wherever-People-Choose-to-Work
 
 ---
 
-## 30-Year Harvard Study: Variety of Exercise, Not Just Volume, Linked to Lower Risk of Early Death
+## NetSuite's Own Conference Opens This Week as the "NetSuite Next" Rollout Continues
 
-**What happened:** Harvard researchers (Han Han, Jinbo Hu, Yang Hu, and colleagues) analyzed activity data from roughly 111,000 people in the Nurses' Health Study (1986–2018) and Health Professionals Follow-Up Study (1986–2020), tracking both the total amount and the variety of physical activity reported over up to 30 years of follow-up. People who did the widest mix of different activity types had about 19% lower mortality risk than those doing the least varied activity — and this association held up independent of total exercise volume, with a pattern suggesting a possible threshold rather than a straight-line benefit. The study was published in *BMJ Medicine* on January 20, 2026 (DOI 10.1136/bmjmed-2025-001513).
-**Why it matters:** Most exercise guidance focuses on hitting a weekly minutes target; this large, long-running cohort suggests that spreading effort across several different kinds of activity — rather than repeating one — may carry an independent longevity benefit, a simple, low-cost behavioral lever distinct from any drug or supplement.
+**What happened:** SuiteWorld 2026, Oracle NetSuite's annual customer and partner conference, runs October 25–28 in Las Vegas. It arrives as Oracle continues a phased rollout of "NetSuite Next," an AI-centered redesign of the ERP built around "Ask Oracle" — a conversational assistant that can analyze business data, answer questions in plain language, surface insights, and recommend actions from inside the existing NetSuite interface. Oracle announced the rollout on July 15 with its 2026.2 release, starting with US and Canada accounts; the feature isn't switched on automatically, and customers wait for an Oracle rollout notice before an administrator can request access. Additional countries are expected to follow.
+**Why it matters:** It's the clearest signal yet of where NetSuite is taking its core product — AI assistance built into the ERP itself rather than a bolt-on tool — and SuiteWorld is where Oracle NetSuite leadership frames that roadmap to its full customer and partner base this week.
 
-**Evidence:** Strong evidence (for a well-powered, long-term observational association; not a randomized trial)
-**Studied in humans:** Yes — roughly 111,000 people followed for up to 30 years
-**How promising:** One of the largest and longest cohort studies on this specific question, with a clear dose-independent signal, but it remains observational — self-reported activity and health-professional cohorts may not generalize to everyone, and it cannot prove causation
-**What we don't know yet:** Whether deliberately diversifying one's exercise routine would causally lower mortality risk in a randomized trial, and what biological mechanism (if any) would explain a variety-specific benefit beyond total activity
-**Availability:** Not a treatment — this is behavioral evidence anyone can act on now (mixing activity types), not a clinical intervention requiring approval
+**Sales angle:** Being able to speak accurately about NetSuite Next and Ask Oracle — what's live today for US/Canada customers versus still rolling out elsewhere — is directly useful when a prospect asks how NetSuite's AI compares to moves like SAP's Joule Work or Workday's new Claude integration.
+**SDR takeaway:** NetSuite Next is real and already live for some US and Canada customers, but it's a staggered, notice-based rollout rather than a universal day-one feature — accurate framing avoids overpromising to a prospect evaluating the timeline.
+**Conversation starter:** "NetSuite's rolling out an AI layer called Ask Oracle that's built right into the ERP interface rather than a separate app — has your team been testing or watching for AI features like that in the systems you use today?"
+**Signal:** 💡 Worth Knowing
 
-**Source:** BMJ Group, January 2026 — https://bmjgroup.com/mix-of-different-types-of-physical-activity-may-be-best-for-longer-life/
+**Source:** NetSuite, July 15, 2026 — https://www.netsuite.com/portal/resource/articles/erp/netsuite-next-begins-rolling-out-with-netsuite-2026-2.shtml
 
 ---
 
-*1,774 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Corporate-Spend Fintech Ramp Raises $1.85 Billion at a $60 Billion Valuation
+
+**What happened:** Ramp, a corporate card and spend-management fintech, announced a $1.85 billion primary financing round led by Dragoneer Investment Group, with Thrive Capital, Founders Fund, Sands Capital, and Avenir Growth also participating. The round values Ramp at $60 billion, up sharply from the $44 billion valuation it carried just four months earlier, when it raised $750 million in June 2026. Law firm Latham & Watkins, which advised Ramp on the deal, published the announcement in October.
+**Why it matters:** It's one of the largest fintech or SaaS raises of the year, a sign investors are still committing large sums to vertical, AI-enabled finance software even as broader tech funding grows more selective — and it sits squarely in NetSuite's competitive orbit, since corporate card and spend management increasingly overlaps with ERP.
+
+**Sales angle:** Fast-growing, richly funded companies — the kind of customer profile Ramp itself serves — are exactly the businesses that often outgrow spreadsheets and point tools and start evaluating a full ERP; a high-profile funding round at a prospect account is a timely, legitimate reason to check back in.
+**SDR takeaway:** A "primary financing round" means the company issues new shares and the cash goes onto its own balance sheet, as opposed to a "secondary" sale where existing shareholders cash out — useful vocabulary whenever a prospect mentions a recent raise.
+**Conversation starter:** "A lot of corporate finance software companies have raised very large rounds this year — has your own company's recent growth or funding changed what you need from your finance systems?"
+**Signal:** 👀 Watch This
+
+**Source:** Latham & Watkins, October 2026 — https://www.lw.com/en/news/2026/10/latham-watkins-advises-ramp-on-financing
+
+---
+
+## NRF Forecasts Record $1.013 Trillion Holiday Season, Up 4.2% From Last Year
+
+**What happened:** The National Retail Federation forecast on October 15 that US holiday retail sales in November and December will rise 4.2% over 2025, to $1.013 trillion — the first time the forecast has crossed $1 trillion. That compares with 3.1% growth to $972 billion last year. NRF Chief Economist Mark Mathews said roughly half of the projected growth should come from real increases in spending rather than higher prices, with higher-income shoppers expected to drive much of the season. Retailers are expected to hire between 325,000 and 375,000 seasonal workers, roughly in line with last year's estimated 356,000. NRF's figure excludes automobile dealers, gas stations, and restaurants.
+**Why it matters:** It's the clearest read yet on how retailers — and the wholesale and distribution businesses that supply them — are sizing up the most important quarter of their year, which shapes how much they can spend on systems like point-of-sale, inventory, and ERP once the season ends.
+
+**Sales angle:** Retail and e-commerce prospects are heads-down on execution right now, not evaluating new systems — this is a moment to understand their Q4 pressures and build the relationship ahead of a Q1 budget conversation, not to push for a decision.
+**SDR takeaway:** NRF's holiday figure is a "core retail" number — it leaves out auto dealers, gas stations, and restaurants — so it doesn't capture a prospect's full revenue if they sell in one of those categories.
+**Conversation starter:** "NRF is projecting a record holiday season this year, but retailers are still being cautious on seasonal hiring — how is your team balancing growth expectations with cost control heading into Q4?"
+**Signal:** 💡 Worth Knowing
+
+**Source:** National Retail Federation, October 15, 2026 — https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient
+
+---
+
+*1,593 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
