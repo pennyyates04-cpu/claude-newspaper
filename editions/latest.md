@@ -1,88 +1,93 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Monday, October 26, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Tuesday, October 27, 2026
 
-*Compiled 7:07 AM ET. Covering roughly the last two weeks, including this week's SuiteWorld 2026.*
+*Compiled 7:04 AM ET. Covering roughly the last 24–48 hours, plus recent research relevant to the week ahead.*
 
 ---
 
 ## TL;DR
 
-- Gartner forecasts worldwide IT spending will grow 15% in 2027 to $7.35 trillion, crossing $7 trillion for the first time, led by AI infrastructure and software.
-- Workday and Anthropic announced a partnership wiring Claude's reasoning directly into Workday's HR and finance workflows via Sana and the Model Context Protocol.
-- SuiteWorld 2026 kicked off this week in Las Vegas as Oracle keeps rolling out "NetSuite Next" and its Ask Oracle AI assistant across North America.
-- Corporate-finance fintech Ramp raised $1.85 billion at a $60 billion valuation, one of the largest fintech rounds of the year.
-- NRF forecasts record $1.013 trillion in US holiday retail sales this season, up 4.2% from last year, as retailers take a measured approach to seasonal hiring.
+- A 36-month readout of Lineage Cell Therapeutics' OpRegen stem-cell therapy showed continued vision gains in a small geographic atrophy trial, an unusually durable result for a regenerative eye treatment.
+- A Nature Medicine analysis of the COSMOS trial found a daily multivitamin modestly slowed two blood-based aging clocks in adults around age 70, roughly equal to four fewer months of biological aging over two years.
+- A Nature Metabolism study of over 300 people found blood NAD+ levels don't decline with age or differ with exercise, undercutting a key premise behind NAD+ anti-aging supplements and IV drips.
+- A JAMA Internal Medicine review concluded there's no evidence continuous glucose monitors improve health in people without diabetes, despite their growing popularity as a wellness wearable.
+- An FDA advisory committee voted to recommend BPC-157 and five other peptides for legal pharmacy compounding, overriding its own staff's recommendation against BPC-157 — a regulatory shift, not yet a final rule.
 
 ---
 
-## Gartner: Worldwide IT Spending to Grow 15% in 2027, Topping $7.35 Trillion for the First Time
+## Stem-Cell Retinal Therapy OpRegen Shows Durable Vision Gains at Three Years
 
-**What happened:** Gartner forecast on October 21 that worldwide IT spending will reach about $7.35 trillion in 2027, up 15% from 2026 — the first time the total crosses $7 trillion. Data center systems is the fastest-growing category, projected to grow roughly 55.5% to about $1.37 trillion, driven by AI infrastructure buildouts. IaaS is projected to grow about 25.7%, software about 14.6%, devices about 8.1%, IT services about 4.9%, and communications services about 2.9%. Gartner says hardware markets face cost pressure from memory-related price inflation even as AI drives most of the growth.
-**Why it matters:** Software spending growing nearly 15% — one of the fastest categories outside the AI data-center buildout itself — is a direct tailwind for enterprise software budgets heading into next year.
+**What happened:** At the Foundation Fighting Blindness Retinal Therapeutics Innovation Summit on May 1, 2026, researchers presented 36-month follow-up data from Lineage Cell Therapeutics' Phase 1/2a trial of OpRegen (RG6501), a transplant of stem-cell-derived retinal pigment epithelium (RPE) cells, in patients with geographic atrophy — the advanced, vision-destroying form of dry age-related macular degeneration. In the trial's less-advanced-disease cohort (roughly 10–12 patients), mean best-corrected visual acuity improved by about +6.2 letters at 36 months, building on a +5.5-letter gain at 24 months; patients whose transplant covered more of the lesion gained as much as +9 letters. Imaging suggested partial restoration of outer retinal structure, including reappearance of an RPE layer and signs associated with photoreceptor recovery.
+**Why it matters:** Most experimental stem-cell retinal treatments show a brief functional bump that fades; a continued gain at three years, in a disease with no approved treatment that restores vision, is a rare durability signal for the field.
 
-**Sales angle:** Finance and IT leaders are actively building 2027 budgets right now, and Gartner's numbers say AI investment is the main thing reshaping those budgets — a timely, data-backed reason to ask about a prospect's own planning.
-**SDR takeaway:** "Net-new spend" in forecasts like this one refers to the dollar increase over the prior year, not total spend — useful to know when a prospect or report cites a growth figure rather than an absolute number.
-**Conversation starter:** "Gartner just forecast IT spending will cross $7 trillion for the first time next year, with AI infrastructure as the biggest driver — is AI investment reshaping how your team is planning next year's software budget?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — Phase 1/2a trial, roughly 10–12 patients in the relevant cohort followed for 36 months; not yet peer-reviewed or published, reported via company and conference disclosure.
+**How promising:** Encouraging for the specific patients who still had less-advanced disease at baseline, but the group is tiny and this remains a single-arm, non-blinded, company-funded study.
+**What we don't know yet:** Whether the gains persist past three years, how OpRegen performs in a randomized controlled trial, and whether it still works once disease is further along. Roche/Genentech are now testing it in a larger Phase 2a trial called GAlette.
+**Availability:** Experimental only — not FDA-approved; available solely through clinical trials.
 
-**Source:** Gartner, October 21, 2026 — https://www.gartner.com/en/newsroom/press-releases/2026-10-21-gartner-forecasts-worldwide-it-spending-to-grow-15-percent-in-2027-totaling-7-point-35-trillion
-
----
-
-## Workday and Anthropic Partner to Wire Claude's Reasoning Into HR and Finance Workflows
-
-**What happened:** At Workday Rising on October 13, Workday and Anthropic announced a partnership connecting Claude to Sana, Workday's AI agent and orchestration layer, and to Workday's underlying HR and finance data. The two systems pass information and tasks through the Model Context Protocol (MCP), an open standard, so employees can start work in either Claude or Sana and keep the same context. Workday says its existing permissions, approval requirements, and audit controls continue to apply to any request made through Claude. "Sana in Claude" is live for early-access customers now, with general availability expected in late 2026.
-**Why it matters:** It's a concrete example of a major enterprise software vendor embedding a frontier AI model's reasoning directly into day-to-day business workflows while keeping the underlying data and governance inside its own system — a pattern NetSuite and other ERP/HCM vendors will likely need to match.
-
-**Sales angle:** A prospect currently on Workday may soon start hearing about "Claude in Workday" or Sana from their account team — understanding what it actually does (and doesn't) helps position NetSuite's own AI roadmap credibly in that conversation.
-**SDR takeaway:** The Model Context Protocol (MCP) is an open standard that lets an AI assistant like Claude plug into a business application's data and tools without a custom integration being built for each individual connection — it's becoming the common "wiring" enterprise AI agents use to reach business systems.
-**Conversation starter:** "Workday just connected Claude's reasoning directly into their HR and finance workflows through an open standard called MCP — has your team looked at how AI agents are being wired into the systems you already use, versus a separate standalone chatbot?"
-**Signal:** 🔥 Must Know
-
-**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workday-and-Anthropic-Announce-New-Partnership-to-Connect-Reasoning-to-the-Rules-That-Run-the-Business,-Wherever-People-Choose-to-Work
+**Source:** Barchart (Lineage Cell Therapeutics / Foundation Fighting Blindness), May 2026 — https://www.barchart.com/story/news/1682453/opregen-3-year-results-in-patients-with-ga-presented-at-foundation-fighting-blindness-retinal-innovation-summit-2026
 
 ---
 
-## NetSuite's Own Conference Opens This Week as the "NetSuite Next" Rollout Continues
+## Daily Multivitamin Modestly Slows Biological Aging in Large COSMOS Trial Analysis
 
-**What happened:** SuiteWorld 2026, Oracle NetSuite's annual customer and partner conference, runs October 25–28 in Las Vegas. It arrives as Oracle continues a phased rollout of "NetSuite Next," an AI-centered redesign of the ERP built around "Ask Oracle" — a conversational assistant that can analyze business data, answer questions in plain language, surface insights, and recommend actions from inside the existing NetSuite interface. Oracle announced the rollout on July 15 with its 2026.2 release, starting with US and Canada accounts; the feature isn't switched on automatically, and customers wait for an Oracle rollout notice before an administrator can request access. Additional countries are expected to follow.
-**Why it matters:** It's the clearest signal yet of where NetSuite is taking its core product — AI assistance built into the ERP itself rather than a bolt-on tool — and SuiteWorld is where Oracle NetSuite leadership frames that roadmap to its full customer and partner base this week.
+**What happened:** A new analysis of the COSMOS randomized trial, published in Nature Medicine on March 9, 2026, measured five blood-based "epigenetic clocks" in 958 participants (average age about 70) randomized to a daily multivitamin-multimineral (Centrum Silver), cocoa extract, both, or placebo for two years. People taking the multivitamin aged significantly slower on two of the five clocks — including PCGrimAge, which predicts mortality — by an amount researchers equated to roughly four fewer months of biological aging over the two-year period. The effect was larger in people who were already aging faster than average at baseline. Cocoa extract had no measurable effect on any clock.
+**Why it matters:** It's one of the larger, better-designed randomized trials to test a cheap, over-the-counter multivitamin against an objective, lab-measured aging marker rather than self-reported health outcomes.
 
-**Sales angle:** Being able to speak accurately about NetSuite Next and Ask Oracle — what's live today for US/Canada customers versus still rolling out elsewhere — is directly useful when a prospect asks how NetSuite's AI compares to moves like SAP's Joule Work or Workday's new Claude integration.
-**SDR takeaway:** NetSuite Next is real and already live for some US and Canada customers, but it's a staggered, notice-based rollout rather than a universal day-one feature — accurate framing avoids overpromising to a prospect evaluating the timeline.
-**Conversation starter:** "NetSuite's rolling out an AI layer called Ask Oracle that's built right into the ERP interface rather than a separate app — has your team been testing or watching for AI features like that in the systems you use today?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — randomized, placebo-controlled trial, 958 participants, two years of follow-up.
+**How promising:** Modest and statistically significant on two of five clocks, not all five; researchers caution these clocks carry roughly ±3-year margins of error, so a four-month effect is small relative to that noise.
+**What we don't know yet:** Whether this biomarker shift translates into any measurable gain in healthspan, disease risk, or lifespan — the trial measured blood markers, not clinical outcomes — and whether the effect persists after people stop taking the multivitamin.
+**Availability:** Clinical now — a standard, widely available over-the-counter multivitamin, not a prescription or clinic treatment.
 
-**Source:** NetSuite, July 15, 2026 — https://www.netsuite.com/portal/resource/articles/erp/netsuite-next-begins-rolling-out-with-netsuite-2026-2.shtml
-
----
-
-## Corporate-Spend Fintech Ramp Raises $1.85 Billion at a $60 Billion Valuation
-
-**What happened:** Ramp, a corporate card and spend-management fintech, announced a $1.85 billion primary financing round led by Dragoneer Investment Group, with Thrive Capital, Founders Fund, Sands Capital, and Avenir Growth also participating. The round values Ramp at $60 billion, up sharply from the $44 billion valuation it carried just four months earlier, when it raised $750 million in June 2026. Law firm Latham & Watkins, which advised Ramp on the deal, published the announcement in October.
-**Why it matters:** It's one of the largest fintech or SaaS raises of the year, a sign investors are still committing large sums to vertical, AI-enabled finance software even as broader tech funding grows more selective — and it sits squarely in NetSuite's competitive orbit, since corporate card and spend management increasingly overlaps with ERP.
-
-**Sales angle:** Fast-growing, richly funded companies — the kind of customer profile Ramp itself serves — are exactly the businesses that often outgrow spreadsheets and point tools and start evaluating a full ERP; a high-profile funding round at a prospect account is a timely, legitimate reason to check back in.
-**SDR takeaway:** A "primary financing round" means the company issues new shares and the cash goes onto its own balance sheet, as opposed to a "secondary" sale where existing shareholders cash out — useful vocabulary whenever a prospect mentions a recent raise.
-**Conversation starter:** "A lot of corporate finance software companies have raised very large rounds this year — has your own company's recent growth or funding changed what you need from your finance systems?"
-**Signal:** 👀 Watch This
-
-**Source:** Latham & Watkins, October 2026 — https://www.lw.com/en/news/2026/10/latham-watkins-advises-ramp-on-financing
+**Source:** Nature Medicine, March 9, 2026 — https://www.nature.com/articles/s41591-026-04239-3
 
 ---
 
-## NRF Forecasts Record $1.013 Trillion Holiday Season, Up 4.2% From Last Year
+## Study of 300+ People Finds Blood NAD+ Doesn't Decline With Age, Challenging a Core Supplement Claim
 
-**What happened:** The National Retail Federation forecast on October 15 that US holiday retail sales in November and December will rise 4.2% over 2025, to $1.013 trillion — the first time the forecast has crossed $1 trillion. That compares with 3.1% growth to $972 billion last year. NRF Chief Economist Mark Mathews said roughly half of the projected growth should come from real increases in spending rather than higher prices, with higher-income shoppers expected to drive much of the season. Retailers are expected to hire between 325,000 and 375,000 seasonal workers, roughly in line with last year's estimated 356,000. NRF's figure excludes automobile dealers, gas stations, and restaurants.
-**Why it matters:** It's the clearest read yet on how retailers — and the wholesale and distribution businesses that supply them — are sizing up the most important quarter of their year, which shapes how much they can spend on systems like point-of-sale, inventory, and ERP once the season ends.
+**What happened:** Researchers at Amsterdam UMC and collaborators directly measured NAD+ in whole blood from more than 300 people across seven independent cohorts, published in Nature Metabolism in May 2026. NAD+ levels did not meaningfully decline with age in any cohort, didn't differ between elite athletes and sedentary people, and didn't shift significantly with exercise or high-protein diets. Nicotinamide riboside supplementation did raise blood NAD+ as expected, but measured levels proved highly sensitive to how blood samples were frozen and handled — which the authors suggest may explain conflicting results in earlier, smaller studies.
+**Why it matters:** The sales pitch behind NAD+ pills and IV drips rests on the idea that NAD+ falls with age and needs replenishing; this larger, more rigorous direct-measurement study found no such age-related decline in human blood.
 
-**Sales angle:** Retail and e-commerce prospects are heads-down on execution right now, not evaluating new systems — this is a moment to understand their Q4 pressures and build the relationship ahead of a Q1 budget conversation, not to push for a decision.
-**SDR takeaway:** NRF's holiday figure is a "core retail" number — it leaves out auto dealers, gas stations, and restaurants — so it doesn't capture a prospect's full revenue if they sell in one of those categories.
-**Conversation starter:** "NRF is projecting a record holiday season this year, but retailers are still being cautious on seasonal hiring — how is your team balancing growth expectations with cost control heading into Q4?"
-**Signal:** 💡 Worth Knowing
+**Evidence:** Mixed/uncertain evidence — the new data argue against the "NAD+ declines with age" premise, but a separate 2026 study in frail, older Japanese adults did find an association between lower NAD+ and frailty, so the picture isn't fully settled.
+**Studied in humans:** Yes — over 300 people across seven cohorts, direct blood measurement.
+**How promising:** This is a biomarker study, not a treatment trial — it doesn't test whether boosting NAD+ helps anyone; it mainly undercuts the premise marketers use to sell NAD+ products.
+**What we don't know yet:** Whether NAD+ in other tissues (not blood) declines with age, and whether any controlled human trial shows IV or oral NAD+/precursors produce a measurable anti-aging benefit — a separate 2026 review found no controlled-trial evidence for anti-aging benefit from IV NAD+.
+**Availability:** IV NAD+ and NAD+ precursor supplements are widely available now at wellness clinics and over the counter, but none is FDA-approved for anti-aging use.
 
-**Source:** National Retail Federation, October 15, 2026 — https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient
+**Source:** NutraIngredients, June 2, 2026 (reporting the Nature Metabolism study) — https://www.nutraingredients.com/Article/2026/06/02/blood-nad-may-not-be-a-useful-biomarker-of-aging-after-all/
 
 ---
 
-*1,593 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## JAMA Review: No Evidence Continuous Glucose Monitors Help Healthy People Without Diabetes
+
+**What happened:** A narrative review in JAMA Internal Medicine, published online August 3, 2026, examined the evidence for continuous glucose monitors (CGMs) — now widely marketed as wellness wearables to people without diabetes. The authors concluded there's no scientific evidence that CGMs improve health or prevent disease in people who don't have diabetes, and that evidence even in people with prediabetes or obesity is limited and indirect. In people with type 2 diabetes, CGM use was linked to a modest roughly 0.3-percentage-point reduction in HbA1c in randomized trials.
+**Why it matters:** CGMs have become one of the most visible "biohacking" devices, marketed on the idea that real-time glucose data helps optimize health even without diabetes — this review found the direct evidence for that specific claim doesn't yet exist.
+
+**Evidence:** Little or no credible evidence for benefit in people without diabetes; evidence is stronger, though still modest, in type 2 diabetes.
+**Studied in humans:** Yes — the review synthesizes existing randomized trials and observational studies in humans.
+**How promising:** Not promising as currently marketed to healthy people; the authors warn healthy users may be over-interpreting normal glucose swings as problems.
+**What we don't know yet:** Whether tracking glucose changes behavior in ways that eventually show up in longer-term health outcomes for people without diabetes — the authors say that specific question hasn't been well tested.
+**Availability:** Clinically available and FDA-cleared for sale to people without diabetes since 2024, but this review argues against routine use outside a specific clinical reason.
+
+**Source:** JAMA Internal Medicine, August 3, 2026 — https://doi.org/10.1001/jamainternmed.2026.2772
+
+---
+
+## FDA Advisory Committee Recommends BPC-157 and Five Other Peptides for Pharmacy Compounding
+
+**What happened:** On July 23, 2026, the FDA's Pharmacy Compounding Advisory Committee voted 8-6, with one abstention, to recommend adding BPC-157 to the FDA's Section 503A list of substances pharmacies may legally compound. Over the two-day meeting, the committee reviewed seven peptides popular in longevity and recovery circles — BPC-157, TB-500, KPV, MOTS-c, semax, epitalon, and emideltide (DSIP) — and recommended six of the seven, voting against emideltide. FDA staff had recommended against including BPC-157, so the committee's vote went against the agency's own staff recommendation.
+**Why it matters:** These peptides, especially BPC-157 and TB-500, are already widely used off-label for injury recovery and inflammation despite having no FDA-approved use; a formal recommendation toward legal compounding access would be a significant regulatory shift, though it is not yet a final rule.
+
+**Evidence:** Mixed/uncertain evidence — most human data on these peptides comes from small, uncontrolled studies, with much of the supporting mechanistic evidence from animal models rather than large randomized human trials.
+**Studied in humans:** Limited — mostly small or observational human studies to date.
+**How promising:** Uncertain; the committee's vote reflects demand and perceived safety more than new clinical-trial evidence of benefit.
+**What we don't know yet:** Whether the FDA will finalize the addition to the 503A bulks list, which still requires further agency review and rulemaking, and basic dose-response and long-term safety data in humans for most of these peptides.
+**Availability:** Experimental/off-label only for now — none is FDA-approved for any indication, and compounding access, if finalized, would still require a prescription.
+
+**Source:** ABC News / Good Morning America, July 2026 — https://goodmorningamerica.com/news/story/fda-advisory-committee-votes-add-popular-peptide-bpc-134913891
+
+---
+
+*1,625 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
