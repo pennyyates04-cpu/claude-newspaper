@@ -1,93 +1,102 @@
-# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
-### Tuesday, October 27, 2026
+# 🗞 Penny's Daily — Tech, Business & Sales Edition
+### Wednesday, October 28, 2026
 
-*Compiled 7:04 AM ET. Covering roughly the last 24–48 hours, plus recent research relevant to the week ahead.*
+*Compiled 7:09 AM ET. Covering roughly the last two weeks.*
 
 ---
 
 ## TL;DR
 
-- A 36-month readout of Lineage Cell Therapeutics' OpRegen stem-cell therapy showed continued vision gains in a small geographic atrophy trial, an unusually durable result for a regenerative eye treatment.
-- A Nature Medicine analysis of the COSMOS trial found a daily multivitamin modestly slowed two blood-based aging clocks in adults around age 70, roughly equal to four fewer months of biological aging over two years.
-- A Nature Metabolism study of over 300 people found blood NAD+ levels don't decline with age or differ with exercise, undercutting a key premise behind NAD+ anti-aging supplements and IV drips.
-- A JAMA Internal Medicine review concluded there's no evidence continuous glucose monitors improve health in people without diabetes, despite their growing popularity as a wellness wearable.
-- An FDA advisory committee voted to recommend BPC-157 and five other peptides for legal pharmacy compounding, overriding its own staff's recommendation against BPC-157 — a regulatory shift, not yet a final rule.
+- Oracle NetSuite rolled out SuiteAgents, a lineup of industry-specific AI agents for software, product, and construction companies, at this week's SuiteWorld 2026 conference in Las Vegas.
+- Salesforce agreed to buy customer-engagement platform Braze for $5.66 billion to fold real-time messaging into Agentforce and Data 360.
+- Meta's Q3 revenue grew 26% to $64.6 billion, but a $9.89 billion legal charge from its teen-safety settlement cut operating income, even as 2026 AI capex guidance held near $135–145 billion.
+- HubSpot is cutting roughly 660 jobs, about 7% of its workforce, in a restructuring the CEO frames as reorganizing around customer outcomes rather than AI-driven efficiency.
+- Workday agreed to acquire identity-management startup C1.ai to govern which systems both employees and AI agents are allowed to access.
 
 ---
 
-## Stem-Cell Retinal Therapy OpRegen Shows Durable Vision Gains at Three Years
+## Oracle NetSuite Debuts Industry-Specific "SuiteAgents" at SuiteWorld 2026
 
-**What happened:** At the Foundation Fighting Blindness Retinal Therapeutics Innovation Summit on May 1, 2026, researchers presented 36-month follow-up data from Lineage Cell Therapeutics' Phase 1/2a trial of OpRegen (RG6501), a transplant of stem-cell-derived retinal pigment epithelium (RPE) cells, in patients with geographic atrophy — the advanced, vision-destroying form of dry age-related macular degeneration. In the trial's less-advanced-disease cohort (roughly 10–12 patients), mean best-corrected visual acuity improved by about +6.2 letters at 36 months, building on a +5.5-letter gain at 24 months; patients whose transplant covered more of the lesion gained as much as +9 letters. Imaging suggested partial restoration of outer retinal structure, including reappearance of an RPE layer and signs associated with photoreceptor recovery.
-**Why it matters:** Most experimental stem-cell retinal treatments show a brief functional bump that fades; a continued gain at three years, in a disease with no approved treatment that restores vision, is a rare durability signal for the field.
+**What happened:** At SuiteWorld 2026 in Las Vegas (October 25–28), Oracle NetSuite unveiled SuiteAgents — AI agents built on NetSuite's unified data model and tailored to specific industries rather than general-purpose. Agents for software, product, and construction companies are available now inside NetSuite Next; healthcare, services, and nonprofit agents are planned for later release, with Oracle cautioning that timing could change. The announcement also included AI Workspaces, a SuiteAgent Studio for building custom agents, expanded capabilities for the Ask Oracle conversational assistant (live for US and Canada customers), and new automation for account reconciliation, close management, exception handling, and payment processing. Oracle says the agents run under defined permissions with human oversight inside NetSuite's existing governance model.
+**Why it matters:** It's Oracle's clearest answer yet to Workday, SAP, and Salesforce all shipping agentic AI layers this year — NetSuite's bet is that pre-built, industry-specific agents are a sharper differentiator than one general-purpose assistant.
 
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — Phase 1/2a trial, roughly 10–12 patients in the relevant cohort followed for 36 months; not yet peer-reviewed or published, reported via company and conference disclosure.
-**How promising:** Encouraging for the specific patients who still had less-advanced disease at baseline, but the group is tiny and this remains a single-arm, non-blinded, company-funded study.
-**What we don't know yet:** Whether the gains persist past three years, how OpRegen performs in a randomized controlled trial, and whether it still works once disease is further along. Roche/Genentech are now testing it in a larger Phase 2a trial called GAlette.
-**Availability:** Experimental only — not FDA-approved; available solely through clinical trials.
+**Sales angle:** A prospect evaluating NetSuite now has concrete, named agents to ask about rather than a vague "AI roadmap" — knowing exactly which industries have live agents today versus ones still coming avoids over-promising.
+**SDR takeaway:** "Agentic AI" refers to software that can take multi-step actions on a user's behalf (not just answer questions) — SuiteAgents doing reconciliation or exception handling autonomously, under human oversight, is a concrete example to point to.
+**Conversation starter:** "NetSuite just rolled out AI agents built specifically for industries like software, product, and construction — is your team currently evaluating any AI tools that are built for your specific industry versus general-purpose ones?"
+**Signal:** 🔥 Must Know
 
-**Source:** Barchart (Lineage Cell Therapeutics / Foundation Fighting Blindness), May 2026 — https://www.barchart.com/story/news/1682453/opregen-3-year-results-in-patients-with-ga-presented-at-foundation-fighting-blindness-retinal-innovation-summit-2026
-
----
-
-## Daily Multivitamin Modestly Slows Biological Aging in Large COSMOS Trial Analysis
-
-**What happened:** A new analysis of the COSMOS randomized trial, published in Nature Medicine on March 9, 2026, measured five blood-based "epigenetic clocks" in 958 participants (average age about 70) randomized to a daily multivitamin-multimineral (Centrum Silver), cocoa extract, both, or placebo for two years. People taking the multivitamin aged significantly slower on two of the five clocks — including PCGrimAge, which predicts mortality — by an amount researchers equated to roughly four fewer months of biological aging over the two-year period. The effect was larger in people who were already aging faster than average at baseline. Cocoa extract had no measurable effect on any clock.
-**Why it matters:** It's one of the larger, better-designed randomized trials to test a cheap, over-the-counter multivitamin against an objective, lab-measured aging marker rather than self-reported health outcomes.
-
-**Evidence:** Promising but preliminary
-**Studied in humans:** Yes — randomized, placebo-controlled trial, 958 participants, two years of follow-up.
-**How promising:** Modest and statistically significant on two of five clocks, not all five; researchers caution these clocks carry roughly ±3-year margins of error, so a four-month effect is small relative to that noise.
-**What we don't know yet:** Whether this biomarker shift translates into any measurable gain in healthspan, disease risk, or lifespan — the trial measured blood markers, not clinical outcomes — and whether the effect persists after people stop taking the multivitamin.
-**Availability:** Clinical now — a standard, widely available over-the-counter multivitamin, not a prescription or clinic treatment.
-
-**Source:** Nature Medicine, March 9, 2026 — https://www.nature.com/articles/s41591-026-04239-3
+**Source:** CPA Practice Advisor, October 26, 2026 — https://www.cpapracticeadvisor.com/2026/10/26/oracle-netsuite-debuts-industry-specific-ai-agents/192565/
 
 ---
 
-## Study of 300+ People Finds Blood NAD+ Doesn't Decline With Age, Challenging a Core Supplement Claim
+## Salesforce to Acquire Braze for $5.66 Billion, Betting on Real-Time Customer Data for Agentforce
 
-**What happened:** Researchers at Amsterdam UMC and collaborators directly measured NAD+ in whole blood from more than 300 people across seven independent cohorts, published in Nature Metabolism in May 2026. NAD+ levels did not meaningfully decline with age in any cohort, didn't differ between elite athletes and sedentary people, and didn't shift significantly with exercise or high-protein diets. Nicotinamide riboside supplementation did raise blood NAD+ as expected, but measured levels proved highly sensitive to how blood samples were frozen and handled — which the authors suggest may explain conflicting results in earlier, smaller studies.
-**Why it matters:** The sales pitch behind NAD+ pills and IV drips rests on the idea that NAD+ falls with age and needs replenishing; this larger, more rigorous direct-measurement study found no such age-related decline in human blood.
+**What happened:** Salesforce announced on October 20 a definitive agreement to acquire Braze, a publicly traded customer-engagement and messaging platform, for about $5.66 billion in enterprise value — $47.50 per Class A share in cash, a roughly 58% premium to Braze's prior closing price (though still below its 2021 IPO price of $65). Braze grew revenue 26% to $227.2 million last quarter and expects about $910 million in sales this fiscal year. Salesforce plans to fold Braze into Marketing Cloud, Data 360, and Agentforce. The deal requires Braze shareholder and regulatory approval and is expected to close during Salesforce's fiscal year 2028.
+**Why it matters:** Salesforce is buying real-time behavioral data and messaging infrastructure to feed its AI agents — a reminder that enterprise software vendors increasingly see acquisitions, not just internal R&D, as the fast path to better AI.
 
-**Evidence:** Mixed/uncertain evidence — the new data argue against the "NAD+ declines with age" premise, but a separate 2026 study in frail, older Japanese adults did find an association between lower NAD+ and frailty, so the picture isn't fully settled.
-**Studied in humans:** Yes — over 300 people across seven cohorts, direct blood measurement.
-**How promising:** This is a biomarker study, not a treatment trial — it doesn't test whether boosting NAD+ helps anyone; it mainly undercuts the premise marketers use to sell NAD+ products.
-**What we don't know yet:** Whether NAD+ in other tissues (not blood) declines with age, and whether any controlled human trial shows IV or oral NAD+/precursors produce a measurable anti-aging benefit — a separate 2026 review found no controlled-trial evidence for anti-aging benefit from IV NAD+.
-**Availability:** IV NAD+ and NAD+ precursor supplements are widely available now at wellness clinics and over the counter, but none is FDA-approved for anti-aging use.
+**Sales angle:** A prospect using Braze alongside Salesforce today may soon face a vendor consolidation decision — understanding this deal helps frame how NetSuite's own ecosystem of partners and integrations compares to a single vendor absorbing more of the stack.
+**SDR takeaway:** "Enterprise value" in a deal like this includes the equity price plus debt assumed minus cash on hand — it's usually a bigger, more complete number than the "equity value" headline some outlets report.
+**Conversation starter:** "Salesforce just paid nearly $5.7 billion to bring a customer-messaging platform in-house to power its AI agents — has your team been consolidating tools, or still stitching several platforms together?"
+**Signal:** 🔥 Must Know
 
-**Source:** NutraIngredients, June 2, 2026 (reporting the Nature Metabolism study) — https://www.nutraingredients.com/Article/2026/06/02/blood-nad-may-not-be-a-useful-biomarker-of-aging-after-all/
-
----
-
-## JAMA Review: No Evidence Continuous Glucose Monitors Help Healthy People Without Diabetes
-
-**What happened:** A narrative review in JAMA Internal Medicine, published online August 3, 2026, examined the evidence for continuous glucose monitors (CGMs) — now widely marketed as wellness wearables to people without diabetes. The authors concluded there's no scientific evidence that CGMs improve health or prevent disease in people who don't have diabetes, and that evidence even in people with prediabetes or obesity is limited and indirect. In people with type 2 diabetes, CGM use was linked to a modest roughly 0.3-percentage-point reduction in HbA1c in randomized trials.
-**Why it matters:** CGMs have become one of the most visible "biohacking" devices, marketed on the idea that real-time glucose data helps optimize health even without diabetes — this review found the direct evidence for that specific claim doesn't yet exist.
-
-**Evidence:** Little or no credible evidence for benefit in people without diabetes; evidence is stronger, though still modest, in type 2 diabetes.
-**Studied in humans:** Yes — the review synthesizes existing randomized trials and observational studies in humans.
-**How promising:** Not promising as currently marketed to healthy people; the authors warn healthy users may be over-interpreting normal glucose swings as problems.
-**What we don't know yet:** Whether tracking glucose changes behavior in ways that eventually show up in longer-term health outcomes for people without diabetes — the authors say that specific question hasn't been well tested.
-**Availability:** Clinically available and FDA-cleared for sale to people without diabetes since 2024, but this review argues against routine use outside a specific clinical reason.
-
-**Source:** JAMA Internal Medicine, August 3, 2026 — https://doi.org/10.1001/jamainternmed.2026.2772
+**Source:** The Next Web, October 20, 2026 — https://thenextweb.com/news/salesforce-to-buy-marketing-platform-braze-for-5-7bn
 
 ---
 
-## FDA Advisory Committee Recommends BPC-157 and Five Other Peptides for Pharmacy Compounding
+## Meta's Q3 Revenue Jumps 26% to $64.6 Billion, But a $9.89 Billion Legal Charge Cuts Profit
 
-**What happened:** On July 23, 2026, the FDA's Pharmacy Compounding Advisory Committee voted 8-6, with one abstention, to recommend adding BPC-157 to the FDA's Section 503A list of substances pharmacies may legally compound. Over the two-day meeting, the committee reviewed seven peptides popular in longevity and recovery circles — BPC-157, TB-500, KPV, MOTS-c, semax, epitalon, and emideltide (DSIP) — and recommended six of the seven, voting against emideltide. FDA staff had recommended against including BPC-157, so the committee's vote went against the agency's own staff recommendation.
-**Why it matters:** These peptides, especially BPC-157 and TB-500, are already widely used off-label for injury recovery and inflammation despite having no FDA-approved use; a formal recommendation toward legal compounding access would be a significant regulatory shift, though it is not yet a final rule.
+**What happened:** Meta reported Q3 2026 revenue of $64.6 billion on October 21, up 26% year over year and ahead of analyst estimates. Operating income fell 37% to roughly $12.99 billion because Meta booked a $9.89 billion charge tied to its August settlement with 52 state attorneys general over teen mental-health and social-media claims, with total payments under that settlement potentially reaching $17–18.6 billion over time. Diluted EPS came in at $3.83, versus an estimated $7.40 excluding the charge. Meta narrowed its full-year 2026 capital spending guidance to a $135–145 billion range, still overwhelmingly AI infrastructure, and said it expects 2027 AI investment to be "notably larger."
+**Why it matters:** Even with a one-time legal hit, Meta's underlying ad business kept growing at 26% while capex guidance held near its ceiling — a sign the biggest tech buyers aren't pulling back on AI infrastructure spending despite rising costs and regulatory pressure.
 
-**Evidence:** Mixed/uncertain evidence — most human data on these peptides comes from small, uncontrolled studies, with much of the supporting mechanistic evidence from animal models rather than large randomized human trials.
-**Studied in humans:** Limited — mostly small or observational human studies to date.
-**How promising:** Uncertain; the committee's vote reflects demand and perceived safety more than new clinical-trial evidence of benefit.
-**What we don't know yet:** Whether the FDA will finalize the addition to the 503A bulks list, which still requires further agency review and rulemaking, and basic dose-response and long-term safety data in humans for most of these peptides.
-**Availability:** Experimental/off-label only for now — none is FDA-approved for any indication, and compounding access, if finalized, would still require a prescription.
+**Sales angle:** Meta's results are a data point for any prospect's own capex conversation — if the largest tech companies are still increasing AI investment heading into 2027, that's a credible, well-known reference point when discussing a prospect's technology budget.
+**SDR takeaway:** "Capex" (capital expenditure) is spending on long-term physical assets like data centers and servers, distinct from "opex" (day-to-day operating costs) — distinguishing the two matters when a prospect or report cites a large spending number.
+**Conversation starter:** "Meta just said it's planning to spend even more on AI infrastructure in 2027 than this year — are you seeing similar pressure at your company to keep increasing technology investment even as budgets tighten elsewhere?"
+**Signal:** 🔥 Must Know
 
-**Source:** ABC News / Good Morning America, July 2026 — https://goodmorningamerica.com/news/story/fda-advisory-committee-votes-add-popular-peptide-bpc-134913891
+**Source:** StockAnalysis.com, October 21, 2026 — https://stockanalysis.com/news/meta-q3-2026-earnings/
 
 ---
 
-*1,625 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## HubSpot Cuts About 660 Jobs, Reorganizing Product Teams "Around Customer Outcomes"
+
+**What happened:** HubSpot's board approved a restructuring plan on October 1 that eliminates roughly 660 roles, about 7% of its workforce, which the company disclosed October 6. HubSpot expects $65–75 million in mostly cash charges for severance and transition costs, with the role eliminations substantially complete by the end of Q1 2027. CEO Yamini Rangan told employees the plan reorganizes product teams around customer outcomes, and the company has pushed back on characterizing the cuts as AI-driven efficiency gains. HubSpot reaffirmed its Q3 and full-year 2026 revenue and operating-income guidance, excluding the restructuring charges from non-GAAP results.
+**Why it matters:** It's one of the largest cuts yet at a mid-size SaaS company amid a broader wave of 2026 tech layoffs, and it shows even companies insisting AI isn't the direct cause are restructuring around how AI is reshaping their product organization.
+
+**Sales angle:** A HubSpot customer going through this transition may see slower support or product changes in the near term — a natural, low-pressure reason to check in on how things are going without being opportunistic about a competitor's disruption.
+**SDR takeaway:** Companies increasingly frame layoffs as "reorganizing around customer outcomes" rather than cost-cutting — useful to recognize as corporate messaging distinct from the underlying financial or strategic driver.
+**Conversation starter:** "A lot of SaaS companies have been restructuring their product teams this year as AI reshapes how software gets built — has that affected how your team evaluates new tools or vendors?"
+**Signal:** 💡 Worth Knowing
+
+**Source:** CMSWire, October 2026 — https://cmswire.com/digital-experience/hubspot-cuts-660-jobs-reorganizes-product-teams-around-customer-outcomes
+
+---
+
+## Workday to Acquire C1.ai to Govern What Both Employees and AI Agents Can Access
+
+**What happened:** Workday announced October 13 a definitive agreement to acquire C1.ai (formerly ConductorOne), an "agentic identity" platform that controls which systems — inside and outside Workday, including email, CRM, code repositories, and cloud infrastructure — both human employees and AI agents are permitted to reach. C1.ai enforces scoped access and required approvals, logs every action, and revokes access automatically once a task ends. Terms weren't disclosed; the deal is expected to close by January 31, 2027. It came alongside Workday's separate announcement that its Sana AI agents can now connect to Anthropic's Claude.
+**Why it matters:** As companies deploy more autonomous AI agents, "who can access what, and for how long" becomes a governance problem as important as the agents' capabilities themselves — Workday is positioning itself as the control layer for that problem, not just an HR/finance system.
+
+**Sales angle:** A prospect rolling out AI agents of their own will increasingly need to answer the same access-governance question Workday is solving for its own ecosystem — it's a useful lens for understanding what "AI governance" concretely means to an IT or security buyer.
+**SDR takeaway:** "Agentic identity" or "non-human identity" management refers to treating AI agents like employees for access-control purposes — assigning them permissions, monitoring their actions, and revoking access when no longer needed.
+**Conversation starter:** "Workday just bought a startup specifically to manage which systems its AI agents are allowed to touch — as you roll out more AI tools, how is your team thinking about controlling what those tools can access?"
+**Signal:** 💡 Worth Knowing
+
+**Source:** Workday Newsroom, October 13, 2026 — https://newsroom.workday.com/2026-10-13-Workday-to-Acquire-C1-ai,-a-Leading-Agentic-Identity-Platform-for-People-and-Agents
+
+---
+
+## Quest Diagnostics Discloses Breach of Lab-Ordering Platform, Patient Record Exposure Still Unknown
+
+**What happened:** Quest Diagnostics disclosed in a regulatory filing that it discovered unauthorized access on October 21 to its Quanum Lab Services Manager, a portal some clinics and clients use to place lab orders and retrieve results. The company said "certain patient records" were accessed, that the full scope remains under investigation, and that it has notified federal law enforcement and engaged outside cybersecurity experts. Quest expected to restore full service functionality around October 23; in the meantime, affected customers could use paper requisitions or an alternate system, Quanum eLabs.
+**Why it matters:** Healthcare providers remain a persistent target for breaches, and incidents like this one directly shape how risk-averse healthcare and financial-services prospects evaluate any new vendor's data security.
+
+**Sales angle:** A healthcare or diagnostics prospect watching this story may be more receptive to a conversation about system security, access controls, and vendor risk management than usual — timing a security-focused conversation well can build credibility.
+**SDR takeaway:** A company disclosing a breach before knowing its full scope — "certain patient records," without a number — is standard practice; the final, fuller disclosure (often with a specific record count) typically comes weeks or months later.
+**Conversation starter:** "There's been another healthcare data breach in the news this week — how does your team currently evaluate the security practices of the software vendors you work with?"
+**Signal:** 👀 Watch This
+
+**Source:** eSecurity Planet, October 2026 — https://www.esecurityplanet.com/threats/news-quest-diagnostics-breach-patient-data/
+
+---
+
+*1,786 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
