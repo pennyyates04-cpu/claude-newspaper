@@ -1,116 +1,89 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Friday, October 30, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Saturday, October 31, 2026
 
-*Compiled 7:05 AM ET. Covering roughly the last 24–48 hours.*
+*Compiled 7:03 AM ET. Covering roughly the last 24–48 hours.*
 
 ---
 
 ## TL;DR
 
-- Microsoft's Azure and Amazon's AWS both logged their fastest growth in years (48% and 39% respectively) as AI infrastructure demand keeps climbing.
-- Alphabet's stock still sank about 11% despite 25% revenue growth, after a $51.4 billion capex quarter pushed free cash flow negative again.
-- Oracle's NetSuite 2026.2 release folds the Ask Oracle AI assistant into the standard NetSuite experience for U.S. and Canada accounts.
-- SAP agreed to acquire Belgian startup TechWolf to feed real-time workforce skills data into its Joule AI agents and SuccessFactors.
-- ServiceNow beat Q3 estimates, raised guidance again, and launched "AI Passport" to govern what its AI agents can access.
+- A UC Berkeley mouse study found semaglutide extended lifespan by about 12% and beat calorie restriction on some cognitive measures, while Lilly and Novo Nordisk each reported early human "biological age" reductions from their own GLP-1 drugs — none of it yet proof the drugs slow aging in healthy people.
+- A Nature Medicine paper on the STEM-PD trial reported a clean 12-month safety record for lab-grown dopamine neurons transplanted into Parkinson's patients' brains, with 6 of 7 participants showing signs of needing less medication.
+- A 283-patient NEJM trial found continuous glucose monitors cut HbA1c nearly a full point more than usual care in type 2 diabetics not on insulin — one of the strongest CGM results yet, though industry-sponsored and limited to people with above-target blood sugar.
+- Longeveron's stem-cell therapy for frailty missed its main walking-distance goal at six months in a 148-patient trial, but showed a delayed benefit at nine months, leaving its real-world usefulness unresolved.
+- Sports-medicine groups are warning that BPC-157 and similar "healing peptides" sold online still have essentially no human clinical-trial evidence behind them, despite a booming unregulated market.
 
 ---
 
-## Azure Jumps 48%, AWS Hits 39% Growth as Cloud Giants Show No Sign of Slowing AI Spending
+## Can anti-obesity drugs slow aging? Mouse data looks strong; human evidence is still early
 
-**What happened:** Microsoft's fiscal Q1 2027 results, reported October 28, showed revenue of $92.3 billion, up 19% year over year and above the $90.75 billion analysts expected. For the first time, Microsoft broke out Azure's dollar revenue rather than just its growth rate: $33.2 billion, up 48%. The next day, Amazon reported Q3 2026 revenue of $201.9 billion — slightly below the $202.3 billion Wall Street expected, with EPS of $1.89 missing the roughly $1.96–$1.97 consensus — but AWS revenue grew 39.3%, its fastest pace in nearly five years, and operating income of $28.1 billion beat the high end of Amazon's own guidance.
-**Why it matters:** Both cloud divisions are now growing faster than they have in years — evidence that enterprise AI workloads are converting into real, booked infrastructure revenue rather than just capex promises, even as investors start asking how long that spending can continue.
+**What happened:** UC Berkeley researchers led by Danica Chen gave semaglutide (the drug in Ozempic and Wegovy) to 20-month-old mice — roughly the equivalent of 60-year-old humans — for the rest of their lives, comparing them to mice on a placebo and mice on 25% calorie restriction, a classic life-extension intervention. The semaglutide mice lived an average of 834 days versus 742 for placebo mice, and did better than the calorie-restricted group on maze-navigation and blood-sugar control. Separately, Eli Lilly's aging-research lead, Kevin Duffin, has reported that tirzepatide (Mounjaro/Zepbound) users over 50 showed signs of "biological age" reductions of roughly three to six years on some markers, and Novo Nordisk has reported a preprint finding that semaglutide reduced markers of the heart's biological age by two to four years versus placebo.
+**Why it matters:** GLP-1 drugs are already used by tens of millions of people for weight loss and diabetes. If they turn out to meaningfully slow aging itself, rather than just its downstream effects like obesity and diabetes, that would be a significant and unplanned side benefit — but the gap between a mouse lifespan study and proof in healthy humans is large.
 
-**Sales angle:** As cloud providers show AI usage translating into real revenue, prospects evaluating "AI-enabled" software are likely to expect genuine automation payoff rather than a marketing checkbox, raising the bar for a credible AI roadmap.
-**SDR takeaway:** "Capex" (capital expenditure) is spending on long-term assets like data centers and chips, distinct from "opex" (day-to-day operating costs) — useful for making sense of these large infrastructure numbers.
-**Conversation starter:** "Cloud providers like Microsoft and Amazon just posted their fastest cloud growth in years, largely driven by AI workloads — is your team seeing similar AI-driven demand on your own infrastructure or software budget?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary — strong in mice, early and unreplicated in humans.
+**Studied in humans:** Yes for weight loss and diabetes; the "slows aging" claim rests on secondary biomarker analyses (one still an unpublished preprint) from existing trials, not dedicated aging trials.
+**How promising:** Notable enough that outside aging researchers, including James Kirkland at Cedars-Sinai, are taking it seriously, but they also stress it's far too early to use these drugs specifically to try to live longer.
+**What we don't know yet:** Whether any biological-age benefit comes from the weight loss itself or from the drug independently, whether it applies to people who aren't overweight or diabetic, and whether any of this translates into actually living longer.
+**Availability:** The drugs are already widely prescribed for diabetes and obesity; using them specifically as anti-aging therapy is not an approved or established use.
 
-**Source:** GeekWire, October 28, 2026 — https://www.geekwire.com/2026/microsoft-azure-revenue-surges-48-to-33-2b-beating-expectations-as-cloud-and-ai-demand-grows/ ; GeekWire, October 29, 2026 — https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/
-
----
-
-## Alphabet Shares Sink About 11% Despite 25% Revenue Growth, as AI Spending Pushes Free Cash Flow Negative Again
-
-**What happened:** Alphabet's Q3 2026 results, reported October 28, showed revenue of about $127.6 billion, up roughly 25% year over year, with Google Cloud revenue surging to around $30.7 billion — more than double a year earlier. But diluted EPS of $2.12 missed expectations, partly due to an $8.7 billion loss on equity investments, and capex of about $51.4 billion drove a second straight quarter of negative free cash flow. Shares fell roughly 11% the next session.
-**Why it matters:** It's a sign investors are growing more anxious about how long Big Tech can keep increasing AI infrastructure spending without the cash generation to match it — strong growth alone isn't reassuring the market if the spending-to-cash-flow math looks unsustainable.
-
-**Sales angle:** Prospects watching this kind of market reaction may grow more cautious about large, unproven technology bets — useful context for framing a vendor's AI investments as incremental and tied to measurable ROI rather than an open-ended spending story.
-**SDR takeaway:** "Free cash flow" is the cash left after operating expenses and capital spending — a company can grow revenue fast and still post negative free cash flow if it's spending heavily on infrastructure, which is exactly what's worrying Alphabet investors.
-**Conversation starter:** "Even Alphabet's stock dropped on strong earnings because investors are worried about how much cash AI infrastructure is consuming — is cash flow or ROI timeline becoming more of a factor in how your team evaluates new technology spending?"
-**Signal:** 🔥 Must Know
-
-**Source:** 247wallst.com, October 29, 2026 — https://247wallst.com/investing/2026/10/29/alphabet-sinks-11-as-ai-spending-pushes-cash-flow-negative-again-microsoft-and-meta-edge-higher-amazon-slips/
+**Source:** CNN (Brenda Goodman), via CP24/multiple affiliates, October 14, 2026 — https://www.cp24.com/news/world/2026/10/14/could-glp-1-drugs-be-anti-aging-medications/
 
 ---
 
-## NetSuite 2026.2 Brings Ask Oracle's Conversational AI Assistant Into the Core NetSuite Experience
+## Lab-grown brain cells for Parkinson's pass a one-year safety test, with early signs of helping
 
-**What happened:** Oracle's NetSuite 2026.2 release, rolling out to accounts between August and October 2026, extends "Ask Oracle" — the conversational AI assistant originally built for NetSuite Next — into the standard NetSuite experience, with access controlled by user role. Oracle is launching it first for U.S. and Canada accounts, with other countries planned later. The release also adds passkey sign-in and bank reconciliation and reporting improvements.
-**Why it matters:** Oracle is folding its newer NetSuite Next AI capabilities back into the product nearly a million businesses already run, rather than treating AI as a separate, premium-only track — lowering the bar for existing customers to actually start using an AI assistant day to day.
+**What happened:** A phase 1/2 trial called STEM-PD transplanted dopamine-producing nerve cells, grown in the lab from human embryonic stem cells, directly into the brains of people with Parkinson's disease. One-year results, published in Nature Medicine, reported no graft-related adverse events, no dyskinesias, and no tumor formation, with PET imaging confirming the transplanted cells survived and are producing dopamine. The findings were also presented at the ISSCR 2026 annual meeting in Montréal in July. Six of the seven participants who completed the trial showed signs of needing less of their usual Parkinson's medication, though outcomes varied between patients.
+**Why it matters:** Parkinson's destroys the brain's own dopamine-producing cells, and current drugs only manage symptoms. A safely engrafting, dopamine-producing cell transplant is a step toward actually replacing what the disease destroys, rather than just compensating for it.
+**Evidence:** Promising but preliminary.
+**Studied in humans:** Yes — a small, first-in-human trial (7–8 completed participants), open-label with no control group.
+**How promising:** The clean safety profile after a full year is the most important result so far for an approach this invasive; the medication-reduction signal is encouraging but comes from a handful of patients with no placebo comparison.
+**What we don't know yet:** The trial's actual efficacy endpoint isn't assessed until 36 months post-transplant, so these are interim findings; it's also unclear how consistent the benefit is across patients or how it compares with existing treatments.
+**Availability:** Experimental only, now being advanced by biotech company Cellular Intelligence, which took over the program this year.
 
-**Sales angle:** A prospect already on NetSuite — or considering it — can be told that conversational AI access is rolling into their existing environment by role, not gated behind a costly separate purchase, which is a concrete detail to mention instead of a vague "AI roadmap."
-**SDR takeaway:** Oracle distinguishes between "NetSuite Next" (a separate, phased-rollout version of the product) and features like Ask Oracle that get folded into the standard release — worth knowing which track a given prospect or customer is actually on.
-**Conversation starter:** "Oracle just extended its Ask Oracle AI assistant into the standard NetSuite experience for US and Canada customers — have you had a chance to try an AI assistant inside your current ERP or accounting system yet?"
-**Signal:** 🔥 Must Know
-
-**Source:** NetSuite.com, October 2026 — https://www.netsuite.com/portal/resource/articles/erp/netsuite-2026-2-brings-ask-oracle-capabilities-to-netsuite.shtml
-
----
-
-## SAP to Acquire Belgian AI Startup TechWolf to Feed Real-Time Skills Data Into Joule and SuccessFactors
-
-**What happened:** SAP announced on October 6 a definitive agreement to acquire TechWolf, a Ghent, Belgium-based "work intelligence" startup whose software maps the tasks, skills, and labor-market signals behind every job. Terms weren't disclosed. SAP plans to fold TechWolf's technology into SuccessFactors and its Joule AI agents, saying the data will make AI responses more accurate and cheaper to run. The deal is expected to close in Q4 2026 pending regulatory approval; TechWolf will keep its own brand, with its co-founder staying on as CEO.
-**Why it matters:** SAP is betting that generic AI agents need real, current data about what employees actually do to be useful for HR and workforce decisions — another case of an enterprise software vendor buying specialized data and context rather than building it from scratch.
-
-**Sales angle:** A prospect using SAP SuccessFactors may soon see more precise AI-driven skills and workforce insights baked into their HR system — a useful comparison point when discussing how deeply any vendor's AI features are informed by a customer's actual operational data.
-**SDR takeaway:** "Work intelligence" or "skills graph" software maps what people actually do in their jobs, not just their job titles — increasingly treated as foundational data for making workforce-focused AI agents more accurate.
-**Conversation starter:** "SAP just bought a startup specifically to give its AI agents a more accurate, real-time picture of what employees actually do — is your team looking at how to make the data behind any AI tools you use more current and specific?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** tech.eu, October 6, 2026 — https://tech.eu/2026/10/06/sap-buys-techwolf-in-record-belgian-vc-backed-deal/
+**Source:** Nature Medicine, 2026 — https://www.nature.com/articles/s41591-026-04525-0 ; ISSCR, July 2026 — https://www.isscr.org/isscr-news/new-clinical-data-presented-at-isscr-2026-advance-stem-cell-based-cell-therapy-for-parkinsons-disease
 
 ---
 
-## ServiceNow Beats Q3 Estimates Again, Launches "AI Passport" to Govern What Its AI Agents Can Access
+## Largest trial yet finds glucose monitors meaningfully help diabetics who don't use insulin
 
-**What happened:** ServiceNow's Q3 2026 results, reported October 28, showed subscription revenue of $3.99 billion, up 21% year over year, beating the high end of its own guidance and prompting another raise to its full-year outlook. Alongside the results, ServiceNow highlighted "AI Passport," a tool for checking and controlling what its AI agents can access or execute, plus a no-code environment ("ToolSmith") for employees to build their own agents.
-**Why it matters:** "AI agent governance" — controlling what autonomous software is allowed to touch — has become as central to enterprise software vendors' pitches as the agents' raw capabilities, following similar moves from Workday and others this year.
+**What happened:** The Dexcom-sponsored CONNECT trial, published in the New England Journal of Medicine on October 14, 2026, randomized 283 adults with type 2 diabetes who weren't on insulin — and whose blood sugar was running above target — to either a Dexcom G7 continuous glucose monitor or usual care, across 22 U.S. primary care practices. After 26 weeks, the CGM group's average HbA1c fell from 8.8% to about 7.2%, nearly a full percentage point more than the usual-care group's drop from 8.7% to 8.0%. At week 26, 68% of CGM users got below 7.5% HbA1c and 46% got below 7.0%.
+**Why it matters:** CGMs are heavily marketed to healthy people for general "metabolic optimization," an application a recent JAMA review found no evidence for — but this trial shows a real, substantial benefit in a population that actually has elevated blood sugar and isn't yet using insulin, a much larger group than insulin users alone.
+**Evidence:** Strong, for this specific population — a sizeable randomized trial with a clinically meaningful effect size.
+**Studied in humans:** Yes — 283 adults, 265 of whom completed the 26-week trial.
+**How promising:** One of the clearer wins yet for CGM technology, and likely to expand which non-insulin diabetics are told to use one.
+**What we don't know yet:** Longer-term effects beyond 26 weeks, and whether the benefit holds in diabetics closer to their target range at baseline (the trial required HbA1c of at least 7.5% to enroll).
+**Availability:** Dexcom G7 and similar CGMs are already widely available and prescribed; this trial strengthens the case for using them earlier in non-insulin type 2 diabetes care.
 
-**Sales angle:** A prospect using ServiceNow, or evaluating any platform with AI agents, is likely already thinking about access governance — a natural bridge into asking how a company manages permissions and oversight for automation running inside its own systems.
-**SDR takeaway:** "Subscription revenue" is the recurring fees customers pay for ongoing access to software, as opposed to one-time service fees — the number investors watch most closely to judge a SaaS company's underlying growth.
-**Conversation starter:** "A lot of enterprise software vendors, including ServiceNow, are now building specific controls over what their AI agents can access — has your team had to think through similar access and oversight questions as you roll out AI tools?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** ServiceNow, Inc., SEC Form 8-K, October 28, 2026 — https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26.htm
-
----
-
-## Tech Layoffs Top 196,000 in 2026 as Amazon, Meta, and Microsoft Lead the Cuts
-
-**What happened:** Layoffs tracker TrueUp counted roughly 196,000 people reported affected by layoffs at technology companies in 2026 as of October 23, with Amazon, Meta, Microsoft, Block, and Uber among the biggest cutters. October additions included Netflix, Electronic Arts, and eBay (about 1,100 roles). Not every company attributes the cuts directly to AI, though AI investment is widely seen as shaping where the cuts fall.
-**Why it matters:** The 2026 tech layoff wave — already one of the largest in recent years — hasn't slowed heading into the fourth quarter, even as many of the same companies report record AI-driven revenue and spending.
-
-**Sales angle:** A prospect going through restructuring may have fewer people doing more work, which can make efficiency-focused software more urgent and timely to discuss than it might be in normal periods.
-**SDR takeaway:** Layoff totals from trackers like TrueUp or Layoffs.fyi are compiled from public announcements, so treat them as directional estimates rather than exact, audited figures.
-**Conversation starter:** "There's been another wave of tech layoffs this fall — has that changed how your team is thinking about which tools or processes need to do more with fewer people?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** TechRepublic, October 2026 — https://www.techrepublic.com/article/news-tech-layoffs-2026-companies-cutting-jobs/
+**Source:** New England Journal of Medicine / Dexcom, October 14, 2026 — https://www.techrepublic.com/article/news-continuous-glucose-monitors-type-2-diabetes-study/
 
 ---
 
-## Forrester: Procurement Now Drives More Than Half of B2B Buying Decisions, and Still Doesn't Fully Trust AI Research
+## Stem-cell therapy for frailty misses its main goal at six months, but shows a later effect
 
-**What happened:** Forrester's 2026 State of Business Buying research finds procurement professionals are decision-makers in 53% of B2B buying cycles and typically engage from the start of the process, not just at contract-signing. The same research found buyers use generative AI tools to research vendors but don't fully trust the results: 28% of procurement respondents said they felt less confident in a decision because of inaccurate AI-generated output, compared with 19% of buyers overall.
-**Why it matters:** Even as AI chatbots become a common first stop in vendor research, the people who actually sign off on enterprise deals are more numerous, more involved earlier, and more skeptical of AI-generated shortcuts than sales teams might assume.
+**What happened:** Longeveron's phase 2b trial of laromestrocel (Lomecel-B), a stem-cell therapy derived from donor bone marrow, gave a single IV infusion to 148 adults aged 70–85 with mild-to-moderate frailty. Results published in Cell Stem Cell (reported February 2026) showed the therapy did not significantly beat placebo on its primary endpoint — six-minute walk distance at day 180 — but a prespecified exploratory look at day 270 found a meaningful improvement, and higher doses tracked with greater gains and lower levels of a biomarker (soluble Tie-2) linked to vascular aging.
+**Why it matters:** Frailty — a measurable decline in strength, mobility, and resilience with age — has no approved drug treatment. A missed primary endpoint with a possible delayed benefit is a genuinely ambiguous result, not a clean win, and it illustrates how hard this kind of trial is to read.
+**Evidence:** Mixed/uncertain evidence — the primary endpoint failed, but a secondary signal at a later timepoint, plus a dose-response pattern, keeps the therapy's case alive.
+**Studied in humans:** Yes — a 148-patient, placebo-controlled, dose-ranging trial.
+**How promising:** Genuinely uncertain. Company-aligned coverage frames it as a therapy that "could work, it just might take a while"; independent coverage emphasizes that most secondary measures didn't separate from placebo.
+**What we don't know yet:** Whether the day-270 effect is real or a statistical artifact of looking at multiple timepoints, and whether it would replicate in a trial designed around that later timepoint from the start.
+**Availability:** Experimental only; no approved frailty indication exists for this or any other stem-cell product.
 
-**Sales angle:** Knowing procurement is likely involved from the start, not just at the end, means budget and compliance questions should be expected earlier in a deal cycle than a single champion contact might suggest.
-**SDR takeaway:** A "buying group" or "buying committee" is the full set of people involved in a purchase decision — research like this shows it's often larger and more procurement-driven than a single champion contact implies.
-**Conversation starter:** "Research shows procurement teams are getting involved earlier in software evaluations than they used to — who else, beyond your own team, typically needs to weigh in before a new tool gets approved?"
-**Signal:** 👀 Watch This
-
-**Source:** Forrester via Business Wire, January 21, 2026 — https://www.businesswire.com/news/home/20260121478240/en/Forresters-2026-Buyer-Insights-GenAI-Is-Upending-B2B-Buying-As-Leaders-Face-Mounting-Pressure-To-Justify-Every-Dollar-Spent
+**Source:** Fierce Biotech, 2026 — https://www.fiercebiotech.com/biotech/longeveron-s-anti-frailty-drug-could-work-it-just-might-take-a-while ; Longevity.Technology, February 2026 — https://longevity.technology/news/longeveron-publishes-stem-cell-therapy-frailty-trial-results/
 
 ---
 
-*1,987 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## Sports-medicine groups warn "healing peptides" like BPC-157 are sold on promise, not proof
+
+**What happened:** Sports-medicine surgeons writing in a July 2026 newsletter from the American Association of North American Surgeons (AANA), along with a separate peer-reviewed review, say injectable peptides marketed for injury recovery and regeneration — most prominently BPC-157 and TB-500 — have almost no rigorous human clinical-trial data behind them, despite widespread online sale and use. The FDA has never approved either peptide for any use and in 2023 classified BPC-157 as ineligible for legal compounding. The surgeons note there's no approved pharmaceutical-grade formulation, no validated dosing, and no standardized route of administration.
+**Why it matters:** These peptides have become popular in fitness and biohacking circles on the strength of animal studies and anecdote, sold by compounding pharmacies and online vendors operating in a regulatory gray zone — exactly the gap the evidence-strength rule exists to flag.
+**Evidence:** Little or no credible evidence in humans, despite promising animal data.
+**Studied in humans:** Essentially no controlled human trials; existing support comes from animal models and low-quality case reports.
+**How promising:** Not promising as currently sold and used — the clinical case is unproven, and product quality/purity from unregulated suppliers is a real added risk.
+**What we don't know yet:** Basic human dosing, safety over repeated use, and whether animal-model benefits translate to people at all.
+**Availability:** Widely available through compounding pharmacies and online sellers despite no FDA approval — a case where availability has far outrun evidence.
+
+**Source:** AANA Inside AANA e-newsletter, July 2026 — https://www.aana.org/education/publications/inside-aana-e-newsletter/july-2026/ ; peer-reviewed review via PMC — https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/
+
+---
+
+*1,683 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
