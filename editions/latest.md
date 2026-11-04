@@ -1,88 +1,89 @@
-# 🗞 Penny's Daily — Tech, Business & Sales Edition
-### Tuesday, November 3, 2026
+# 🗞 Penny's Daily — Health & Regenerative Medicine Edition
+### Wednesday, November 4, 2026
 
-*Compiled 6:08 AM ET. Covering roughly the last 24–48 hours.*
+*Compiled 6:06 AM ET. Covering roughly the last few weeks of verifiable developments.*
 
 ---
 
 ## TL;DR
 
-- Oracle NetSuite unveiled its "Autonomous Suite" push at SuiteWorld 2026 on October 26, rolling out AI Workspaces, SuiteSkills, and industry-specific AI agents to US and Canada customers now, with a broader agent-builder still to come.
-- ServiceNow beat Q3 2026 revenue estimates on October 28 but saw shares sink roughly 19% after guiding Q4 bookings growth lower, even as it raised its 2026 AI contract-value target to $1.7 billion.
-- Alphabet's October 28 earnings rattled investors as $51.4 billion in quarterly AI capital spending pushed free cash flow negative, while Microsoft's results the same day were far better received despite similarly heavy spending.
-- A critical, no-login-required flaw in Oracle E-Business Suite, patched October 20, was already being scanned for by attackers within about a week.
-- Apple closed its fiscal year on November 2 with a record September quarter under new CEO John Ternus, beating estimates even as shares dipped slightly on margin guidance.
+- Life Biosciences reported early, tiny-sample data showing its gene therapy ER-100 improved visual fields in two of three glaucoma-related optic-nerve patients, with no safety concerns so far.
+- BioRestorative finished dosing all patients in its Phase 2 stem-cell trial for chronic lumbar disc disease, with blinded interim data showing meaningful pain relief in about half of a 25-patient subgroup.
+- A JAMA Network Open study of nearly 5,500 older women found grip strength and chair-stand speed predicted survival even after accounting for how active women were overall.
+- A randomized trial found a year of resistance training measurably slowed an MRI-based "brain age" clock in adults in their 60s, with the effect still visible a year later.
+- FDA advisers voted to recommend BPC-157 and five other popular peptides for pharmacy compounding even as the agency's own scientists flagged thin human safety and efficacy evidence.
 
 ---
 
-## Oracle NetSuite Pushes Toward an "Autonomous Suite" at SuiteWorld 2026
+## Gene therapy shows early, unproven signal for a currently untreatable eye disease
 
-**What happened:** At SuiteWorld 2026 in Las Vegas on October 26, Oracle NetSuite announced a push toward what it calls an "Autonomous Suite" — AI Workspaces for coordinating people, AI agents, and approvals on complex processes; SuiteSkills and AI Portlets; and industry-specific SuiteAgents for software, product, and construction businesses, all now available to NetSuite Next customers in the US and Canada. A broader agent-building tool, SuiteAgent Studio, along with a SuiteFlow Agent and new Ask Oracle connectors, is planned for a future release.
-**Why it matters:** This is Oracle's clearest statement yet that it wants NetSuite's AI to move from answering questions (Ask Oracle) to actually executing multi-step finance and operations work — directly matching where Microsoft, SAP, and Salesforce are all racing to take their own platforms.
+**What happened:** Life Biosciences announced first-in-human interim data from its Phase 1 trial (NCT07290244) of ER-100, a gene therapy using partial epigenetic reprogramming (the same Yamanaka-factor approach studied for whole-body rejuvenation) delivered directly into the eye, for optic neuropathies including glaucoma and NAION. In the first three patients, a single injection plus daily oral doxycycline was well tolerated through day 56, and two of the three patients with open-angle glaucoma showed improvement in visual field testing — at least 28% of tested points gained more than 4 dB of sensitivity.
+**Why it matters:** NAION has no approved treatment, and glaucoma-related nerve damage is normally considered irreversible. If this holds up, it would be one of the first signals that a gene therapy can partially reverse, not just halt, optic nerve damage.
 
-**Sales angle:** A NetSuite prospect comparing ERP vendors is increasingly asking not "does it have AI" but "can the AI actually take action in my system" — this rollout gives concrete, available-now examples to point to rather than roadmap promises.
-**SDR takeaway:** An "agent" in this context is software that can carry out a multi-step task (like reconciling an account) rather than just answering a question — the difference between an agent and a chatbot is whether it can act, not just respond.
-**Conversation starter:** "Oracle just rolled out AI tools that can actually execute steps in the close process, not just answer questions about it — how much of your team's month-end work is still fully manual today?"
-**Signal:** 🔥 Must Know
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — Phase 1, first 3 participants only; company-reported, not yet peer-reviewed
+**How promising:** Genuinely novel mechanism and a real (if very early) signal, but n=3 is not remotely enough to judge efficacy
+**What we don't know yet:** Whether effects persist, whether they appear at higher doses (a data safety monitoring board just cleared dose escalation to 6×10¹¹ vg from 2×10¹¹ vg), and whether this generalizes beyond glaucoma to NAION
+**Availability:** Experimental only — Phase 1 trial ongoing
 
-**Source:** NetSuite (Oracle), October 26, 2026 — https://www.nasdaq.com/press-release/netsuite-advances-vision-autonomous-suite-2026-10-26 ; Diginomica, October 26, 2026 — https://diginomica.com/suiteworld-26-netsuite-new-agents-skills-towards-autonomous-suite
-
----
-
-## ServiceNow Beats on Revenue, Shares Sink ~19% on Soft Bookings Guidance
-
-**What happened:** ServiceNow reported Q3 2026 revenue of $4.11 billion, up 20.5% year over year and above the high end of its own guidance, but shares fell roughly 19% after the company guided Q4 current remaining performance obligations (cRPO) growth to about 18.5%, down from 21% the prior quarter. CEO Bill McDermott pointed to 65% year-over-year growth in AI net-new annual contract value and raised ServiceNow's 2026 AI contract-value target to $1.7 billion, up 70% from the start of the year.
-**Why it matters:** A strong quarter that still gets punished shows investors are now judging ERP/CRM-adjacent software vendors less on current revenue and more on whether AI products are actually converting into durable, forward bookings — a bar NetSuite and every competitor will be held to.
-
-**Sales angle:** If a prospect currently runs ServiceNow — or is evaluating it — for IT or customer-service workflows, this is a natural opening to ask how they're thinking about near-term AI ROI versus platform hype, since that's exactly the tension Wall Street just reacted to.
-**SDR takeaway:** "cRPO" (current remaining performance obligation) is contracted revenue a company expects to recognize within the next 12 months — a forward-looking bookings signal that often moves a stock more than the quarter that just closed.
-**Conversation starter:** "ServiceNow just posted a strong quarter but got hit hard on its bookings outlook — how is your team thinking about proving ROI on AI investments versus just adopting the latest feature?"
-**Signal:** 🔥 Must Know
-
-**Source:** ServiceNow, SEC Form 8-K, October 28, 2026 — https://www.sec.gov/Archives/edgar/data/0001373715/000137371526000092/erq3fy26-8xk.htm ; The Next Web, October 2026 — https://thenextweb.com/news/servicenow-results-shares-record-drop-crpo-outlook
+**Source:** Life Biosciences press release, October 8, 2026 — https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/
 
 ---
 
-## Alphabet's AI Capex Scare and Microsoft's Smoother Landing
+## Stem-cell back-pain trial finishes dosing; blinded data hint at meaningful relief
 
-**What happened:** Alphabet and Microsoft both reported quarterly results on October 28. Alphabet's revenue reached $127.6 billion (up about 25%, with Google Cloud up over 100%), but capital spending of $51.4 billion pushed free cash flow to negative $9.1 billion, and shares fell roughly 8% after hours even as Alphabet held its 2026 capex guidance of $195–205 billion and signaled 2027 spending would rise further. Microsoft's results the same day — Azure growth of 48% and $92.3 billion in revenue — were received far more positively, with shares rising despite capital spending also roughly doubling year over year.
-**Why it matters:** Two of the biggest AI infrastructure spenders posted a similar story — explosive cloud growth paired with enormous capital spending — but got opposite stock reactions, showing investors are now scrutinizing how companies spend on AI, not just how much.
+**What happened:** BioRestorative Therapies announced it has completed dosing all patients in its Phase 2 trial of BRTX-100, an autologous (the patient's own) disc-derived stem cell injection for chronic lumbar disc disease, moving the program toward topline data expected in 2027. Earlier in 2026, the company presented expanded blinded interim data at the ISCT conference on a 25-patient, 52-week-follow-up subgroup: 52% of patients achieved at least a 50% improvement on both a pain scale (VAS) and a function scale (ODI), with no dose-limiting toxicities or related serious adverse events reported.
+**Why it matters:** Chronic lumbar disc disease is usually managed with pain medication, injections, or surgery; a regenerative option that repairs rather than just numbs the disc would be a genuinely different approach for a condition that affects millions.
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — Phase 2, ~99 patients dosed, but the trial remains blinded; these are interim, unblinded-adjacent subgroup figures, not final results
+**How promising:** The 52% response figure is notable, but it comes from a company press release on a subgroup, before unblinding
+**What we don't know yet:** How the full, unblinded dataset will look, and how BRTX-100 compares to standard care in a controlled comparison
+**Availability:** Experimental only; holds FDA Fast Track designation, with a Phase 3 IND submission planned for later in 2026
 
-**Sales angle:** Every enterprise software buyer's IT and finance leadership is watching this same tension play out at the biggest companies in tech — a timely way to ask a prospect how rising cloud or AI infrastructure costs are factoring into their own technology budget conversations.
-**SDR takeaway:** "Capex" (capital expenditure) is money spent on long-term assets like data centers and chips; free cash flow is what's left after capex — when capex grows faster than revenue, free cash flow can go negative even at a profitable, fast-growing company.
-**Conversation starter:** "With Alphabet and Microsoft both posting big AI spending increases this quarter but very different market reactions, has rising cloud or AI infrastructure cost shown up in your own budget planning yet?"
-**Signal:** 🔥 Must Know
-
-**Source:** XTB, October 28, 2026 — https://www.xtb.com/en/market-analysis/news-and-research/alphabet-disappoints-wall-street-despite-record-results-shares-plunge-over-8-and-test-300 ; Investing.com, October 2026 — https://www.investing.com/news/earnings/microsoft-beats-on-profit-and-revenue-shares-rise-after-hours-4821565
-
----
-
-## Critical, No-Login Oracle E-Business Suite Flaw Already Being Scanned For
-
-**What happened:** Oracle's October 20, 2026 Critical Patch Update fixed more than 1,200 vulnerabilities across its product line, including CVE-2026-101767, a critical (CVSS 9.8) flaw in E-Business Suite's Application Object Library that can be exploited remotely without any login. By October 27–28, threat-intelligence researchers and BleepingComputer reported attackers were already scanning the internet for systems that hadn't yet applied the fix.
-**Why it matters:** A no-credentials-needed flaw in a widely used ERP suite, under active scanning within about a week of disclosure, is exactly the kind of incident that pushes IT and security teams to accelerate patch cycles and scrutinize how quickly their software vendors ship and communicate fixes.
-
-**Sales angle:** A prospect running Oracle E-Business Suite — a common on-premises predecessor to cloud ERP — may be more open right now to a conversation about the operational burden of patching and securing on-prem systems versus a cloud-managed platform.
-**SDR takeaway:** "Remotely exploitable without authentication" means an attacker doesn't need a valid login to exploit the flaw — it's why bugs like this get the highest severity scores and the fastest attention from security teams.
-**Conversation starter:** "There's another critical, no-login-required flaw being actively scanned for in an on-prem ERP system this month — how does your team currently balance patching on-prem systems against moving more of that workload to the cloud?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** BleepingComputer, October 2026 — https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw ; eSecurity Planet, October 2026 — https://www.esecurityplanet.com/threats/news-oracle-october-2026-critical-patch-update/
+**Source:** Barchart (BusinessWire), "BioRestorative Completes Phase 2 Dosing of BRTX-100, Advancing Lead Regenerative Spine Program Toward 2027 Topline Data" — https://www.barchart.com/story/news/2132229/biorestorative-completes-phase-2-dosing-of-brtx-100-advancing-lead-regenerative-spine-program-toward-2027-topline-data
 
 ---
 
-## Apple Posts Record September Quarter in New CEO's First Earnings Call
+## Grip strength and chair-stand speed predict survival in older women, independent of activity level
 
-**What happened:** Apple reported fiscal Q4 2026 results on November 2 — its first earnings call under new CEO John Ternus — with revenue of $114.5 billion (up 12% year over year, a September-quarter record) and diluted EPS of $2.10, up 14%. Services revenue hit an all-time high of roughly $31.6 billion. Full fiscal-year 2026 revenue reached $478.8 billion, up 15%. Shares dipped modestly after hours despite the beat, as Apple's guided gross margin of 45–46% for the December quarter came in slightly below analyst expectations.
-**Why it matters:** A clean beat from the world's largest company, delivered smoothly in a new CEO's first quarter, signals underlying consumer demand heading into the holiday quarter — a backdrop that matters for any retail, e-commerce, or consumer-facing prospect's own Q4 planning.
+**What happened:** A JAMA Network Open study (LaMonte et al., 2026) followed 5,472 ambulatory women aged 63–99 for a mean of 8.4 years. Women in the top quartile of grip strength had 33% lower all-cause mortality than those in the bottom quartile (HR 0.67), and women who completed a five-chair-stand test in 11.1 seconds or less had 37% lower mortality risk than those taking more than 16.7 seconds. These associations held after adjusting for accelerometer-measured physical activity, sedentary time, walking speed, and the inflammation marker CRP.
+**Why it matters:** It suggests muscular strength itself — not just how much a woman moves overall — carries independent information about longevity, including in women who don't meet standard activity guidelines.
+**Evidence:** Promising but preliminary (strong, large observational association; not a causal trial)
+**Studied in humans:** Yes — large prospective cohort, 5,472 women, ~1,964 deaths recorded
+**How promising:** A clear, robust, well-adjusted association in a large cohort — about as good as observational data gets, but still observational
+**What we don't know yet:** Whether interventions that build strength in already-weak older women actually reduce mortality (that requires a randomized trial, not just a cohort study)
+**Availability:** N/A — this is a risk marker, not a therapy; grip-strength and chair-stand testing are already simple, widely usable clinical tools
 
-**Sales angle:** A prospect in retail, e-commerce, or consumer electronics may be benchmarking their own holiday-quarter expectations against results like Apple's — useful context when asking how they're forecasting their own Q4.
-**SDR takeaway:** "Gross margin guidance" is a company's own forecast of profitability on each dollar of sales for the upcoming quarter — when it comes in below what analysts expected, a stock can fall even after a strong earnings beat, since margin trajectory signals future profitability.
-**Conversation starter:** "Apple just posted a record quarter in its new CEO's first earnings call — how are you all thinking about this holiday quarter compared to last year?"
-**Signal:** 💡 Worth Knowing
-
-**Source:** CNBC, November 2, 2026 — https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html ; AppleInsider, November 2, 2026 — https://appleinsider.com/articles/26/11/02/apple-beats-wall-street-forecasts-in-first-ternus-led-q4-earnings
+**Source:** JAMA Network Open, 2026 — https://pubmed.ncbi.nlm.nih.gov/41686437/
 
 ---
 
-*1,563 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
+## A year of resistance training slowed a brain-aging clock — and the effect lasted
+
+**What happened:** A randomized controlled trial published in GeroScience (Gonzalez-Gomez et al., online Feb. 10, 2026) assigned 309 adults aged 62–70 (the LISA trial) to heavy-resistance training, moderate-intensity training, or a non-exercise control group for one year. Using brain-age models trained on resting-state fMRI scans from 2,433 healthy adults, both exercise arms showed reduced estimated brain age (roughly 1.4 to 2.3 years younger than predicted, statistically significant after correction for multiple comparisons), and the heavy-training group also showed increased prefrontal connectivity. The benefit was still measurable a year after the program ended.
+**Why it matters:** It's one of the more rigorous (randomized, reasonably sized) demonstrations that a specific, accessible intervention — lifting weights — measurably changes a brain-imaging marker of aging, not just self-reported cognition.
+**Evidence:** Promising but preliminary
+**Studied in humans:** Yes — randomized trial, n=309, ages 62–70
+**How promising:** Solid study design for this field, but the primary outcome is an imaging-derived "brain age" biomarker, not a clinical outcome like dementia risk or measured cognitive performance
+**What we don't know yet:** Whether this brain-age reduction translates into measurable cognitive or functional benefit, and whether it holds in broader or older populations
+**Availability:** Not applicable — resistance training is already widely available; this is evidence for an existing, accessible intervention
+
+**Source:** GeroScience (DOI 10.1007/s11357-026-02141-x) — https://pubmed.ncbi.nlm.nih.gov/41665740/
+
+---
+
+## FDA advisers back BPC-157 and five other peptides for compounding — over their own agency's objections
+
+**What happened:** At its July 23–24, 2026 meeting, the FDA's Pharmacy Compounding Advisory Committee voted to recommend adding six peptides — BPC-157, TB-500, KPV, MOTS-c, Epitalon, and Semax — to the list of substances pharmacies may legally compound, while rejecting a seventh, emideltide (DSIP). The BPC-157 vote passed narrowly (reported as 8–6 by Healio), for use in ulcerative colitis, despite FDA scientific staff recommending against adding all seven substances over limited human clinical evidence of safety and effectiveness. A recommendation is not final: FDA must still act before compounding status actually changes, and as of early October, BPC-157 remained off both the approved 503A bulks list and Category 1.
+**Why it matters:** BPC-157 and similar peptides are already widely sold and used off-label for injury recovery and inflammation, well ahead of the clinical evidence base — this vote is a case study in how regulatory momentum and public enthusiasm can outrun the data.
+**Evidence:** Mixed / uncertain evidence — animal and anecdotal support is extensive; controlled human trial data remain limited, which is exactly what FDA's own reviewers flagged
+**Studied in humans:** Limited — mostly small or uncontrolled studies and clinical experience; robust randomized human trials are largely absent
+**How promising:** Biologically plausible (BPC-157 is a synthetic peptide derived from a stomach-protective protein fragment), but "promising" here is doing a lot of work the data doesn't yet support
+**What we don't know yet:** Standard dosing, long-term safety, and whether benefits seen in animal/anecdotal use replicate in controlled human trials
+**Availability:** Still not legally compoundable as of this vote; sold online and in clinics outside this framework, which is itself part of the controversy
+
+**Source:** AJMC, "FDA Panel Backs 6 Peptides for Compounding," July 31, 2026 — https://ajmc.com/view/fda-panel-backs-6-peptides-for-compounding
+
+---
+
+*1432 words. Generated by the Claude Newspaper routine. Corrections: edit the repo.*
